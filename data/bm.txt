@@ -1,0 +1,818 @@
+[ENTRIES]
+
+Time: 2017-02-26 10:02a Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-02-25 07:00p Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-02-25 02:18p Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-02-25 09:52a Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-02-23 01:54p Thursday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+Note: after the future
+
+
+Time: 2017-02-23 07:31a Thursday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
+Time: 2017-02-22 07:48a Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: long time to pass
+
+
+Time: 2017-02-21 02:11p Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: pellets first, long time to pass, large amount
+
+
+Time: 2017-02-21 01:26p Tuesday
+Type: 2. Slighty constipated
+Duration: 00:00
+Note: hard to pass, dizzy
+
+
+Time: 2017-02-20 07:17a Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-02-19 06:15p Sunday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+Note: cramps 
+
+
+Time: 2017-02-19 06:12p Sunday
+Type: 2. Slighty constipated
+Duration: 00:01
+Note: cramps
+
+
+Time: 2017-02-19 07:51a Sunday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-02-18 06:00p Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: feel sick 
+
+
+Time: 2017-02-18 05:45p Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-02-18 09:11a Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-02-16 03:35p Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-02-15 02:56p Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-02-15 08:55a Wednesday
+Type: 2. Slighty constipated
+Duration: 00:01
+Note: no pain
+
+
+Time: 2017-02-14 10:23a Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-02-13 08:14a Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-02-12 05:38p Sunday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:00
+Note: hard to pass
+
+
+Time: 2017-02-11 03:58p Saturday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+
+Time: 2017-02-11 10:55a Saturday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: gassy
+
+
+Time: 2017-02-11 10:26a Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: gassy
+
+
+Time: 2017-02-11 10:03a Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-02-10 09:58p Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+Note: hard to pass
+
+
+Time: 2017-02-09 03:35p Thursday
+Type: 1. Very constipated
+Duration: 00:01
+Note: hard to pass
+
+
+Time: 2017-02-08 11:11a Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-02-08 08:26a Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-02-06 07:20p Monday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:00
+
+Time: 2017-02-06 11:00a Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-02-05 02:57p Sunday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
+Time: 2017-02-04 09:52a Saturday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-02-03 09:01p Friday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+
+Time: 2017-02-03 12:56p Friday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+Note: urgent, post local whiskey buffalo chicken salad
+
+
+Time: 2017-02-03 08:24a Friday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-02-02 12:43p Thursday
+Type: 2. Slighty constipated
+Duration: 00:01
+Note: hard to pass
+
+
+Time: 2017-02-01 08:35a Wednesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: dizzy, pencil thin, lots
+
+
+Time: 2017-02-01 07:49a Wednesday
+Type: 2. Slighty constipated
+Duration: 00:01
+
+Time: 2017-01-31 09:09a Tuesday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+Note: asshole ripping
+
+
+Time: 2017-01-30 12:29p Monday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
+Time: 2017-01-29 01:02p Sunday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-01-28 09:05a Saturday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+Note: ubiome, geisinger sample x3
+
+
+Time: 2017-01-28 06:20a Saturday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+
+Time: 2017-01-28 05:50a Saturday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+
+Time: 2017-01-28 05:30a Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:00
+
+Time: 2017-01-27 02:30p Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-01-27 10:12a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-01-27 07:50a Friday
+Type: 2. Slighty constipated
+Duration: 00:01
+
+Time: 2017-01-26 10:44a Thursday
+Type: 2. Slighty constipated
+Duration: 00:01
+
+Time: 2017-01-24 04:03p Tuesday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+
+Time: 2017-01-24 10:26a Tuesday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: urgent
+
+
+Time: 2017-01-23 01:49p Monday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+Note: sudden
+
+
+Time: 2017-01-23 12:35p Monday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+Note: solid first
+
+
+Time: 2017-01-22 08:43a Sunday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+
+Time: 2017-01-22 08:00a Sunday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: gassy
+
+
+Time: 2017-01-22 07:35a Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-01-21 10:19a Saturday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+
+Time: 2017-01-21 08:33a Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: gassy, particles
+
+
+Time: 2017-01-20 02:12p Friday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+Note: yellow
+
+
+Time: 2017-01-20 01:20p Friday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+Note: urgent
+
+
+Time: 2017-01-20 11:48a Friday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+
+Time: 2017-01-20 10:30a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-01-19 02:58p Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles, floats
+
+
+Time: 2017-01-19 10:12a Thursday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-01-18 10:06a Wednesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: gassy
+
+
+Time: 2017-01-18 08:27a Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-01-17 08:45a Tuesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-01-17 08:30a Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-01-16 10:37a Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-01-16 08:19a Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-01-15 01:05p Sunday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-01-15 08:22a Sunday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:00
+
+Time: 2017-01-14 11:55a Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-01-14 09:31a Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-01-13 12:04p Friday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: urgent, pain
+
+
+Time: 2017-01-13 07:45a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
+Time: 2017-01-13 07:41a Friday
+Type: 1. Very constipated
+Duration: 00:01
+
+Time: 2017-01-12 03:15p Thursday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:00
+
+Time: 2017-01-12 08:10a Thursday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: long
+
+
+Time: 2017-01-10 08:30p Tuesday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: cramps
+
+
+Time: 2017-01-10 08:01p Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-01-09 01:33p Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:00
+
+Time: 2017-01-09 09:52a Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:00
+
+Time: 2017-01-08 09:51p Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
+Time: 2017-01-07 12:30p Saturday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+
+Time: 2017-01-07 11:14a Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-01-06 03:32p Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-01-06 08:58a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-01-05 09:51a Thursday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+
+Time: 2017-01-04 07:47p Wednesday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
+Time: 2017-01-04 01:08p Wednesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-01-03 01:38p Tuesday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+Note: pain
+
+
+Time: 2017-01-03 09:26a Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-01-02 04:18p Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-01-01 12:30p Sunday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-12-31 01:13p Saturday
+Type: 7. Inflammation (Gravy)
+Duration: 00:00
+Note: no digestive enzymes before lunch
+
+
+Time: 2016-12-31 10:53a Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-12-30 10:59a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2016-12-29 09:17a Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: gassy
+
+
+Time: 2016-12-28 02:42p Wednesday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+
+Time: 2016-12-28 02:39p Wednesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:02
+Note: particles,pain
+
+
+Time: 2016-12-27 02:39p Tuesday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+
+Time: 2016-12-27 12:39p Tuesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:02
+Note: particles, gut pain
+
+
+Time: 2016-12-26 10:23a Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-12-25 03:43p Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: foot long
+
+
+Time: 2016-12-24 09:00p Saturday
+Type: 1. Very constipated
+Duration: 00:01
+
+Time: 2016-12-23 09:49a Friday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: gassy
+
+
+Time: 2016-12-22 10:49a Thursday
+Type: 7. Inflammation (Gravy)
+Duration: 00:00
+Note: after brunch
+
+
+Time: 2016-12-22 09:48a Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-12-22 10:15a Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-12-22 08:28a Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-12-21 09:21a Wednesday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: particles
+
+
+Time: 2016-12-20 01:38p Tuesday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: after lunch
+
+
+Time: 2016-12-20 10:40a Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-12-19 12:36p Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:04
+Note: particles, feel stressed
+
+
+Time: 2016-12-19 09:35a Monday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
+Time: 2016-12-18 09:47a Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:02
+
+Time: 2016-12-17 09:46a Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2016-12-16 12:03p Friday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:02
+
+Time: 2016-12-16 08:25a Friday
+Type: 2. Slighty constipated
+Duration: 00:01
+
+Time: 2016-12-14 01:28p Wednesday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+
+Time: 2016-12-14 12:07p Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: bad stomach ache
+
+
+Time: 2016-12-14 08:19a Wednesday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
+Time: 2016-12-13 11:34a Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2016-12-12 04:08p Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: don't feel good.
+
+
+Time: 2016-12-12 09:51a Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
+Time: 2016-12-11 11:15a Sunday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-12-10 05:11p Saturday
+Type: 6. Inflammation (Porridge)
+Duration: 00:00
+
+Time: 2016-12-10 10:11a Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2016-12-09 01:32p Friday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2016-12-08 01:57p Thursday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+
+Time: 2016-12-08 01:54p Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-12-08 11:16a Thursday
+Type: 2. Slighty constipated
+Duration: 00:01
+
+Time: 2016-12-07 03:19p Wednesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles 
+
+
+Time: 2016-12-06 08:22p Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-12-06 12:54p Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: gassy
+
+
+Time: 2016-12-05 05:12p Monday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: gas pains
+
+
+Time: 2016-12-05 12:23p Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2016-12-04 02:54p Sunday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+
+Time: 2016-12-04 01:27p Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: foot long
+
+
+Time: 2016-12-02 05:28p Friday
+Type: 7. Inflammation (Gravy)
+Duration: 00:05
+
+Time: 2016-12-02 02:42p Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
+Time: 2016-11-30 12:42p Wednesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2016-11-29 02:04p Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: gassy
+
+
+Time: 2016-11-29 12:29p Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-11-28 08:38a Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-11-28 04:55a Monday
+Type: 1. Very constipated
+Duration: 00:01
+
+Time: 2016-11-27 01:00p Sunday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:00
+
+Time: 2016-11-27 12:55p Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2016-11-25 08:38a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2016-11-24 10:36a Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-11-23 07:30p Wednesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2016-11-23 08:10a Wednesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-11-22 01:02p Tuesday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: stomach ache, particles 
+
+
+Time: 2016-11-22 11:22a Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:02
+
+Time: 2016-11-21 09:12a Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:02
+
+Time: 2016-11-20 04:50p Sunday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: gassy
+
+
+Time: 2016-11-20 03:41p Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2016-11-20 09:43a Sunday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:00
+
+Time: 2016-11-19 08:16a Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-11-17 01:18p Thursday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+
+Time: 2016-11-17 12:58p Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-11-16 12:18p Wednesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2016-11-15 11:42p Tuesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
+Time: 2016-11-15 09:13a Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:00
+
+Time: 2016-11-14 12:51p Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: particles
+
+
+Time: 2016-11-14 09:22a Monday
+Type: 2. Slighty constipated
+Duration: 00:01
+
+Time: 2016-11-12 08:04a Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:02
+Note: particles gas
+
+
