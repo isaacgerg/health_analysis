@@ -1,5 +1,71 @@
 [ENTRIES]
 
+Time: 2017-03-06 02:46p Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-03-06 08:33a Monday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:02
+
+Time: 2017-03-05 09:39a Sunday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
+Time: 2017-03-04 04:49p Saturday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: dizzy post bm, post bm vagal
+
+
+Time: 2017-03-04 10:49a Saturday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-03-03 10:45a Friday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-03-03 09:45a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-03-02 09:14p Thursday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:00
+Note: poo sample in box
+
+
+Time: 2017-03-02 09:14a Thursday
+Type: 4. Normal (Soft sausage)
+Duration: 00:02
+
+Time: 2017-03-02 07:14a Thursday
+Type: 1. Very constipated
+Duration: 00:01
+Note: hard to pass
+
+
+Time: 2017-02-28 02:40p Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-02-28 07:45a Tuesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:02
+
+Time: 2017-02-27 11:46a Monday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
+Time: 2017-02-27 09:10a Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
 Time: 2017-02-26 10:02a Sunday
 Type: 4. Normal (Soft sausage)
 Duration: 00:01
