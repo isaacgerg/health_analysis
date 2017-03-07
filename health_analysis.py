@@ -58,6 +58,22 @@ plt.close('all')
 df_bm['loose'] = df_bm['type'] >= 6
 df_bm['hard'] = df_bm['type'] <=2
 
+# Week year
+#df_bm['year_week'] = df_bm.index.year*52 + df_bm.index.week
+for index, row in df_bm.iterrows():
+    dt = datetime.date(index.year, index.month, index.day)
+    df_bm.loc[index, 'year_week'] = dt - datetime.timedelta(days=dt.weekday()) 
+
+p = df_bm.boxplot('type', 'year_week', whis=np.inf, showfliers=True)
+plt.xticks(rotation='vertical')
+plt.suptitle('Bristol Stool Scale by Week')
+plt.title('')
+plt.xlabel('Week Beginning')
+fig = matplotlib.pyplot.gcf()
+fig.set_size_inches(16,9)
+plt.ylabel('Bristol Stool Scale')
+plt.savefig('bss_box_whisker.png', bbox='tight')
+
 # Determine number of hard / loose per week
 tmp = df_bm['type'].resample('W-MON').mean()
 tmp2 = df_bm[['loose','hard']].resample('W-MON').sum()
@@ -79,16 +95,13 @@ plt.savefig('bss_mean.png', bbox='tight')
 plt.figure()
 fig = matplotlib.pyplot.gcf()
 fig.set_size_inches(16,9)
-plt.subplot(2,1,1)
-plt.plot(tmp2.index, tmp2['total'], color='C0', marker='X')
-plt.title('Total Abnormal Stools Per Week')
-plt.ylabel('Count')
-plt.subplot(2,1,2)
 plt.title('Number Abnormal Stools Per Week By Type')
-plt.plot(tmp2.index, tmp2['loose'], color='C1', marker='X')
-plt.plot(tmp2.index, tmp2['hard'], color='C2', marker='X')
+plt.bar(tmp2.index, tmp2['loose'], color='C1', width=4)
+plt.bar(tmp2.index, tmp2['hard'], color='C2', width=4, bottom=tmp2['loose'])
 plt.ylabel('Count')
+plt.xlabel('Week Beginning')
 plt.legend(['loose','hard'])
+plt.xticks(rotation='vertical')
 plt.savefig('abnormal.png',  bbox='tight')
 
 
