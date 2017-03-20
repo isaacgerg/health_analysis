@@ -1,5 +1,33 @@
 [ENTRIES]
 
+Time: 2017-03-10 08:43a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: pellets first, large bm, 2 ubiome smpls
+
+
+Time: 2017-03-09 03:25p Thursday
+Type: 2. Slighty constipated
+Duration: 00:01
+
+Time: 2017-03-09 01:29p Thursday
+Type: 2. Slighty constipated
+Duration: 00:01
+
+Time: 2017-03-09 09:29a Thursday
+Type: 1. Very constipated
+Duration: 00:01
+
+Time: 2017-03-08 09:38a Wednesday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:00
+Note: mucous tp, light headed
+
+
+Time: 2017-03-07 11:19a Tuesday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
 Time: 2017-03-06 02:46p Monday
 Type: 4. Normal (Soft sausage)
 Duration: 00:01

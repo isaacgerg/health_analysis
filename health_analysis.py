@@ -115,7 +115,7 @@ dfBm = dfBm.rename(columns={'type':'bss'})
 
 # Bring in health spreadsheet data
 dfSpreadsheet = pd.read_csv(spreadsheetFilename)
-dfSpreadsheet = dfSpreadsheet.ix[:,['Date', 'mean', 'cardio', 'nexium', 'librax', 'weights', 'clrtn']]
+dfSpreadsheet = dfSpreadsheet.ix[:,['Date', 'mean', 'cardio', 'nexium', 'librax', 'weights', 'clrtn', 'vit d [IU]', 'mtmcl', 'AM', 'PM']]
 dfSpreadsheet['Date'] = pd.to_datetime(dfSpreadsheet['Date'])
 dfSpreadsheet = dfSpreadsheet.set_index('Date')
 # Cleanup
@@ -123,13 +123,20 @@ dfSpreadsheet = dfSpreadsheet.set_index('Date')
 dfSpreadsheet = dfSpreadsheet[:(datetime.datetime.now()-datetime.timedelta(days=1)).strftime('%Y-%m-%d')]
 # rename columns
 dfSpreadsheet = dfSpreadsheet.rename(columns={'mean': 'hqi'})
+dfSpreadsheet = dfSpreadsheet.rename(columns={'vit d [IU]': 'vitd'})
+dfSpreadsheet = dfSpreadsheet.rename(columns={'AM': 'hqi_am'})
+dfSpreadsheet = dfSpreadsheet.rename(columns={'PM': 'hqi_pm'})
 # change datatypes
 dfSpreadsheet['hqi'] = dfSpreadsheet['hqi'].astype('float')
-dfSpreadsheet['nexium'] = dfSpreadsheet['nexium'].astype('float')
+dfSpreadsheet['nexium'] = dfSpreadsheet['nexium'].astype('float') / 20 # convert to 20mg doses
 # fill in nans
-dfSpreadsheet['cardio'] = dfSpreadsheet['cardio'].fillna(0)
+dfSpreadsheet['cardio'] = dfSpreadsheet['cardio'].fillna(0)/60 # convert to hours
 dfSpreadsheet['weights'] = dfSpreadsheet['weights'].fillna(0)
 dfSpreadsheet['clrtn'] = dfSpreadsheet['clrtn'].fillna(0)
+dfSpreadsheet['nexium'] = dfSpreadsheet['nexium'].fillna(0)
+dfSpreadsheet['librax'] = dfSpreadsheet['librax'].fillna(0)
+dfSpreadsheet['mtmcl'] = dfSpreadsheet['mtmcl'].fillna(0)
+dfSpreadsheet['vitd'] = dfSpreadsheet['vitd'].fillna(0)/1000 # make a sane number so matricies for inverseion well conditioned
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 # Merge dfSpreadsheet with dfBm
@@ -139,7 +146,7 @@ df = pd.merge(dfBm, dfSpreadsheet, how='inner', left_index=True, right_index=Tru
 plt.figure()
 fig = matplotlib.pyplot.gcf()
 fig.set_size_inches(16,9)
-tools.plotCorr(df[['cardio', 'nexium', 'librax']])
+tools.plotCorr(df[['cardio', 'nexium', 'librax', 'clrtn', 'mtmcl']])
 plt.title('Correlation')
 plt.savefig('correlation.png')
 
@@ -157,15 +164,24 @@ df['hqi_3daymean'] = df['hqi_3daymean'].shift(-3)
 df['hqi_7daymean'] = df['hqi'].rolling(window=7).mean()
 df['hqi_7daymean'] = df['hqi_7daymean'].shift(-7)
 
+df['hqi_am_3daymean'] = df['hqi_am'].rolling(window=3).mean()
+df['hqi_am_3daymean'] = df['hqi_am_3daymean'].shift(-3)
+
+df['hqi_am_7daymean'] = df['hqi_am'].rolling(window=7).mean()
+df['hqi_am_7daymean'] = df['hqi_am_7daymean'].shift(-7)
+
 
 # Perform regression
-eqn = 'hqi_7daymean ~ cardio + nexium + librax'
+eqn = 'hqi_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
     
-eqn = 'hqi_3daymean ~ cardio + nexium + librax'
+eqn = 'hqi_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
-eqn = 'hqi_7daymean ~ cardio + nexium + librax'
+eqn = 'hqi_am_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+tools.regression(eqn, df)
+
+eqn = 'hqi_am_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
 # Compute more moving averages
@@ -175,10 +191,10 @@ df['bss_3daymean'] = df['bss_3daymean'].shift(-3)
 df['bss_7daymean'] = df['bss'].rolling(window=7).mean()
 df['bss_7daymean'] = df['bss_7daymean'].shift(-7)
 
-eqn = 'bss_3daymean ~ cardio + nexium + librax'
+eqn = 'bss_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
-eqn = 'bss_7daymean ~ cardio + nexium + librax'
+eqn = 'bss_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
 # More averaging
@@ -188,10 +204,10 @@ df['bss_adverse_events_3day'] = df['bss_adverse_events_3day'].shift(-3)
 df['bss_adverse_events_7day'] = df['bss_adverse_events'].rolling(window=7).sum()
 df['bss_adverse_events_7day'] = df['bss_adverse_events_7day'].shift(-7)
 
-eqn = 'bss_adverse_events_3day ~ cardio + nexium + librax'
+eqn = 'bss_adverse_events_3day ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
-eqn = 'bss_adverse_events_7day ~ cardio + nexium + librax'
+eqn = 'bss_adverse_events_7day ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
