@@ -55,7 +55,7 @@ plt.plot(np.linspace(0,60,30), a, marker='X')
 plt.xlabel('Delta [Hours]')
 plt.ylabel('Probability')
 plt.title('Normalized Histogram of Time Between Movements\nMean: {0}'.format(df_bm['deltaHours'].mean()))
-plt.savefig('time_between_movements.png')
+plt.savefig(r'output\time_between_movements.png')
 plt.close('all')
 
 # Compute num hard and loose events
@@ -78,7 +78,7 @@ fig.set_size_inches(16,9)
 plt.ylabel('Bristol Stool Scale')
 #ax = matplotlib.pyplot.gca()
 #ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
-plt.savefig('bss_box_whisker.png', bbox='tight')
+plt.savefig(r'output\bss_box_whisker.png', bbox='tight')
 
 # Determine number of hard / loose per week
 tmp = df_bm['type'].resample('W-MON', label='left').mean()
@@ -99,7 +99,7 @@ plt.axhline(y=5, color='gray', linestyle='--')
 ax = matplotlib.pyplot.gca()
 ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
 ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))
-plt.savefig('bss_mean.png', bbox='tight')
+plt.savefig(r'output\bss_mean.png', bbox='tight')
 
 plt.figure()
 fig = matplotlib.pyplot.gcf()
@@ -114,7 +114,7 @@ plt.xticks(rotation='vertical')
 ax = matplotlib.pyplot.gca()
 ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
 ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))
-plt.savefig('abnormal.png',  bbox='tight')
+plt.savefig(r'output\abnormal.png',  bbox='tight')
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -160,13 +160,13 @@ fig = matplotlib.pyplot.gcf()
 fig.set_size_inches(16,9)
 tools.plotCorr(df[['cardio', 'nexium', 'librax', 'clrtn', 'mtmcl']])
 plt.title('Correlation')
-plt.savefig('correlation.png')
+plt.savefig(r'output\correlation.png')
 
 # impute missing bss
 df['bss'] = df['bss'].interpolate()
 
-# total adverse events
-df['bss_adverse_events'] = df['loose'] + df['hard']
+# total abnormal events
+df['bss_abnormal_events'] = df['loose'] + df['hard']
 
 # Compute moving averages
 # NOTE you cannot use minus signs in the name of columns!!!!!!!!!
@@ -210,16 +210,16 @@ eqn = 'bss_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
 # More averaging
-df['bss_adverse_events_3day'] = df['bss_adverse_events'].rolling(window=3).sum()
-df['bss_adverse_events_3day'] = df['bss_adverse_events_3day'].shift(-3)
+df['bss_abnormal_events_3day'] = df['bss_abnormal_events'].rolling(window=3).sum()
+df['bss_abnormal_events_3day'] = df['bss_abnormal_events_3day'].shift(-3)
 
-df['bss_adverse_events_7day'] = df['bss_adverse_events'].rolling(window=7).sum()
-df['bss_adverse_events_7day'] = df['bss_adverse_events_7day'].shift(-7)
+df['bss_abnormal_events_7day'] = df['bss_abnormal_events'].rolling(window=7).sum()
+df['bss_abnormal_events_7day'] = df['bss_abnormal_events_7day'].shift(-7)
 
-eqn = 'bss_adverse_events_3day ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+eqn = 'bss_abnormal_events_3day ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
-eqn = 'bss_adverse_events_7day ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+eqn = 'bss_abnormal_events_7day ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -236,6 +236,6 @@ plt.ylim(1,4)
 ax = matplotlib.pyplot.gca()
 ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
 ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))
-plt.savefig('hqi.png',  bbox='tight')
+plt.savefig(r'output\hqi.png',  bbox='tight')
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 print('Done')
