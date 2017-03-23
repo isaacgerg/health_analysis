@@ -50,3 +50,4 @@ health_analysis.wpu
 *.wpu
 manuscript
 *.wpu
+__pycache__
