@@ -1,5 +1,125 @@
 [ENTRIES]
 
+Time: 2017-03-22 02:03p Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-03-21 12:57p Tuesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-03-21 08:15a Tuesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-03-20 02:03p Monday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
+Time: 2017-03-20 08:07a Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:02
+
+Time: 2017-03-19 09:19p Sunday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+Note: hard to pass
+
+
+Time: 2017-03-19 08:07a Sunday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-03-18 09:32a Saturday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-03-18 09:05a Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:02
+Note: large amount, particles
+
+
+Time: 2017-03-17 12:13p Friday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-03-17 10:02a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
+Time: 2017-03-17 07:45a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-03-16 03:34p Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-03-16 08:35a Thursday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-03-15 11:33a Wednesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:00
+
+Time: 2017-03-15 09:25a Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
+Time: 2017-03-14 10:44a Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-03-14 08:56a Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-03-13 05:10p Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: particles, nausea 
+
+
+Time: 2017-03-13 09:00a Monday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+
+Time: 2017-03-12 02:08p Sunday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: cramps, blobs an diarrhea 
+
+
+Time: 2017-03-12 01:48p Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: cramps, large bm
+
+
+Time: 2017-03-12 01:45p Sunday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: cramps
+
+
+Time: 2017-03-12 12:01p Sunday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
+Time: 2017-03-11 10:19a Saturday
+Type: 2. Slighty constipated
+Duration: 00:01
+
 Time: 2017-03-10 08:43a Friday
 Type: 4. Normal (Soft sausage)
 Duration: 00:01

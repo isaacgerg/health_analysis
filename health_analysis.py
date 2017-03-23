@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.style
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 matplotlib.style.use('seaborn-deep')
 
 import seaborn
@@ -42,6 +43,9 @@ df_bm = pd.DataFrame.from_records(data = bmArray, columns = ['datetime', 'type']
 # sort
 df_bm = df_bm.sort_index()
 
+# Start at 2017
+df_bm = df_bm['2017-01-01':]
+
 # PLOT: delta between movements
 df_bm['deltaHours'] = df_bm.index.to_series().diff()/np.timedelta64(1, 'h')
 a, b = np.histogram(df_bm['deltaHours'].as_matrix()[1:], bins=30, range=(0, 60))
@@ -72,11 +76,13 @@ plt.xlabel('Week Beginning')
 fig = matplotlib.pyplot.gcf()
 fig.set_size_inches(16,9)
 plt.ylabel('Bristol Stool Scale')
+#ax = matplotlib.pyplot.gca()
+#ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
 plt.savefig('bss_box_whisker.png', bbox='tight')
 
 # Determine number of hard / loose per week
-tmp = df_bm['type'].resample('W-MON').mean()
-tmp2 = df_bm[['loose','hard']].resample('W-MON').sum()
+tmp = df_bm['type'].resample('W-MON', label='left').mean()
+tmp2 = df_bm[['loose','hard']].resample('W-MON', label='left').sum()
 tmp2['total'] = tmp2['loose'] + tmp2['hard']
 
 # Plot results
@@ -90,6 +96,9 @@ plt.xlabel('Week')
 plt.title('Bristol Stool Scale Mean Per Week')
 plt.axhline(y=3, color='gray', linestyle='--')
 plt.axhline(y=5, color='gray', linestyle='--')
+ax = matplotlib.pyplot.gca()
+ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
+ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))
 plt.savefig('bss_mean.png', bbox='tight')
 
 plt.figure()
@@ -102,6 +111,9 @@ plt.ylabel('Count')
 plt.xlabel('Week Beginning')
 plt.legend(['loose','hard'])
 plt.xticks(rotation='vertical')
+ax = matplotlib.pyplot.gca()
+ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
+ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))
 plt.savefig('abnormal.png',  bbox='tight')
 
 
@@ -212,7 +224,7 @@ tools.regression(eqn, df)
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 # HQI plots
-tmp = df['hqi'].resample('W-MON').mean()
+tmp = df['hqi'].resample('W-MON', label='left').mean()
 
 plt.figure()
 fig = matplotlib.pyplot.gcf()
@@ -221,6 +233,9 @@ plt.plot(tmp.index, tmp, color='C0', marker='X')
 plt.title('Mean HQI Per Week')
 plt.ylabel('HQI')
 plt.ylim(1,4)
+ax = matplotlib.pyplot.gca()
+ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
+ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))
 plt.savefig('hqi.png',  bbox='tight')
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 print('Done')
