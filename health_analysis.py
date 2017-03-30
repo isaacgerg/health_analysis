@@ -1,5 +1,7 @@
 import datetime
 import collections
+import urllib
+import json
 
 import numpy as np
 import pandas as pd
@@ -130,9 +132,21 @@ dfSpreadsheet = pd.read_csv(spreadsheetFilename)
 dfSpreadsheet = dfSpreadsheet.ix[:,['Date', 'mean', 'cardio', 'nexium', 'librax', 'weights', 'clrtn', 'vit d [IU]', 'mtmcl', 'AM', 'PM']]
 dfSpreadsheet['Date'] = pd.to_datetime(dfSpreadsheet['Date'])
 dfSpreadsheet = dfSpreadsheet.set_index('Date')
+
 # Cleanup
-# Remove last day to deal wtih div/0 errors
+#Remove last day 
 dfSpreadsheet = dfSpreadsheet[:(datetime.datetime.now()-datetime.timedelta(days=1)).strftime('%Y-%m-%d')]
+
+# Add wx
+dfSpreadsheet['muTemp'] = 0
+for ki, k in enumerate(dfSpreadsheet.index):    
+    response = urllib.request.urlopen(r'http://api.wunderground.com/api/90949a6393a8eacd/history_{0}/q/PA/State_College.json'.format(k.strftime('%Y%m%d')))
+    data = response.read().decode('utf-8')
+    jdict = json.loads(data)
+    dfSpreadsheet[k]['muTemp'] = jdict['history']['dailysummary'][0]['meantempi']
+    
+# Cleanup
+# Deal wtih div/0 errors
 # rename columns
 dfSpreadsheet = dfSpreadsheet.rename(columns={'mean': 'hqi'})
 dfSpreadsheet = dfSpreadsheet.rename(columns={'vit d [IU]': 'vitd'})
@@ -158,7 +172,7 @@ df = pd.merge(dfBm, dfSpreadsheet, how='inner', left_index=True, right_index=Tru
 plt.figure()
 fig = matplotlib.pyplot.gcf()
 fig.set_size_inches(16,9)
-tools.plotCorr(df[['cardio', 'nexium', 'librax', 'clrtn', 'mtmcl']])
+tools.plotCorr(df[['cardio', 'nexium', 'librax', 'clrtn', 'mtmcl', 'muTemp']])
 plt.title('Correlation')
 plt.savefig(r'output\correlation.png')
 
@@ -184,16 +198,16 @@ df['hqi_am_7daymean'] = df['hqi_am_7daymean'].shift(-7)
 
 
 # Perform regression
-eqn = 'hqi_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+eqn = 'hqi_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
 tools.regression(eqn, df)
     
-eqn = 'hqi_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+eqn = 'hqi_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
 tools.regression(eqn, df)
 
-eqn = 'hqi_am_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+eqn = 'hqi_am_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
 tools.regression(eqn, df)
 
-eqn = 'hqi_am_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+eqn = 'hqi_am_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
 tools.regression(eqn, df)
 
 # Compute more moving averages
@@ -203,10 +217,10 @@ df['bss_3daymean'] = df['bss_3daymean'].shift(-3)
 df['bss_7daymean'] = df['bss'].rolling(window=7).mean()
 df['bss_7daymean'] = df['bss_7daymean'].shift(-7)
 
-eqn = 'bss_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+eqn = 'bss_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
 tools.regression(eqn, df)
 
-eqn = 'bss_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+eqn = 'bss_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
 tools.regression(eqn, df)
 
 # More averaging
@@ -216,10 +230,10 @@ df['bss_abnormal_events_3day'] = df['bss_abnormal_events_3day'].shift(-3)
 df['bss_abnormal_events_7day'] = df['bss_abnormal_events'].rolling(window=7).sum()
 df['bss_abnormal_events_7day'] = df['bss_abnormal_events_7day'].shift(-7)
 
-eqn = 'bss_abnormal_events_3day ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+eqn = 'bss_abnormal_events_3day ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
 tools.regression(eqn, df)
 
-eqn = 'bss_abnormal_events_7day ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+eqn = 'bss_abnormal_events_7day ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
 tools.regression(eqn, df)
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
