@@ -1,5 +1,71 @@
 [ENTRIES]
 
+Time: 2017-03-30 03:49p Thursday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
+Time: 2017-03-30 08:18a Thursday
+Type: 4. Normal (Soft sausage)
+Duration: 00:02
+Note: large amount 
+
+
+Time: 2017-03-29 10:05a Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: smelly, floats, large amt, particles
+
+
+Time: 2017-03-29 07:05a Wednesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-03-28 12:04p Tuesday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: urgent, yellow
+
+
+Time: 2017-03-28 09:12a Tuesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-03-27 09:01a Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-03-26 11:50a Sunday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-03-26 10:21a Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:02
+
+Time: 2017-03-25 11:55a Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-03-25 10:23a Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-03-24 09:16a Friday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-03-23 12:38p Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:00
+Note: particles
+
+
+Time: 2017-03-23 09:20a Thursday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:00
+
 Time: 2017-03-22 02:03p Wednesday
 Type: 4. Normal (Soft sausage)
 Duration: 00:01

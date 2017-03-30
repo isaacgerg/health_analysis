@@ -1,9 +1,4 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: 2017OceansAlongTrack.aux
-The style file: ./bib/IEEEtran.bst
-Database file #1: ./bib/IEEEabrv.bib
-Database file #2: ./bib/dcbPaperDatabase.bib
--- IEEEtran.bst version 1.11 (2003/04/02) by Michael Shell.
--- http://www.ctan.org/tex-archive/macros/latex/contrib/supported/IEEEtran/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-
-Done.
+I found no \bibdata command---while reading file 2017OceansAlongTrack.aux
+I found no \bibstyle command---while reading file 2017OceansAlongTrack.aux
+(There were 2 error messages)

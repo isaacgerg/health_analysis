@@ -34,7 +34,7 @@
 
 \usepackage[pdftex]{graphicx}
 % declare the path(s) where your graphic files are
-\graphicspath{{./input/}}
+\graphicspath{{../output/}}
 % and their extensions so you won't have to specify these with
 % every instance of \includegraphics
 \DeclareGraphicsExtensions{.pdf,.jpeg,.png,.eps}
@@ -227,6 +227,12 @@ A total of TODO days of daily recorrds were recorded which resulted in TODO BMs 
 
 Mean HQI per week
 
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]{hqi.png}
+    \caption{The along-track spatial coherence for a system with directional transmit and receive beams is best modeled using a Gaussian function}\label{fig:mean_hqi}
+\end{figure}
+
 Mean minutes of cardio per week
 
 Mean dosage of medicines per week
@@ -238,171 +244,6 @@ Mean BSS per week
 Number of abnormal BMs per week as a function of type where abnormal means outside of BSS 3-5 defining hard stools as BSS 1-2 and loose stools as BSS 6-7
 
 We perform ordinary least squares (OLS) regresion using the data above to assess how medications and cardio affect HQI and BSS means on two different scales, 3 days and 7 days.  Two different time scales are assessed allowing a degree of freedom for the treatments to reach therapeutic level when initiated and washout when discontinued.
-
-
-%TODO: Check the statement regarding Groen's technique
-Groen \cite{Groen:2006a}, Oeschger \cite{Oeschger:2006a}, and Cook \cite{Cook:2007b} each describe techniques for the estimation of the APP error from SAS data. In each of these approaches, the correlation coefficient is measured between sets of phase centers spanning the expected range of advances. These measured correlations are then interpolated to find the ideal advance length. While Groen and Cook do not suggest an interpolation kernel, Oeschger recommends using a quadratic interpolator. Mallart and Fink \cite{Mallart:1991a} use the van Cittert-Zernike theorem to study the spatial coherence of the scattered field in ultrasound. In their analysis the spatial variant intensity terms in the integrand of Equation~\ref{eq:mainVczt} are determined only by $b_T$ in $\beta$. That is, it is only the projection of the transmit beampattern onto the scene that drives the spatial coherence. This results in a spatial coherence well modeled by a triangle function. This suggests that a triangle function may be an appropriate interpolation kernel.
-
-In this work, the spatial coherence predicted by Equation~\ref{eq:corrCoefGeneral} has been shown in Figure~\ref{fig:sasCoherLength}. The shape of this along-track spatial coherence function should serve as the ideal interpolation kernel for along-track motion estimation. Analysis of this shape shows it is well modeled as a Gaussian. In Figure~\ref{fig:sasCoherence}, we compare the along-track spatial coherence for a \unit[120]{kHz} SAS operating with a \unit[5]{cm} wide transmitter and receive array having a channel width and center-to-center spacing of \unit[5]{cm}. The simulated coherence is shown compared to the best fit quadratic, triangle and Gaussian functions.
-
-A numerical study of the interpolation kernel error was conducted using a Monte-Carlo simulation. An assumed sensor APP is simulated with a stochastic error ranging over \unit[$\pm$1.25]{cm}. At each iteration of the simulation, the APP is estimated using the interpolation kernels in Figure~\ref{fig:sasCoherence}. The resulting APP bias errors are shown as a function of APP error in Figure~\ref{fig:dpcBias}. The Gaussian kernel, which best matches the van Cittert-Zernike theorem modeled coherence, produces a result with reduced bias errors when compared to the other interpolation kernels.
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=\columnwidth]{sasCoherence.eps}
-    \caption{The along-track spatial coherence for a system with directional transmit and receive beams is best modeled using a Gaussian function}\label{fig:sasCoherence}
-\end{figure}
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=\columnwidth]{dpcBias.eps}
-    \caption{APP estimation bias errors are minimized by matching the interpolation kernel to the spatial coherence}\label{fig:dpcBias}
-\end{figure}
-
-\section{Comparison of Image Quality with Quadratic and Gaussian Interpolation Kernels}
-The interpolation kernels shown in the prior section have been applied to the problem of along-track motion estimation for a pair of SAS data sets. The first data set was collected near Boston, Massachusetts. This data set was typical and the imagery did not exhibit any significant signs of defocusing due to along-track motion errors. The second data set was collected near Panama City, Florida. This data set was atypical and it exhibited significant defocusing due to along-track motion errors that were induced by an error in the navigation system for a portion of the collection. Each of these data sets were beamformed three times with three different methods of along-track motion estimation. The imagery was formed using the motion solution calculated by the built-in Inertial Navigation Sensor (INS). This approach assumes the sensors own along-track motion estimate is sufficient for producing high-quality imagery. The imagery is then generated using the quadratic and Gaussian interpolation kernels discussed above.
-
-An example of the focus quality improvement of the Gaussian estimator over the INS estimator is shown in Figure~\ref{fig:imageComp}. This data is selected from the Panama City trial set. In Figure~\ref{fig:appIns}, the INS estimator is used and the resulting image shows significant along-track defocus. Using the Gaussian estimator and re-beamforming this data produces Figure~\ref{fig:appGaussian}.
-%
-\begin{figure*}[ht]
-  \centering
-  \hfill
-  % Requires \usepackage{graphicx}
-  \subfloat[INS APP Estimation]{\label{fig:appIns}\includegraphics[width=\columnwidth]{appIns.png}}
-  \hfill
-  \subfloat[Gaussian APP Estimation]{\label{fig:appGaussian}\includegraphics[width=\columnwidth]{appGaussian.png}}
-  \hfill
-  \caption{Significant APP error produces a very poorly focused image. Applying the Gaussian APP estimator significantly improves the image. This change in quality represents a $\Delta Q \approx 600$.} \label{fig:imageComp}
-\end{figure*}
-
-Figure~\ref{fig:imageComp} qualitatively shows a significant improvement in image quality for this specific image. To broadly assess the performance of the proposed interpolation kernels, a quantitative measure of image quality is needed. The metric must be able to quantify the change in image quality achieved by application of the along-track estimator. A well formed SAS image will have highly focused highlights and deep shadows. Image contrast can then be used as a measure of image quality; however, it is not an absolute measure of the quality since the contrast is partially dependent on the scene content. For a given set of data, the change in image contrast would provide a relative measure of quality that is less dependent on the scene content. The change in the contrast between two images formed with and without along-track motion estimation provides a measure of relative image quality quantifying the performance of each interpolation kernel.
-
-A number of measures for image contrast exist \cite{Peters:1990a}. The contrast is defined here as a mean-normalized pixel variance
-%
-\begin{equation} \label{eq:imageQuality}
-  Q = 1000\Bigl( \frac{\brkt{x^2}-\brkt{|x|}^2}{\brkt{|x|}^2} \Bigr),
-\end{equation}
-%
-where $x$ is the pixel value and the ensemble $\brkt{\cdot}$ was taken over a \unit[2]{m} x \unit[2]{m} subset of the image. This metric is calculated across a non-overlapping grid over the full scene. For each image, the median of these measures was used to assign an overall quality to each image. Again, it is important to note that this is not an absolute measure of quality. In fact, $Q$, which is related to lacunarity, has been linked to the image complexity \cite{Williams:2015a}. Here, this metric is used as a measure of the relative quality when comparing two images made from the same data with different processing approaches. In this way, an increase in $Q$ between two different processing streams indicates improved image quality. A qualitative assessment of this metric for the scenes under test is a change of 20 points is the limit of observability, 100 points is noticeable, and 250 points or more is significant.
-
-To assess quality, the data from a given test is beamformed with the INS measurement of the APP to form the baseline quality score. Next, the same data is beamformed with both the quadratic and Gaussian interpolators. The baseline quality score was subtracted from these two scores to produce an estimate of the relative image quality, $\Delta Q$.
-
-Relative image quality scores have been calculated for the Boston and Panama City trials. Histograms of these scores are shown in Figure~\ref{fig:bostonPanamaCity}. As noted above, the Boston data showed no obvious visual APP errors, and the relative image quality scores reflect this Figure~\ref{fig:bostonHist}. Across the full data set, the two approaches resulted in mostly minor improvements to the scene contrast. This indicates there was some residual APP error; however, it is not substantially degrading the imagery. The histogram of scores for the Panama City data set indicates the presence of significant APP error, Figure~\ref{fig:pcbHist}. Many images show $\Delta Q > 100$ for both the quadratic and Gaussian kernels. Note that for both data sets the Gaussian kernel outperforms the quadratic as indicated by the heavier tailed relative quality distribution.
-
-\begin{figure*}[!t]
-  \centering
-
-  % Requires \usepackage{graphicx}
-  \subfloat[Boston Trial]{\label{fig:bostonHist}\includegraphics[width=\columnwidth]{input/bostonHistTrim.png}}
-  \hfill
-  \subfloat[Panama City Trial]{\label{fig:pcbHist}\includegraphics[width=\columnwidth]{input/pcbHistTrim.png}}
-
-  \caption{The Gaussian interpolator provided a larger improvement in image quality in sea test conducted in Boston, MA and Panama City, FL.} \label{fig:bostonPanamaCity}
-\end{figure*}
-
-
-
-% An example of a floating figure using the graphicx package.
-% Note that \label must occur AFTER (or within) \caption.
-% For figures, \caption should occur after the \includegraphics.
-% Note that IEEEtran v1.7 and later has special internal code that
-% is designed to preserve the operation of \label within \caption
-% even when the captionsoff option is in effect. However, because
-% of issues like this, it may be the safest practice to put all your
-% \label just after \caption rather than within \caption{}.
-%
-% Reminder: the "draftcls" or "draftclsnofoot", not "draft", class
-% option should be used if it is desired that the figures are to be
-% displayed while in draft mode.
-%
-%\begin{figure}[!t]
-%\centering
-%\includegraphics[width=2.5in]{myfigure}
-% where an .eps filename suffix will be assumed under latex,
-% and a .pdf suffix will be assumed for pdflatex; or what has been declared
-% via \DeclareGraphicsExtensions.
-%\caption{Simulation results for the network.}
-%\label{fig_sim}
-%\end{figure}
-
-% Note that the IEEE typically puts floats only at the top, even when this
-% results in a large percentage of a column being occupied by floats.
-
-
-% An example of a double column floating figure using two subfigures.
-% (The subfig.sty package must be loaded for this to work.)
-% The subfigure \label commands are set within each subfloat command,
-% and the \label for the overall figure must come after \caption.
-% \hfil is used as a separator to get equal spacing.
-% Watch out that the combined width of all the subfigures on a
-% line do not exceed the text width or a line break will occur.
-%
-%\begin{figure*}[!t]
-%\centering
-%\subfloat[Case I]{\includegraphics[width=2.5in]{box}%
-%\label{fig_first_case}}
-%\hfil
-%\subfloat[Case II]{\includegraphics[width=2.5in]{box}%
-%\label{fig_second_case}}
-%\caption{Simulation results for the network.}
-%\label{fig_sim}
-%\end{figure*}
-%
-% Note that often IEEE papers with subfigures do not employ subfigure
-% captions (using the optional argument to \subfloat[]), but instead will
-% reference/describe all of them (a), (b), etc., within the main caption.
-% Be aware that for subfig.sty to generate the (a), (b), etc., subfigure
-% labels, the optional argument to \subfloat must be present. If a
-% subcaption is not desired, just leave its contents blank,
-% e.g., \subfloat[].
-
-
-% An example of a floating table. Note that, for IEEE style tables, the
-% \caption command should come BEFORE the table and, given that table
-% captions serve much like titles, are usually capitalized except for words
-% such as a, an, and, as, at, but, by, for, in, nor, of, on, or, the, to
-% and up, which are usually not capitalized unless they are the first or
-% last word of the caption. Table text will default to \footnotesize as
-% the IEEE normally uses this smaller font for tables.
-% The \label must come after \caption as always.
-%
-%\begin{table}[!t]
-%% increase table row spacing, adjust to taste
-%\renewcommand{\arraystretch}{1.3}
-% if using array.sty, it might be a good idea to tweak the value of
-% \extrarowheight as needed to properly center the text within the cells
-%\caption{An Example of a Table}
-%\label{table_example}
-%\centering
-%% Some packages, such as MDW tools, offer better commands for making tables
-%% than the plain LaTeX2e tabular which is used here.
-%\begin{tabular}{|c||c|}
-%\hline
-%One & Two\\
-%\hline
-%Three & Four\\
-%\hline
-%\end{tabular}
-%\end{table}
-
-
-% Note that the IEEE does not put floats in the very first column
-% - or typically anywhere on the first page for that matter. Also,
-% in-text middle ("here") positioning is typically not used, but it
-% is allowed and encouraged for Computer Society conferences (but
-% not Computer Society journals). Most IEEE journals/conferences use
-% top floats exclusively.
-% Note that, LaTeX2e, unlike IEEE journals/conferences, places
-% footnotes above bottom floats. This can be corrected via the
-% \fnbelowfloat command of the stfloats package.
-
-
-
-
-\section{Conclusion}
-Synthetic aperture sonar image quality is negatively impacted by uncompensated errors in the along-track motion of the sensor. By making measurements of the along-track spatial coherence of the scattered field it is possible to create accurate estimates of the sensor's advance per ping. It was found that this type of estimation requires an accurate model for the spatial coherence of the scattered field. Application of the van Cittert-Zernike theorem to the problem of pulsed active sonar systems showed the spatial coherence for a typical high-frequency SAS collection geometry is well approximated by a Gaussian whose width is proportional to the sensor's element size.
-
-Gaussian and quadratic along-track interpolation kernels were compared for a pair of at sea data collections. A relative image quality metric, based on image contrast, was defined to quantitatively assess the performance of the pair of interpolation kernels. In both tests, the use of an along track estimator was shown to provide improved image quality. Also in both tests, the performance of the Gaussian kernel exceeded the quadratic kernel.
 
 % conference papers do not normally have an appendix
 

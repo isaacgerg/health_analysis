@@ -1,7 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.27)  14 MAR 2017 20:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.27)  27 MAR 2017 10:47
 entering extended mode
-**./2017OceansAlongTrack.tex
-(2017OceansAlongTrack.tex
+**"C:/Users/idg101/Desktop/New folder/repo/health_analysis/manuscript/2017Ocean
+sAlongTrack.tex"
+
+("C:/Users/idg101/Desktop/New folder/repo/health_analysis/manuscript/2017Oceans
+AlongTrack.tex"
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 (IEEEtran.cls
@@ -425,105 +428,19 @@ Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
- [1{C:/Users/idg101/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ <../output/hqi.png, id=1, 1156.32pt x 650.43pt>
+File: ../output/hqi.png Graphic file (type png)
+ <use ../output/hqi.png>
+Package pdftex.def Info: ../output/hqi.png used on input line 232.
+(pdftex.def)             Requested size: 252.0pt x 141.74527pt.
+
+[1{C:/Users/idg101/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 
 
 ]
-
-LaTeX Warning: Reference `eq:mainVczt' on page 2 undefined on input line 244.
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 244.
-("C:\Users\idg101\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 244.
- ("C:\Users\idg101\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
-"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: Reference `eq:corrCoefGeneral' on page 2 undefined on input line
- 246.
-
-
-LaTeX Warning: Reference `fig:sasCoherLength' on page 2 undefined on input line
- 246.
-
-Package epstopdf Info: Source file: <./input/sasCoherence.eps>
-(epstopdf)                    date: 2014-07-24 07:55:18
-(epstopdf)                    size: 17204 bytes
-(epstopdf)             Output file: <./input/sasCoherence-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2017-02-02 17:45:34
-(epstopdf)                    size: 6026 bytes
-(epstopdf)             Command: <epstopdf --outfile=./input/sasCoherence-eps-co
-nverted-to.pdf ./input/sasCoherence.eps>
-(epstopdf)             \includegraphics on input line 252.
-Package epstopdf Info: Output file is already uptodate.
-<./input/sasCoherence-eps-converted-to.pdf, id=8, 517.935pt x 436.63126pt>
-File: ./input/sasCoherence-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./input/sasCoherence-eps-converted-to.pdf>
-Package pdftex.def Info: ./input/sasCoherence-eps-converted-to.pdf used on inpu
-t line 252.
-(pdftex.def)             Requested size: 252.0pt x 212.44547pt.
-Package epstopdf Info: Source file: <./input/dpcBias.eps>
-(epstopdf)                    date: 2014-07-24 07:54:21
-(epstopdf)                    size: 14077 bytes
-(epstopdf)             Output file: <./input/dpcBias-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-02 17:45:34
-(epstopdf)                    size: 4285 bytes
-(epstopdf)             Command: <epstopdf --outfile=./input/dpcBias-eps-convert
-ed-to.pdf ./input/dpcBias.eps>
-(epstopdf)             \includegraphics on input line 258.
-Package epstopdf Info: Output file is already uptodate.
-
-<./input/dpcBias-eps-converted-to.pdf, id=9, 524.96124pt x 436.63126pt>
-File: ./input/dpcBias-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./input/dpcBias-eps-converted-to.pdf>
-Package pdftex.def Info: ./input/dpcBias-eps-converted-to.pdf used on input lin
-e 258.
-(pdftex.def)             Requested size: 252.0pt x 209.6006pt.
-
-<./input/appIns.png, id=10, 351.3125pt x 234.8775pt>
-File: ./input/appIns.png Graphic file (type png)
- <use ./input/appIns.png>
-Package pdftex.def Info: ./input/appIns.png used on input line 271.
-(pdftex.def)             Requested size: 252.0pt x 168.48448pt.
-
-<./input/appGaussian.png, id=11, 351.3125pt x 234.8775pt>
-File: ./input/appGaussian.png Graphic file (type png)
-
-<use ./input/appGaussian.png>
-Package pdftex.def Info: ./input/appGaussian.png used on input line 273.
-(pdftex.def)             Requested size: 252.0pt x 168.48448pt.
- [2 <./input/sasCoherence-eps-converted-to.pdf> <./input/dpcBias-eps-converted-
-to.pdf>]
-<input/bostonHistTrim.png, id=26, 501.072pt x 427.8384pt>
-File: input/bostonHistTrim.png Graphic file (type png)
-
-<use input/bostonHistTrim.png>
-Package pdftex.def Info: input/bostonHistTrim.png used on input line 296.
-(pdftex.def)             Requested size: 252.0pt x 215.17209pt.
-
-<input/pcbHistTrim.png, id=27, 510.2262pt x 427.8384pt>
-File: input/pcbHistTrim.png Graphic file (type png)
-
-<use input/pcbHistTrim.png>
-Package pdftex.def Info: input/pcbHistTrim.png used on input line 298.
-(pdftex.def)             Requested size: 252.0pt x 211.30736pt.
- [3 <./input/appIns.png (PNG copy)> <./input/appGaussian.png (PNG copy)>] (2017
-OceansAlongTrack.bbl
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `English'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `English'. Using the pattern for
-** the default language instead.
-[4 <./input/bostonHistTrim.png> <./input/pcbHistTrim.png>])
+(2017OceansAlongTrack.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -535,43 +452,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5
+[2
 
-] (2017OceansAlongTrack.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ <../output/hqi.png>] (2017OceansAlongTrack.aux) ) 
 Here is how much of TeX's memory you used:
- 4901 strings out of 493333
- 75730 string characters out of 3129709
- 152720 words of memory out of 3000000
- 8333 multiletter control sequences out of 15000+200000
- 38913 words of font info for 83 fonts, out of 3000000 for 9000
+ 4780 strings out of 493333
+ 73688 string characters out of 3129709
+ 151722 words of memory out of 3000000
+ 8240 multiletter control sequences out of 15000+200000
+ 31871 words of font info for 61 fonts, out of 3000000 for 9000
  1147 hyphenation exceptions out of 8191
- 42i,27n,49p,1152b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
-c}<C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmex10.pfb><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/idg101/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/idg101/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/
-idg101/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pf
-b><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/idg101/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/idg101/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/idg101/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/idg101/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 2017OceansAlongTrack.pdf (5 pages, 528743 bytes).
+ 42i,18n,38p,813b,354s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/idg101/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/idg101/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/idg101/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/idg101/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on 2017OceansAlongTrack.pdf (2 pages, 89879 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
+ 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
