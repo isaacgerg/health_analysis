@@ -65,16 +65,14 @@ for index, row in df_bm.iterrows():
     dt = datetime.date(index.year, index.month, index.day)
     df_bm.loc[index, 'year_week'] = dt - datetime.timedelta(days=dt.weekday()) 
 
-p = df_bm.boxplot('type', 'year_week', whis=np.inf, showfliers=True)
+p = df_bm.boxplot('type', 'year_week', whis=np.inf, showfliers=True, showmeans=True)
 plt.xticks(rotation='vertical')
 plt.title('Bristol Stool Scale by Week')
 plt.suptitle('')
-plt.xlabel('Week Beginning')
+plt.xlabel('Week')
 fig = matplotlib.pyplot.gcf()
 fig.set_size_inches(16,9)
 plt.ylabel('Bristol Stool Scale')
-#ax = matplotlib.pyplot.gca()
-#ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
 plt.savefig(r'output\bss_box_whisker.png', bbox='tight')
 
 # Determine number of hard / loose per week
@@ -106,7 +104,7 @@ plt.title('Number Abnormal Stools Per Week By Type')
 plt.bar(tmp2.index, tmp2['loose'], color='C1', width=4)
 plt.bar(tmp2.index, tmp2['hard'], color='C2', width=4, bottom=tmp2['loose'])
 plt.ylabel('Count')
-plt.xlabel('Week Beginning')
+plt.xlabel('Week')
 plt.legend(['loose','hard'])
 plt.xticks(rotation='vertical')
 ax = matplotlib.pyplot.gca()
@@ -163,6 +161,11 @@ dfSpreadsheet['vitd'] = dfSpreadsheet['vitd'].fillna(0)/1000 # make a sane numbe
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 # Merge dfSpreadsheet with dfBm
 df = pd.merge(dfBm, dfSpreadsheet, how='inner', left_index=True, right_index=True)
+
+for index, row in df.iterrows():
+    dt = datetime.date(index.year, index.month, index.day)
+    df.loc[index, 'year_week'] = dt - datetime.timedelta(days=dt.weekday()) 
+
 
 # plot correlation
 plt.figure()
@@ -235,7 +238,6 @@ tools.regression(eqn, df)
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 # HQI plots
 tmp = df['hqi'].resample('W-MON', label='left').mean()
-
 plt.figure()
 fig = matplotlib.pyplot.gcf()
 fig.set_size_inches(16,9)
@@ -248,5 +250,16 @@ ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
 ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))
 plt.xticks(rotation='vertical')
 plt.savefig(r'output\hqi.png',  bbox='tight')
+
+p = df.boxplot('hqi', 'year_week', whis=np.inf, showfliers=True, showmeans=True)
+plt.ylim(1,4)
+plt.xticks(rotation='vertical')
+plt.title('Health Quality Index by Week')
+plt.suptitle('')
+plt.xlabel('Week')
+fig = matplotlib.pyplot.gcf()
+fig.set_size_inches(16,9)
+plt.ylabel('Health Quality Index')
+plt.savefig(r'output\hqi_box.png', bbox='tight')
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 print('Done')
