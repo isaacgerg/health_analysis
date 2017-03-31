@@ -202,35 +202,61 @@ In this study, we seek to quantify symptom serverity, bowel habits, and medicati
 
 The patient uses a simple android applicatoin and google spreadsheet for daily tracking.  The android applicaoitn used is Bowel Move and requires a handful of clicks to enter a BM.  Likewise, google spreadsheets are available on most internet connected platforms and smart phones making it easy to find a suitable computer to enter in daily data.  Together, compliance of the record keeping protocol exceeds 99%.
 
-The patient keeps log of the following items through a google spreadsheet:
+The patient keeps log of the following items through a Google spreadsheet:
 
-AM/PM health quality index (HQI)
-Medication intake as dosage
-Time spent performing cardiovascular exercise
-Daily weight
+\begin{itemize}[noitemsep]
+\item AM/PM Health Quality Index (HQI)
+\item Medication intake as dosage
+\item Time spent performing cardiovascular exercise
+\item Body weight
+\end{itemize}
+
 HQI is defined on a 1-4 scale describing how the symptoms manifest themselves as a function of the patients ability to complete his daily wishes ans plans (e.g. work, exercise, time with family, etc).  HQI has defined levels which are:
 
-Symptom severity requires medical urgent medical attention (e.g. ED visit)
-Symptom severity prevents patient from completly daily wishes (e.g. missed a day of work due to persistant abdominal pain)
-Symptoms notable but patient is able to cope with symptoms to complete daily wishes (e.g. a stomach ache while at a baseball game which is tolerable and resolves with time)
-Symptoms are not present.
+\begin{enumerate}
+  \item Symptom severity requires medical urgent medical attention (e.g. ED visit)
+  \item Symptom severity prevents patient from completly daily wishes (e.g. missed a day of work due to persistant abdominal pain)
+  \item Symptoms notable but patient is able to cope with symptoms to complete daily wishes (e.g. a stomach ache while at a baseball game which is tolerable and resolves with time)
+  \item Symptoms are not present.
+\end{enumerate}
+
 Medications are recorded as total daily dose.  For example, a daily dose of 20mg Nexium bid is entered as 40mg. Time spent performing cardio recorded as total daily time in minutes.  For example, a two-hour mountain bike ride is records as 120 minutes. Daily weight is recorded first thing in the morning and entered in pounds.
 
-The Bowel Move records the following:
+\section{Data Visualization}
 
-Time of movement
-Bristol Stool Score (BSS) [TODO cite] of movement.
-
-\section{Analysis}
-
-A total of TODO days of daily recorrds were recorded which resulted in TODO BMs recorded.  The recorded time period is January 1, 2017 to TODO.  An exploratory analysis of the data follows.
-
-Mean HQI per week
+Bristol Stool Scores (BSS) over the sampling period are shown below.
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=\columnwidth]{hqi.png}
-    \caption{The along-track spatial coherence for a system with directional transmit and receive beams is best modeled using a Gaussian function}\label{fig:mean_hqi}
+    \includegraphics[width=\columnwidth]{bss_box_whisker.png}
+    \caption{Bristol Stool Score by Week}\label{fig:bss_box_whisker}
+\end{figure}
+
+We are interested in the number of bowel movements outside the 3-5 BSS. We defines these as abnormal movements and wish to minimize their presence.  We show their contribution below.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]{abnormal.png}
+    \caption{Abnormal Bowel Movements by Week and Type}\label{fig:bss_abnormal}
+\end{figure}
+
+The time between movements we list for completeness below.  The plot shows a bimodal distribution and the author believes the left-most peak is characteristic of IBS-D.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]{time_between_movements.png}
+    \caption{Distribution of Time Between Bowel Movements}\label{fig:time_between_movements}
+\end{figure}
+
+
+Bristol Stool Score (BSS) [TODO cite] of movement.
+
+Health Quality Index plots by week are presented below.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]{hqi_box.png}
+    \caption{Health Quality Index by Week}\label{fig:hqi}
 \end{figure}
 
 Mean minutes of cardio per week
@@ -239,34 +265,18 @@ Mean dosage of medicines per week
 
 Mena daily weight per week
 
-Mean BSS per week
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=\columnwidth]{bss_mean.png}
-    \caption{The along-track spatial coherence for a system with directional transmit and receive beams is best modeled using a Gaussian function}\label{fig:mean_bss}
-\end{figure}
+At date TODO, a full metaboloic panel was conducted with no anomolous results.
 
-Number of abnormal BMs per week as a function of type where abnormal means outside of BSS 3-5 defining hard stools as BSS 1-2 and loose stools as BSS 6-7
 
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=\columnwidth]{abnormal.png}
-    \caption{The along-track spatial coherence for a system with directional transmit and receive beams is best modeled using a Gaussian function}\label{fig:abnormal_bss}
-\end{figure}
+\section{Analysis}
 
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=\columnwidth]{bss_box_whisker.png}
-    \caption{The along-track spatial coherence for a system with directional transmit and receive beams is best modeled using a Gaussian function}\label{fig:abnormal_bss_whisker}
-\end{figure}
+A total of TODO days of daily recorrds were recorded which resulted in TODO BMs recorded.  The recorded time period is January 1, 2017 to TODO.  An exploratory analysis of the data follows.
 
 We perform ordinary least squares (OLS) regresion using the data above to assess how medications and cardio affect HQI and BSS means on two different scales, 3 days and 7 days.  Two different time scales are assessed allowing a degree of freedom for the treatments to reach therapeutic level when initiated and washout when discontinued.
 
 With width specified:
 
 TODO Verify and notate that all regression had signifiant p-value of f stat.
-
-
 
 \begin{center}
     \begin{tabular}{ | l | r | r | r | r |}
@@ -285,8 +295,65 @@ TODO Verify and notate that all regression had signifiant p-value of f stat.
     \end{tabular}
 \end{center}
 
-% conference papers do not normally have an appendix
+\begin{center}
+    \begin{tabular}{ | l | r | r | r | r |}
+    \hline
+    \multicolumn{5}{ |c| }{Regressor: HQI 7-Day Mean} \\
+    \hline
+     & coef & std err & t & $P>\left|t\right|$ \\ \hline
+    Intercept & 3.1799 & 0.081 & 39.273 & 0.000    \\
+    cardio [hrs]    &-0.0737     & 0.046     &-1.604     & 0.113\\
+    nexium [20mg]    &     0.1697 &     0.053  &    3.206  &    *0.002\\
+    librax [capsule]   &     0.0642 &     0.034  &    1.896  &    0.062\\
+    clartin-d [capsule]    &    -0.0975 &     0.083  &   -1.178  &    0.243\\
+    vitamin d [5000IU]     &    -0.0163 &     0.015  &   -1.105  &    0.272\\
+    Metamucil [serving]     &    -0.0518 &     0.084  &   -0.615  &    0.540 \\
+    \hline
+    \end{tabular}
+\end{center}
 
+We see from Table TODO and TODO that on 3-day time scales, TODO is statistically signifiant and on week-long time scales, TODO is statistically significant.
+
+We regress on the number of abnormal movements of both 3 day and 7 day in the future.
+
+\begin{center}
+    \begin{tabular}{ | l | r | r | r | r |}
+    \hline
+    \multicolumn{5}{ |c| }{Regressor: Abnormal Events 3-Day Mean} \\
+    \hline
+     & coef & std err & t & $P>\left|t\right|$ \\ \hline
+    Intercept & 3.1799 & 0.081 & 39.273 & 0.000    \\
+    cardio [hrs]    &-0.0737     & 0.046     &-1.604     & 0.113\\
+    nexium [20mg]    &     0.1697 &     0.053  &    3.206  &    *0.002\\
+    librax [capsule]   &     0.0642 &     0.034  &    1.896  &    0.062\\
+    clartin-d [capsule]    &    -0.0975 &     0.083  &   -1.178  &    0.243\\
+    vitamin d [5000IU]     &    -0.0163 &     0.015  &   -1.105  &    0.272\\
+    Metamucil [serving]     &    -0.0518 &     0.084  &   -0.615  &    0.540 \\
+    \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}
+    \begin{tabular}{ | l | r | r | r | r |}
+    \hline
+    \multicolumn{5}{ |c| }{Regressor: Abnormal Events 7-Day Mean} \\
+    \hline
+     & coef & std err & t & $P>\left|t\right|$ \\ \hline
+    Intercept & 3.1799 & 0.081 & 39.273 & 0.000    \\
+    cardio [hrs]    &-0.0737     & 0.046     &-1.604     & 0.113\\
+    nexium [20mg]    &     0.1697 &     0.053  &    3.206  &    *0.002\\
+    librax [capsule]   &     0.0642 &     0.034  &    1.896  &    0.062\\
+    clartin-d [capsule]    &    -0.0975 &     0.083  &   -1.178  &    0.243\\
+    vitamin d [5000IU]     &    -0.0163 &     0.015  &   -1.105  &    0.272\\
+    Metamucil [serving]     &    -0.0518 &     0.084  &   -0.615  &    0.540 \\
+    \hline
+    \end{tabular}
+\end{center}
+
+Tables TODO and TODO show statistically signifance for TODO and TODO.  Clariten-D has a signifitant effect on TODO day mean abnormal movements.  The coeffecient is postive meaning it increase the number of adverse events which is not desireable.  Clariten-D is not signifnitamnt in tables TODO and TODO and therefore we conclude is doesn't postively contrinute to HQI but postively contributes to the number of negative events.  The administration of Clariten-D was administrated during the period nexium and librax were adminstered.  The adverse events during this period prompted the author to contacted several doctors and describeb the problem and request a suggested cure.  All doctors suggested the librax was the main contributued and advised to reduce intake.  The author reduced the librax resulting in a slight increase in symptoms. The author then discontinued taking clariten-d and the symptoms resolved as predicted by the regression model.
+
+\section*{Conclusion}
+We demonstrate simple, lightweight daily tracking of medications, exercise, Bristol Stool Scores, and a Health Quality Index can be utilized to manage and reduce symptoms in an N=1 setting.  We demonstrate how simple staticial analysis can be used to tailor medical treatment for an individual allowing for the identification and resolution of bowel issues for an IBS-D patient.
 
 % use section* for acknowledgment
 \section*{Acknowledgment}
