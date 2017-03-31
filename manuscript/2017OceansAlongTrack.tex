@@ -262,14 +262,35 @@ Number of abnormal BMs per week as a function of type where abnormal means outsi
 
 We perform ordinary least squares (OLS) regresion using the data above to assess how medications and cardio affect HQI and BSS means on two different scales, 3 days and 7 days.  Two different time scales are assessed allowing a degree of freedom for the treatments to reach therapeutic level when initiated and washout when discontinued.
 
+With width specified:
+
+TODO Verify and notate that all regression had signifiant p-value of f stat.
+
+
+
+\begin{center}
+    \begin{tabular}{ | l | r | r | r | r |}
+    \hline
+    \multicolumn{5}{ |c| }{Regressor: HQI 3-Day Mean} \\
+    \hline
+     & coef & std err & t & $P>\left|t\right|$ \\ \hline
+    Intercept & 3.1799 & 0.081 & 39.273 & 0.000    \\
+    cardio [hrs]    &-0.0737     & 0.046     &-1.604     & 0.113\\
+    nexium [20mg]    &     0.1697 &     0.053  &    3.206  &    *0.002\\
+    librax [capsule]   &     0.0642 &     0.034  &    1.896  &    0.062\\
+    clartin-d [capsule]    &    -0.0975 &     0.083  &   -1.178  &    0.243\\
+    vitamin d [5000IU]     &    -0.0163 &     0.015  &   -1.105  &    0.272\\
+    Metamucil [serving]     &    -0.0518 &     0.084  &   -0.615  &    0.540 \\
+    \hline
+    \end{tabular}
+\end{center}
+
 % conference papers do not normally have an appendix
 
 
 % use section* for acknowledgment
 \section*{Acknowledgment}
-The authors would like to acknowledge the US Office of Naval Research for their support of this research. The work shown here was conducted under ONR grants N00014-14-1-0566, N00014-16-1-2313.
-
-Additionally, the authors would like to thank Steve Wagner for his implementation of the along-track interpolation kernels within the SAS image processing toolset.
+The authors would like to thank TODO for the useful discussions and reviews.
 
 \IEEEtriggeratref{12}
 
