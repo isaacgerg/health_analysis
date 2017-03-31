@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.27)  27 MAR 2017 10:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.27)  31 MAR 2017 14:14
 entering extended mode
 **"C:/Users/idg101/Desktop/New folder/repo/health_analysis/manuscript/2017Ocean
 sAlongTrack.tex"
@@ -428,19 +428,38 @@ Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
- <../output/hqi.png, id=1, 1156.32pt x 650.43pt>
+ <../output/hqi.png, id=1, 966.61125pt x 644.10637pt>
 File: ../output/hqi.png Graphic file (type png)
  <use ../output/hqi.png>
 Package pdftex.def Info: ../output/hqi.png used on input line 232.
-(pdftex.def)             Requested size: 252.0pt x 141.74527pt.
+(pdftex.def)             Requested size: 252.0pt x 167.9158pt.
 
-[1{C:/Users/idg101/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+<../output/bss_mean.png, id=3, 949.98915pt x 664.884pt>
+File: ../output/bss_mean.png Graphic file (type png)
+
+<use ../output/bss_mean.png>
+Package pdftex.def Info: ../output/bss_mean.png used on input line 245.
+(pdftex.def)             Requested size: 252.0pt x 176.36589pt.
+
+<../output/abnormal.png, id=4, 949.98915pt x 665.06468pt>
+File: ../output/abnormal.png Graphic file (type png)
+
+<use ../output/abnormal.png>
+Package pdftex.def Info: ../output/abnormal.png used on input line 253.
+(pdftex.def)             Requested size: 252.0pt x 176.41382pt.
+
+<../output/bss_box_whisker.png, id=5, 978.89716pt x 609.77812pt>
+File: ../output/bss_box_whisker.png Graphic file (type png)
+
+<use ../output/bss_box_whisker.png>
+Package pdftex.def Info: ../output/bss_box_whisker.png used on input line 259.
+(pdftex.def)             Requested size: 252.0pt x 156.97542pt.
+ [1{C:/Users/idg101/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 
 
-]
-(2017OceansAlongTrack.bbl)
+] (2017OceansAlongTrack.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -452,25 +471,24 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2
-
- <../output/hqi.png>] (2017OceansAlongTrack.aux) ) 
+[2 <../output/hqi.png> <../output/bss_mean.png> <../output/abnormal.png> <../ou
+tput/bss_box_whisker.png>] (2017OceansAlongTrack.aux) ) 
 Here is how much of TeX's memory you used:
- 4780 strings out of 493333
- 73688 string characters out of 3129709
- 151722 words of memory out of 3000000
- 8240 multiletter control sequences out of 15000+200000
+ 4798 strings out of 493333
+ 74138 string characters out of 3129709
+ 152722 words of memory out of 3000000
+ 8255 multiletter control sequences out of 15000+200000
  31871 words of font info for 61 fonts, out of 3000000 for 9000
  1147 hyphenation exceptions out of 8191
- 42i,18n,38p,813b,354s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/idg101/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/idg101/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/idg101/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/idg101/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on 2017OceansAlongTrack.pdf (2 pages, 89879 bytes).
+ 42i,19n,38p,813b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/idg101/AppData
+/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/idg101/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/idg101/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/idg
+101/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on 2017OceansAlongTrack.pdf (2 pages, 1318740 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 31 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

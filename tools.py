@@ -1,6 +1,5 @@
 import datetime
 import collections
-import seaborn as sns
 import numpy as np
 import scipy as sp
 import matplotlib.pyplot as plt
@@ -10,7 +9,8 @@ from statsmodels.formula.api import ols
 
 #---------------------------------------------------------------------------------------------------
 def plotCorr(df, title='', corr_type=''):
-    if True:     
+    if False:     
+        import scipy.cluster
         a = sp.cluster.hierarchy.fclusterdata(df.values.T, 0.5)
         a = np.argsort(a)
         
@@ -24,6 +24,7 @@ def plotCorr(df, title='', corr_type=''):
         mask = np.zeros_like(corr)
         mask[np.triu_indices_from(mask)] = True        
         
+        import seaborn as sns
         sns.heatmap(corr, vmin=-1, vmax=1, center=0, annot=True, linewidths=0.5, mask=mask)
         plt.yticks(rotation = 0)
         plt.xticks(rotation = 'vertical')

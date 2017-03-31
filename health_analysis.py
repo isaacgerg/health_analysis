@@ -8,12 +8,7 @@ import pandas as pd
 import matplotlib.style
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-matplotlib.style.use('seaborn-deep')
-
-import seaborn
-
-#import matplotlib as mpl
-#mpl.rcParams.update(mpl.rcParamsDefault)
+plt.style.use('matplotlibrc.txt')
 
 import tools
 
@@ -72,8 +67,8 @@ for index, row in df_bm.iterrows():
 
 p = df_bm.boxplot('type', 'year_week', whis=np.inf, showfliers=True)
 plt.xticks(rotation='vertical')
-plt.suptitle('Bristol Stool Scale by Week')
-plt.title('')
+plt.title('Bristol Stool Scale by Week')
+plt.suptitle('')
 plt.xlabel('Week Beginning')
 fig = matplotlib.pyplot.gcf()
 fig.set_size_inches(16,9)
@@ -101,6 +96,7 @@ plt.axhline(y=5, color='gray', linestyle='--')
 ax = matplotlib.pyplot.gca()
 ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
 ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))
+plt.xticks(rotation='vertical')
 plt.savefig(r'output\bss_mean.png', bbox='tight')
 
 plt.figure()
@@ -137,13 +133,13 @@ dfSpreadsheet = dfSpreadsheet.set_index('Date')
 #Remove last day 
 dfSpreadsheet = dfSpreadsheet[:(datetime.datetime.now()-datetime.timedelta(days=1)).strftime('%Y-%m-%d')]
 
-# Add wx
-dfSpreadsheet['muTemp'] = 0
-for ki, k in enumerate(dfSpreadsheet.index):    
-    response = urllib.request.urlopen(r'http://api.wunderground.com/api/90949a6393a8eacd/history_{0}/q/PA/State_College.json'.format(k.strftime('%Y%m%d')))
-    data = response.read().decode('utf-8')
-    jdict = json.loads(data)
-    dfSpreadsheet[k]['muTemp'] = jdict['history']['dailysummary'][0]['meantempi']
+# TODO Add wx
+#dfSpreadsheet['muTemp'] = 0
+#for ki, k in enumerate(dfSpreadsheet.index):    
+#    response = urllib.request.urlopen(r'http://api.wunderground.com/api/90949a6393a8eacd/history_{0}/q/PA/State_College.json'.format(k.strftime('%Y%m%d')))
+#    data = response.read().decode('utf-8')
+#    jdict = json.loads(data)
+#    dfSpreadsheet[k]['muTemp'] = jdict['history']['dailysummary'][0]['meantempi']
     
 # Cleanup
 # Deal wtih div/0 errors
@@ -172,7 +168,7 @@ df = pd.merge(dfBm, dfSpreadsheet, how='inner', left_index=True, right_index=Tru
 plt.figure()
 fig = matplotlib.pyplot.gcf()
 fig.set_size_inches(16,9)
-tools.plotCorr(df[['cardio', 'nexium', 'librax', 'clrtn', 'mtmcl', 'muTemp']])
+tools.plotCorr(df[['cardio', 'nexium', 'librax', 'clrtn', 'mtmcl']])
 plt.title('Correlation')
 plt.savefig(r'output\correlation.png')
 
@@ -198,16 +194,16 @@ df['hqi_am_7daymean'] = df['hqi_am_7daymean'].shift(-7)
 
 
 # Perform regression
-eqn = 'hqi_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
+eqn = 'hqi_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
     
-eqn = 'hqi_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
+eqn = 'hqi_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
-eqn = 'hqi_am_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
+eqn = 'hqi_am_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
-eqn = 'hqi_am_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
+eqn = 'hqi_am_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
 # Compute more moving averages
@@ -217,10 +213,10 @@ df['bss_3daymean'] = df['bss_3daymean'].shift(-3)
 df['bss_7daymean'] = df['bss'].rolling(window=7).mean()
 df['bss_7daymean'] = df['bss_7daymean'].shift(-7)
 
-eqn = 'bss_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
+eqn = 'bss_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
-eqn = 'bss_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
+eqn = 'bss_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
 # More averaging
@@ -230,10 +226,10 @@ df['bss_abnormal_events_3day'] = df['bss_abnormal_events_3day'].shift(-3)
 df['bss_abnormal_events_7day'] = df['bss_abnormal_events'].rolling(window=7).sum()
 df['bss_abnormal_events_7day'] = df['bss_abnormal_events_7day'].shift(-7)
 
-eqn = 'bss_abnormal_events_3day ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
+eqn = 'bss_abnormal_events_3day ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
-eqn = 'bss_abnormal_events_7day ~ cardio + nexium + librax + clrtn + vitd + mtmcl + muTemp'
+eqn = 'bss_abnormal_events_7day ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -250,6 +246,7 @@ plt.ylim(1,4)
 ax = matplotlib.pyplot.gca()
 ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
 ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))
+plt.xticks(rotation='vertical')
 plt.savefig(r'output\hqi.png',  bbox='tight')
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 print('Done')
