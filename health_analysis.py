@@ -45,12 +45,15 @@ df_bm = df_bm['2017-01-01':]
 
 # PLOT: delta between movements
 df_bm['deltaHours'] = df_bm.index.to_series().diff()/np.timedelta64(1, 'h')
-a, b = np.histogram(df_bm['deltaHours'].as_matrix()[1:], bins=30, range=(0, 60))
-a = a/a.sum()
+#a, b = np.histogram(df_bm['deltaHours'].as_matrix()[1:], bins=30, range=(0, 60))
+#a = a/a.sum()
 plt.figure(1)
-plt.plot(np.linspace(0,60,30), a, marker='X')
+#plt.plot(np.linspace(0,60,30), a, marker='X')
+plt.hist(df_bm['deltaHours'].as_matrix()[1:], bins=48, range=(0,48), normed=True)
+plt.xlim(0,48)
+plt.axes().xaxis.set_minor_locator(matplotlib.ticker.MultipleLocator(1))
 plt.xlabel('Delta [Hours]')
-plt.ylabel('Probability')
+plt.ylabel('Proportion')
 plt.title('Normalized Histogram of Time Between Movements\nMean: {0}'.format(df_bm['deltaHours'].mean()))
 plt.savefig(r'output\time_between_movements.png')
 plt.close('all')
@@ -129,7 +132,7 @@ dfSpreadsheet = dfSpreadsheet.set_index('Date')
 
 # Cleanup
 #Remove last day 
-dfSpreadsheet = dfSpreadsheet[:(datetime.datetime.now()-datetime.timedelta(days=1)).strftime('%Y-%m-%d')]
+dfSpreadsheet = dfSpreadsheet[:(datetime.datetime.now()-datetime.timedelta(days=4)).strftime('%Y-%m-%d')]
 
 # TODO Add wx
 #dfSpreadsheet['muTemp'] = 0

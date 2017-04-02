@@ -91,4 +91,6 @@ def regression(eqn, df):
     print('='*titleLen)
     model = ols(eqn, df).fit()  
     print(model.summary())
+    for k in model.tvalues.index:
+        print('{4} & {0:.3f} & {1:.3f} & {2:.3f} & {3:.3f} \\\\'.format(model.params[k], model.bse[k],model.tvalues[k], model.pvalues[k] , k))
     print('\n\n\n')
