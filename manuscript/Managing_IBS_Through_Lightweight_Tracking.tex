@@ -1,0 +1,410 @@
+
+\documentclass[conference]{IEEEtran}
+% Some Computer Society conferences also require the compsoc mode option,
+% but others use the standard conference format.
+%
+% If IEEEtran.cls has not been installed into the LaTeX system files,
+% manually specify the path to it like:
+% \documentclass[conference]{../sty/IEEEtran}
+
+
+
+
+
+% Some very useful LaTeX packages include:
+% (uncomment the ones you want to load)
+
+
+
+% *** SOME SELECTED PACKAGES ***
+%
+\usepackage{cite}
+
+
+\usepackage{amsmath}								% Use math symbols
+\usepackage{amssymb}								% Defines symbols in AMS symbol fonts msam and msbm
+\usepackage{commath}                                % Gives you \dif for the differential in an integral
+\include{bib/dansMath}
+
+\usepackage{cite}									% Improves normal latex citation mechanism when handling numeric citations
+
+\usepackage{nicefrac}                               % Gives you the ability to make inline fractions
+\usepackage{pdfsync}                                % Enables synchronization between text editor and pdf viewer
+\usepackage{units}                                  % Proper typesetting of units
+
+\usepackage[pdftex]{graphicx}
+% declare the path(s) where your graphic files are
+\graphicspath{{../output/}}
+% and their extensions so you won't have to specify these with
+% every instance of \includegraphics
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png,.eps}
+
+\usepackage{epstopdf}								% Converts .eps figures to pdf format
+
+
+% *** SUBFIGURE PACKAGES ***
+\ifCLASSOPTIONcompsoc
+  \usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+\else
+  \usepackage[caption=false,font=footnotesize]{subfig}
+\fi
+% subfig.sty, written by Steven Douglas Cochran, is the modern replacement
+% for subfigure.sty, the latter of which is no longer maintained and is
+% incompatible with some LaTeX packages including fixltx2e. However,
+% subfig.sty requires and automatically loads Axel Sommerfeldt's caption.sty
+% which will override IEEEtran.cls' handling of captions and this will result
+% in non-IEEE style figure/table captions. To prevent this problem, be sure
+% and invoke subfig.sty's "caption=false" package option (available since
+% subfig.sty version 1.3, 2005/06/28) as this is will preserve IEEEtran.cls
+% handling of captions.
+% Note that the Computer Society format requires a larger sans serif font
+% than the serif footnote size font used in traditional IEEE formatting
+% and thus the need to invoke different subfig.sty package options depending
+% on whether compsoc mode has been enabled.
+%
+% The latest version and documentation of subfig.sty can be obtained at:
+% http://www.ctan.org/pkg/subfig
+
+
+
+
+% *** FLOAT PACKAGES ***
+%
+%\usepackage{fixltx2e}
+% fixltx2e, the successor to the earlier fix2col.sty, was written by
+% Frank Mittelbach and David Carlisle. This package corrects a few problems
+% in the LaTeX2e kernel, the most notable of which is that in current
+% LaTeX2e releases, the ordering of single and double column floats is not
+% guaranteed to be preserved. Thus, an unpatched LaTeX2e can allow a
+% single column figure to be placed prior to an earlier double column
+% figure.
+% Be aware that LaTeX2e kernels dated 2015 and later have fixltx2e.sty's
+% corrections already built into the system in which case a warning will
+% be issued if an attempt is made to load fixltx2e.sty as it is no longer
+% needed.
+% The latest version and documentation can be found at:
+% http://www.ctan.org/pkg/fixltx2e
+
+
+%\usepackage{stfloats}
+% stfloats.sty was written by Sigitas Tolusis. This package gives LaTeX2e
+% the ability to do double column floats at the bottom of the page as well
+% as the top. (e.g., "\begin{figure*}[!b]" is not normally possible in
+% LaTeX2e). It also provides a command:
+%\fnbelowfloat
+% to enable the placement of footnotes below bottom floats (the standard
+% LaTeX2e kernel puts them above bottom floats). This is an invasive package
+% which rewrites many portions of the LaTeX2e float routines. It may not work
+% with other packages that modify the LaTeX2e float routines. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/pkg/stfloats
+% Do not use the stfloats baselinefloat ability as the IEEE does not allow
+% \baselineskip to stretch. Authors submitting work to the IEEE should note
+% that the IEEE rarely uses double column equations and that authors should try
+% to avoid such use. Do not be tempted to use the cuted.sty or midfloat.sty
+% packages (also by Sigitas Tolusis) as the IEEE does not format its papers in
+% such ways.
+% Do not attempt to use stfloats with fixltx2e as they are incompatible.
+% Instead, use Morten Hogholm'a dblfloatfix which combines the features
+% of both fixltx2e and stfloats:
+%
+% \usepackage{dblfloatfix}
+% The latest version can be found at:
+% http://www.ctan.org/pkg/dblfloatfix
+
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+%\usepackage{url}
+% url.sty was written by Donald Arseneau. It provides better support for
+% handling and breaking URLs. url.sty is already installed on most LaTeX
+% systems. The latest version and documentation can be obtained at:
+% http://www.ctan.org/pkg/url
+% Basically, \url{my_url_here}.
+
+
+
+
+% *** Do not adjust lengths that control margins, column widths, etc. ***
+% *** Do not use packages that alter fonts (such as pslatex).         ***
+% There should be no need to do such things with IEEEtran.cls V1.6 and later.
+% (Unless specifically asked to do so by the journal or conference you plan
+% to submit to, of course. )
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+%
+% paper title
+% Titles are generally capitalized except for words such as a, an, and, as,
+% at, but, by, for, in, nor, of, on, or, the, to and up, which are usually
+% not capitalized unless they are the first or last word of the title.
+% Linebreaks \\ can be used within to get better formatting as desired.
+% Do not put math or special symbols in the title.
+\title{[DRAFT IN PROGRESS] Managing Irritable Bowel Syndrome Through Lightweight, Daily Tracking}
+
+
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{\IEEEauthorblockN{Isaac D. Gerg, TODO }
+\IEEEauthorblockA{The Pennsylvania State Univeristy\\
+Applied Research Laboratory\\
+State College, PA 16804--0030\\
+Email: idg101@arl.psu.edu}
+}
+
+% conference papers do not typically use \thanks and this command
+% is locked out in conference mode. If really needed, such as for
+% the acknowledgment of grants, issue a \IEEEoverridecommandlockouts
+% after \documentclass
+
+
+
+
+% make the title area
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract
+\begin{abstract}
+Irritable bowel syndrome (IBS) is a multifaceted syndrome with generally unknown etiology with few exceptions.  It primarily manifests itself through one or more symptoms of chronic diarrhea, constipation, and abdominal pain.  Generally, it is a diagnosis of exclusion after the patient has had a comprehensive workup. In this paper, we show how the author, the patient, who is a 34 year old male diagnosed with irritable bowel syndrome  manifesting through symptoms of abdominal pain and diarrhea, utilizes a smartphone application and spreadsheet to track bowel movements, medication, exercise, and overall functionality to assess treatment efficacy.
+\end{abstract}
+
+% no keywords
+
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+
+
+
+\section{Introduction}
+% no \IEEEPARstart
+IBS is a multifaceted syndrome with generally unknown etiology with the exception of the recent work done by Rao \cite{erdogan2015small} and Pimentel \cite{pimentel2000eradication}.  Generally, patients go through a battery of tests and eventually IBS is diagnosed as moreso an exclusion of other, more life threatening conditions such as Crohn's disease or ulcerative colitis.   Believed to be $>$15\% of the general population diagnosed with IBS \cite{drossman1982bowel}, treating it difficult.  Doctors and have many approaches to treatment which include antispasmodics, cognitive behaviour therapy (CBT), altered diet \cite{gibson2010evidence}, selective serotonin reuptake inhibitors (SSRIs), and tricyclic antidepressants (TCAs). Anecdotal, doctors and patients generally use a “try-and-see” approach for symptom management akin to contemporary SSRI management \cite{trivedi2006evaluation}.
+
+In this study, we seek to quantify symptom severity, bowel habits, and medications in a lightweight manner making daily compliance of record keeping easy and regress on the data to determine what treatments are effective for an N=1 study, i.e. the author.  There has been much overlap between etiologies of anxiety and depression with IBS so there is a strong need to have objective evidence to support a particular treatment especially because the placebo effect \cite{kaptchuk2008components} may be large and the side effect profile of many IBS treatments may add to IBS symptoms themselves \cite{vanderhoff2002proton}.
+
+\section{Tracking Methodology}
+
+The patient uses a simple android application and Google spreadsheet for daily tracking.  The android application used is Bowel Move \cite{bowelmove2017} and requires a handful of taps to enter a bowel movement (BM), hereinafter we refer to as simply a movement. Movements time and Bristol Stool Scale \cite{lewis1997stool} are recorded.  Google spreadsheets are available on most internet connected platforms and smart phones making it easy to find a suitable computer to enter in daily data.
+
+The patient keeps log of the following items through a Google spreadsheet:
+
+\begin{itemize}
+\item AM/PM Health Quality Index (HQI)
+\item Medication intake as dosage
+\item Time spent performing cardiovascular exercise
+\item Body weight
+\end{itemize}
+
+HQI is defined on a 1-4 scale describing how the symptoms manifest themselves as a function of the patients ability to complete his daily wishes and plans (e.g. work, exercise, time with family, etc).  HQI has defined level shown in \ref{tab:hqi}.
+\begin{table}
+\begin{center}
+\caption{Definition of Health Quality Index} \label{tab:hqi}
+    \begin{tabular}{ | c | p{6cm} | }
+    \hline
+    \multicolumn{2}{ |c |}{Health Quality Index (HQI)} \\
+    \hline
+    1 & Symptom severity requires medical urgent medical attention (e.g. ED visit)\\ \hline
+    2 & Symptom severity prevents patient from complectly daily wishes (e.g. missed a day of work due to persistent abdominal pain)\\ \hline
+    3 & Symptoms notable but patient is able to cope with symptoms to complete daily wishes (e.g. a stomach ache while at a baseball game which is tolerable and resolves with time) \\ \hline
+    4 & Symptoms not present.\\
+    \hline
+    \end{tabular}
+\end{center}
+\end{table}
+
+Medications are recorded as total daily dose.  For example, a daily dose of 20mg Nexium bid is entered as 40mg. Time spent performing cardio recorded as total daily time in minutes.  For example, a two-hour mountain bike ride is records as 120 minutes. Daily weight is recorded first thing in the morning and entered in pounds.
+
+\section{Data Collection}
+
+The data is collected from January 1, 2017 through April 9, 2017. A total of ninety-nine days of daily records were recorded which resulted in TODO movements recorded.  Record keeping compliance exceeds 99\%. On January 28, 2017, the following laboratory tests were conducted and no anomalies reported.
+\begin{itemize}
+\item CBC/Diff
+\item Renal Function Panel
+\item H Pylori Antigetn Stool
+\item C Difficile/EPI, PCR
+\item Hep Function Panel
+\end{itemize}
+On December 13, 2016, Vitamin B12 level was checked and reported normal. Four pounds of weight were lost during the study period attributed to diet and regular exercise.
+
+Several medications and an exercise regiment were employed to mitigate the IBS symptoms, mostly abdominal pain and diarrhea. Nexium was prescribed January 28, 2017 20mg bid.  Librax was prescribed prior to the study to be taken prn and over the study period was taken on average twice a day, usually first thing in the morning. Vitamin D was self prescribed at a dosage of 5000 IU daily and taken roughly forty percent of the time. Finally, cardiovascular exercise, usually in the form of mountain biking), was performed several times a week and averaged average thirty minutes per day.
+
+As the trial progressed, Clariten-D was added to mitigate seasonal allergies. Clariten-D was self-prescribed and seasonal allergies validated through previous skin-prick tests administered by an Allergist. Clariten-D was taken prn (no more than once a day) before bedtime from January 24, 2017 to March 10, 2017. Metamucil was taken prn from February 12, 2017 to March 16, 2017 to mitigate hard stools which the results of this study are believed to be caused by the Clariten-D.
+
+Bristol Stool Scores (BSS) over the sampling period are shown in Figure \ref{fig:bss_box_whisker}. We are interested in the number of bowel movements outside the 3-5 BSS. We define these as abnormal movements and wish to minimize their presence.  We show their contributions in Figure \ref{fig:bss_abnormal}.The time between movements we list for completeness in Figure \ref{fig:time_between_movements}.  The figure shows bimodal distribution; the left-most peak is characteristic of the IBS-D subtype. HQI over the sampling period is shown in Figure \ref{fig:hqi}.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]{bss_box_whisker.png}
+    \caption{Bristol Stool Score by Week. A score of 3-5 is desirable}\label{fig:bss_box_whisker}
+\end{figure}
+
+
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]{abnormal.png}
+    \caption{Abnormal Bowel Movements by Week and Type.}\label{fig:bss_abnormal}
+\end{figure}
+
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]{time_between_movements.png}
+    \caption{Distribution of Time Between Bowel Movements.}\label{fig:time_between_movements}
+\end{figure}
+
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]{hqi_box.png}
+    \caption{Health Quality Index by Week.}\label{fig:hqi}
+\end{figure}
+
+\section{Analysis}
+
+Ordinary least squares regression using the data above to assess how medications and cardio affect HQI and BSS means on two different future time-scales, three days and seven days.  Two different time scales are assessed allowing a degree of freedom for the treatments to reach therapeutic level when initiated and washout when discontinued.  We define significance for our dependent variables at a level of $p<0.05$.
+
+TODO Verify and notate that all regression had significant p-value of f stat.
+
+We regress on the HQI mean three and seven days in the future shown in Tables \ref{tab:hqi_3daymean} and \ref{tab:hqi_7daymean} respectively.
+
+\begin{table}
+\begin{center}
+\caption {Regressor: HQI 3-Day Mean} \label{tab:hqi_3daymean}
+    \begin{tabular}{ | l | r | r | r | r |}
+    \hline
+     & coef & std err & t & p-value \\ \hline
+Intercept & 3.177 & 0.082 & 38.540 & 0.000 \\
+cardio & -0.074 & 0.046 & -1.606 & NS \\
+nexium & 0.169 & 0.053 & 3.179 & 0.002 \\
+librax & 0.065 & 0.034 & 1.895 & NS \\
+clrtn & -0.097 & 0.083 & -1.163 & NS \\
+vitd & -0.016 & 0.015 & -1.065 & NS \\
+mtmcl & -0.052 & 0.085 & -0.610 & NS \\
+    \hline
+\end{tabular}
+\end{center}
+    \end{table}
+
+\begin{table}
+\begin{center}
+\caption {Regressor: HQI 7-Day Mean} \label{tab:hqi_7daymean}
+    \begin{tabular}{ | l | r | r | r | r |}
+    \hline
+     & coef & std err & t & p-value \\ \hline
+Intercept & 3.191 & 0.073 & 43.786 & 0.000 \\
+cardio & -0.050 & 0.041 & -1.210 & NS \\
+nexium & 0.125 & 0.048 & 2.580 & 0.012 \\
+librax & 0.070 & 0.032 & 2.189 & 0.032 \\
+clrtn & -0.049 & 0.073 & -0.670 & NS \\
+vitd & -0.011 & 0.013 & -0.858 & NS \\
+mtmcl & -0.066 & 0.074 & -0.885 & NS \\
+    \hline
+    \end{tabular}
+\end{center}
+\end{table}
+
+We regress on the number of abnormal movements occurring three and seven days in the future shown in Tables \ref{tab:abnormal_3daymean} and \ref{tab:abnormal_7daymean} respectively.
+
+\begin{table}
+\begin{center}
+    \caption{Regressor: Abnormal Events 3-Day Mean} \label{tab:abnormal_3daymean}
+    \begin{tabular}{ | l | r | r | r | r |}
+    \hline
+     & coef & std err & t & p-value \\ \hline
+Intercept & 2.385 & 0.354 & 6.735 & 0.000 \\
+cardio & -0.087 & 0.199 & -0.437 & NS \\
+nexium & -0.673 & 0.229 & -2.940 & 0.004 \\
+librax & -0.151 & 0.148 & -1.019 & NS \\
+clrtn & 1.212 & 0.358 & 3.387 & 0.001 \\
+vitd & 0.011 & 0.064 & 0.171 & NS \\
+mtmcl & -0.073 & 0.364 & -0.200 & NS \\
+    \hline
+    \end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}
+\begin{center}
+\caption{Regressor: Abnormal Events 7-Day Mean} \label{tab:abnormal_7daymean}
+    \begin{tabular}{ | l | r | r | r | r |}
+    \hline
+     & coef & std err & t & p-value \\ \hline
+Intercept & 4.942 & 0.598 & 8.259 & 0.000 \\
+cardio & -0.028 & 0.340 & -0.083 & NS \\
+nexium & -1.139 & 0.397 & -2.872 & 0.005 \\
+librax & -0.224 & 0.263 & -0.850 & NS \\
+clrtn & 1.229 & 0.601 & 2.044 & 0.044 \\
+vitd & 0.120 & 0.109 & 1.104 & NS \\
+mtmcl & -0.123 & 0.611 & -0.202 & NS \\
+    \hline
+    \end{tabular}
+\end{center}
+\end{table}
+
+Tables \ref{tab:hqi_3daymean} and \ref{tab:hqi_3daymean} show statistically positive significance for Nexium and Librax intake.  This is expected for IBS.  However, Clariten-D has a significant effect in Table \ref{tab:abnormal_3daymean} and \ref{tab:abnormal_7daymean} with a positive coefficient  meaning and increasing Clariten-D intake results in increased number of abnormal movements -- this is not desirable. Clariten-D is not significant in Tables \ref{tab:hqi_3daymean} and \ref{tab:hqi_3daymean}; therefore, we conclude it does not positively contribute to overall wellbeing.  We note Nexium's coefficient shows decrease in abnormal events -- the desired outcome during initial prescription to the patient.  This effect is most easily seen in Figure \ref{fig:bss_abnormal} as the number of loose movements decreases from the start of January 23, 2017.
+
+The administration of Clariten-D was administrated prn during the period Nexium and Librax were administered (which are regularly dosed).  The abnormal stool events during this period prompted the author to contact several doctors and described the problem requesting a recourse.  All doctors suggested the Librax was the main contributor and advised to reduce intake -- advice inconsistent with the regression models.  The author reduced the Librax as instructed resulting in a slight increase in symptoms; this was predicted by the model. The author then discontinued taking Clariten-d and the symptoms resolved as predicted by the regression model. This effect is seen in Figures \ref{fig:bss_box_whisker} and \ref{fig:bss_abnormal} with the decrease of hard stool beginning the week of March 13, 2017.
+
+\section*{Conclusion}
+We demonstrate simple, lightweight daily tracking of medications, exercise, Bristol Stool Scores, and a Health Quality Index can be utilized to manage and reduce symptoms in an N=1 setting.  We demonstrate how simple statistical analysis can be used to tailor medical treatment for an individual allowing for the identification and resolution of bowel issues for an IBS patient.  We identify in this study a commonly self-prescribed medicine, Clariten-D, and demonstrate it adverse effects on an IBS patient.
+
+% use section* for acknowledgment
+\section*{Acknowledgment}
+The authors would like to thank TODO for the useful discussions and reviews.
+
+\IEEEtriggeratref{12}
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://mirror.ctan.org/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+\bibliographystyle{./bib/IEEEtran}
+% argument is your BibTeX string definitions and bibliography database(s)
+\bibliography{./bib/IEEEabrv,./bib/dcbPaperDatabase}
+%
+% <OR> manually copy in the resultant .bbl file
+% set second argument of \begin to the number of references
+% (used to reserve space for the reference number labels box)
+%\begin{thebibliography}{1}
+%
+%\bibitem{IEEEhowto:kopka}
+%H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+%
+%\end{thebibliography}
+
+
+
+
+% that's all folks
+\end{document}
+
+

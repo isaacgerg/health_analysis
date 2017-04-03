@@ -1,0 +1,70 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{erdogan2015small}
+A.~Erdogan and S.~S. Rao, ``Small intestinal fungal overgrowth,'' \emph{Current
+  gastroenterology reports}, vol.~17, no.~4, pp. 1--7, 2015.
+
+\bibitem{pimentel2000eradication}
+M.~Pimentel, E.~J. Chow, and H.~C. Lin, ``Eradication of small intestinal
+  bacterial overgrowth reduces symptoms of irritable bowel syndrome,''
+  \emph{The American journal of gastroenterology}, vol.~95, no.~12, pp.
+  3503--3506, 2000.
+
+\bibitem{drossman1982bowel}
+D.~A. Drossman, R.~S. Sandler, D.~C. McKee, and A.~J. Lovitz, ``Bowel patterns
+  among subjects not seeking health care,'' \emph{Gastroenterology}, vol.~83,
+  no.~3, pp. 529--534, 1982.
+
+\bibitem{gibson2010evidence}
+P.~R. Gibson and S.~J. Shepherd, ``Evidence-based dietary management of
+  functional gastrointestinal symptoms: The fodmap approach,'' \emph{Journal of
+  gastroenterology and hepatology}, vol.~25, no.~2, pp. 252--258, 2010.
+
+\bibitem{trivedi2006evaluation}
+M.~H. Trivedi, A.~J. Rush, S.~R. Wisniewski, A.~A. Nierenberg, D.~Warden,
+  L.~Ritz, G.~Norquist, R.~H. Howland, B.~Lebowitz, P.~J. McGrath,
+  \emph{et~al.}, ``Evaluation of outcomes with citalopram for depression using
+  measurement-based care in star* d: implications for clinical practice,''
+  \emph{American journal of Psychiatry}, vol. 163, no.~1, pp. 28--40, 2006.
+
+\bibitem{kaptchuk2008components}
+T.~J. Kaptchuk, J.~M. Kelley, L.~A. Conboy, R.~B. Davis, C.~E. Kerr, E.~E.
+  Jacobson, I.~Kirsch, R.~N. Schyner, B.~H. Nam, L.~T. Nguyen, \emph{et~al.},
+  ``Components of placebo effect: randomised controlled trial in patients with
+  irritable bowel syndrome,'' \emph{Bmj}, vol. 336, no. 7651, pp. 999--1003,
+  2008.
+
+\bibitem{vanderhoff2002proton}
+B.~T. Vanderhoff and R.~M. Tahboub, ``Proton pump inhibitors: an update,''
+  \emph{Am Fam Physician}, vol.~66, no.~2, pp. 273--80, 2002.
+
+\bibitem{bowelmove2017}
+\BIBentryALTinterwordspacing
+mSurf Lab. Bowel movement - bm. [Online]. Available:
+  \url{https://play.google.com/store/apps/details?id=com.acj0.bowelmove}
+\BIBentrySTDinterwordspacing
+
+\bibitem{lewis1997stool}
+S.~Lewis and K.~Heaton, ``Stool form scale as a useful guide to intestinal
+  transit time,'' \emph{Scandinavian journal of gastroenterology}, vol.~32,
+  no.~9, pp. 920--924, 1997.
+
+\end{thebibliography}
