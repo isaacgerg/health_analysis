@@ -69,7 +69,7 @@ for index, row in df_bm.iterrows():
     df_bm.loc[index, 'year_week'] = dt - datetime.timedelta(days=dt.weekday()) 
 
 p = df_bm.boxplot('type', 'year_week', whis=np.inf, showfliers=True, showmeans=True)
-plt.xticks(rotation='vertical')
+plt.xticks(rotation='vertical', size='xx-large')
 plt.title('Bristol Stool Scale by Week')
 plt.suptitle('')
 plt.xlabel('Week')
@@ -256,7 +256,7 @@ plt.savefig(r'output\hqi.png',  bbox='tight')
 
 p = df.boxplot('hqi', 'year_week', whis=np.inf, showfliers=True, showmeans=True)
 plt.ylim(1,4)
-plt.xticks(rotation='vertical')
+plt.xticks(rotation='vertical', size='xx-large')
 plt.title('Health Quality Index by Week')
 plt.suptitle('')
 plt.xlabel('Week')

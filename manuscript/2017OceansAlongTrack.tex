@@ -194,26 +194,27 @@ Irritable bowel syndrome (IBS) is a multifaceted syndrome with generally unknown
 
 \section{Introduction}
 % no \IEEEPARstart
-IBS is a multifaceted syndrome with generally unknown etiology with the exception of the recent work done by Rao \cite{erdogan2015small} and Pimentel \cite{pimentel2000eradication}.  Generally, patients go through a battery of tests and eventually IBS is diagnosed as moreso an exclusion of other, more life threatening conditions such as Crohn's disease or ulcerative colitis.   Depits TODO of US population diagnosed with IBS, treating it difficult.  Doctors and have many approaches to treatment which include antispasmodics, cognitive behaviour therapy (CBT), altered diet \cite{gibson2010evidence}, selective serotonin reuptake inhibitors (SSRIs), and tricyclic antidepressants (TCAs). Anecdotal, doctors and patients generally use a “try-and-see” approach for symptom management akin to contemporary SSRI management \cite{trivedi2006evaluation}.
+IBS is a multifaceted syndrome with generally unknown etiology with the exception of the recent work done by Rao \cite{erdogan2015small} and Pimentel \cite{pimentel2000eradication}.  Generally, patients go through a battery of tests and eventually IBS is diagnosed as moreso an exclusion of other, more life threatening conditions such as Crohn's disease or ulcerative colitis.   Believed to be $>$15\% of the general population diagnosed with IBS \cite{drossman1982bowel}, treating it difficult.  Doctors and have many approaches to treatment which include antispasmodics, cognitive behaviour therapy (CBT), altered diet \cite{gibson2010evidence}, selective serotonin reuptake inhibitors (SSRIs), and tricyclic antidepressants (TCAs). Anecdotal, doctors and patients generally use a “try-and-see” approach for symptom management akin to contemporary SSRI management \cite{trivedi2006evaluation}.
 
 In this study, we seek to quantify symptom severity, bowel habits, and medications in a lightweight manner making daily compliance of record keeping easy and regress on the data to determine what treatments are effective for an N=1 study, i.e. the author.  There has been much overlap between etiologies of anxiety and depression with IBS so there is a strong need to have objective evidence to support a particular treatment especially because the placebo effect \cite{kaptchuk2008components} may be large and the side effect profile of many IBS treatments may add to IBS symptoms themselves \cite{vanderhoff2002proton}.
 
 \section{Tracking Methodology}
 
-The patient uses a simple android application and Google spreadsheet for daily tracking.  The android application used is Bowel Move \cite{bowelmove2017} and requires a handful of taps to enter a bowel movement (BM), hereinafter we refer to as simply a movement. Movements time and Bristol Stool Scae \cite{lewis1997stool} are recorded.  Google spreadsheets are available on most internet connected platforms and smart phones making it easy to find a suitable computer to enter in daily data.  Together, compliance of the record keeping protocol exceeds 99\%.
+The patient uses a simple android application and Google spreadsheet for daily tracking.  The android application used is Bowel Move \cite{bowelmove2017} and requires a handful of taps to enter a bowel movement (BM), hereinafter we refer to as simply a movement. Movements time and Bristol Stool Scae \cite{lewis1997stool} are recorded.  Google spreadsheets are available on most internet connected platforms and smart phones making it easy to find a suitable computer to enter in daily data.  
 
 The patient keeps log of the following items through a Google spreadsheet:
 
-\begin{itemize}[noitemsep]
+\begin{itemize}
 \item AM/PM Health Quality Index (HQI)
 \item Medication intake as dosage
 \item Time spent performing cardiovascular exercise
 \item Body weight
 \end{itemize}
 
-HQI is defined on a 1-4 scale describing how the symptoms manifest themselves as a function of the patients ability to complete his daily wishes and plans (e.g. work, exercise, time with family, etc).  HQI has defined levels which are:
-
+HQI is defined on a 1-4 scale describing how the symptoms manifest themselves as a function of the patients ability to complete his daily wishes and plans (e.g. work, exercise, time with family, etc).  HQI has defined level shown in \ref{tab:hqi}.
+\begin{table}
 \begin{center}
+\caption{Definition of Health Quality Index} \label{tab:hqi}
     \begin{tabular}{ | c | p{6cm} | }
     \hline
     \multicolumn{2}{ |c |}{Health Quality Index (HQI)} \\
@@ -221,16 +222,31 @@ HQI is defined on a 1-4 scale describing how the symptoms manifest themselves as
     1 & Symptom severity requires medical urgent medical attention (e.g. ED visit)\\ \hline
     2 & Symptom severity prevents patient from complectly daily wishes (e.g. missed a day of work due to persistent abdominal pain)\\ \hline
     3 & Symptoms notable but patient is able to cope with symptoms to complete daily wishes (e.g. a stomach ache while at a baseball game which is tolerable and resolves with time) \\ \hline
-    4 & Symptoms are not present.\\
+    4 & Symptoms not present.\\
     \hline
-    \end{tabular}
+    \end{tabular}    
 \end{center}
+\end{table}
 
 Medications are recorded as total daily dose.  For example, a daily dose of 20mg Nexium bid is entered as 40mg. Time spent performing cardio recorded as total daily time in minutes.  For example, a two-hour mountain bike ride is records as 120 minutes. Daily weight is recorded first thing in the morning and entered in pounds.
 
-\section{Data Visualization}
+\section{Data Collection}
 
-Bristol Stool Scores (BSS) over the sampling period are shown below.
+The data is collected from January 1, 2017 through April 9, 2017. A total of ninety-nine days of daily records were recorded which resulted in TODO movements recorded.  Record keeping compliance exceeds 99\%. On January 28, 2017, the following laboratory tests were conducted and no anomalies reported.
+\begin{itemize}
+\item CBC/Diff
+\item Renal Function Panel
+\item H Pylori Antigetn Stool
+\item C Difficile/EPI, PCR
+\item Hep Function Panel
+\end{itemize}
+On December 13, 2016, Vitamin B12 level was checked and reported normal. Four pounds of weight were lost during the study period.
+
+Several medications and an exercise regiment were employed to mitigate the IBS symptoms, mostly abdominal pain and diarrhea. Nexium was prescribed January 28, 2017 20mg bid.  Librax was prescribed prior to the study to be taken prn and over the study period was taken on average twice a day, usually first thing in the morning. Vitamin D was self prescribed at a dosage of 5000 IU daily and taken roughly forty percent of the time. Finally, cardiovascular exercise, usually in the form of mountain biking), was performed several times a week and averaged average thirty minutes per day.
+
+As the trial progressed, Clariten-D was added to mitigate seasonal allergies. Clariten-D was self-prescribed and seasonal allergies validated through previous skin-prick tests administered by an Allergist. Clariten-D was taken prn (no more than once a day) before bedtime from January 24, 2017 to March 10, 2017. Metamucil was taken prn from February 12, 2017 to March 16, 2017 to mitigate hard stools which the results of this study are believed to be caused by the Clariten-D.
+
+Bristol Stool Scores (BSS) over the sampling period are shown in Figure \ref{fig:bss_box_whisker}. We are interested in the number of bowel movements outside the 3-5 BSS. We define these as abnormal movements and wish to minimize their presence.  We show their contributions in Figure \ref{fig:bss_abnormal}.The time between movements we list for completeness in Figure \ref{fig:time_between_movements}.  The figure shows bimodal distribution; the left-most peak is characteristic of the IBS-D subtype. HQI over the sampling period is shown in Figure \ref{fig:hqi}.
 
 \begin{figure}[t]
     \centering
@@ -238,7 +254,7 @@ Bristol Stool Scores (BSS) over the sampling period are shown below.
     \caption{Bristol Stool Score by Week}\label{fig:bss_box_whisker}
 \end{figure}
 
-We are interested in the number of bowel movements outside the 3-5 BSS. We defines these as abnormal movements and wish to minimize their presence.  We show their contribution below.
+
 
 \begin{figure}[t]
     \centering
@@ -246,7 +262,6 @@ We are interested in the number of bowel movements outside the 3-5 BSS. We defin
     \caption{Abnormal Bowel Movements by Week and Type}\label{fig:bss_abnormal}
 \end{figure}
 
-The time between movements we list for completeness below.  The plot shows a bimodal distribution and the author believes the left-most peak is characteristic of IBS-D.
 
 \begin{figure}[t]
     \centering
@@ -255,56 +270,35 @@ The time between movements we list for completeness below.  The plot shows a bim
 \end{figure}
 
 
-Bristol Stool Score (BSS) [TODO cite] of movement.
-
-Health Quality Index plots by week are presented below.
-
 \begin{figure}[t]
     \centering
     \includegraphics[width=\columnwidth]{hqi_box.png}
     \caption{Health Quality Index by Week}\label{fig:hqi}
 \end{figure}
 
-Mean minutes of cardio per week
-
-Mean dosage of medicines per week
-
-Mean daily weight per week
-
-On January 28, 2017, the following laboratory tests were conducted and no anomalies reported.
-\begin{itemize}[noitemsep]
-\item CBC/Diff
-\item Renal Function Panel
-\item H Pylori Antigetn Stool
-\item C Difficile/EPI, PCR
-\item Hep Function Panel
-\end{itemize}
-
-On December 13, 2016, Vitamin B12 level was checked and reported normal.
-
 
 
 \section{Analysis}
 
-A total of TODO days of daily records were recorded which resulted in TODO BMs recorded.  The recorded time period is January 1, 2017 to TODO. We perform ordinary least squares regression using the data above to assess how medications and cardio affect HQI and BSS means on two different scales, three days and seven days.  Two different time scales are assessed allowing a degree of freedom for the treatments to reach therapeutic level when initiated and washout when discontinued. We define significance for the independent variables as $p <= 0.05$ and denote the significance with an asterisk (*) in the tables following.
-
-With width specified:
+Ordinary least squares regression using the data above to assess how medications and cardio affect HQI and BSS means on two different future time-scales, three days and seven days.  Two different time scales are assessed allowing a degree of freedom for the treatments to reach therapeutic level when initiated and washout when discontinued.  We define significance for our dependent variables at a level of $p<0.05$.
 
 TODO Verify and notate that all regression had significant p-value of f stat.
+
+We regress on the HQI mean three and seven days in the future shown in Tables \ref{tab:hqi_3daymean} and \ref{tab:hqi_7daymean} respectively.
 
 \begin{table}
 \begin{center}
 \caption {Regressor: HQI 3-Day Mean} \label{tab:hqi_3daymean} 
     \begin{tabular}{ | l | r | r | r | r |}
     \hline
-     & coef & std err & t & $P>\left|t\right|$ \\ \hline
+     & coef & std err & t & $p$ value \\ \hline
 Intercept & 3.177 & 0.082 & 38.540 & 0.000 \\
-cardio & -0.074 & 0.046 & -1.606 & 0.112 \\
-nexium & 0.169 & 0.053 & 3.179 & *0.002 \\
-librax & 0.065 & 0.034 & 1.895 & 0.062 \\
-clrtn & -0.097 & 0.083 & -1.163 & 0.249 \\
-vitd & -0.016 & 0.015 & -1.065 & 0.290 \\
-mtmcl & -0.052 & 0.085 & -0.610 & 0.544 \\
+cardio & -0.074 & 0.046 & -1.606 & NS \\
+nexium & 0.169 & 0.053 & 3.179 & 0.002 \\
+librax & 0.065 & 0.034 & 1.895 & NS \\
+clrtn & -0.097 & 0.083 & -1.163 & NS \\
+vitd & -0.016 & 0.015 & -1.065 & NS \\
+mtmcl & -0.052 & 0.085 & -0.610 & NS \\
     \hline
 \end{tabular}
 \end{center}
@@ -317,19 +311,19 @@ mtmcl & -0.052 & 0.085 & -0.610 & 0.544 \\
     \hline
      & coef & std err & t & $P>\left|t\right|$ \\ \hline
 Intercept & 3.191 & 0.073 & 43.786 & 0.000 \\
-cardio & -0.050 & 0.041 & -1.210 & 0.230 \\
-nexium & 0.125 & 0.048 & 2.580 & *0.012 \\
-librax & 0.070 & 0.032 & 2.189 & *0.032 \\
-clrtn & -0.049 & 0.073 & -0.670 & 0.505 \\
-vitd & -0.011 & 0.013 & -0.858 & 0.394 \\
-mtmcl & -0.066 & 0.074 & -0.885 & 0.379 \\
+cardio & -0.050 & 0.041 & -1.210 & NS \\
+nexium & 0.125 & 0.048 & 2.580 & 0.012 \\
+librax & 0.070 & 0.032 & 2.189 & 0.032 \\
+clrtn & -0.049 & 0.073 & -0.670 & NS \\
+vitd & -0.011 & 0.013 & -0.858 & NS \\
+mtmcl & -0.066 & 0.074 & -0.885 & NS \\
     \hline
     \end{tabular}
 \end{center}
 \end{table}
 
 
-We regress on the number of abnormal movements occurring three and seven days in the future.
+We regress on the number of abnormal movements occurring three and seven days in the future shown in Tables \ref{tab:abnormal_3daymean} and \ref{tab:abnormal_7daymean} respectively.
 
 \begin{table}
 \begin{center}
@@ -338,12 +332,12 @@ We regress on the number of abnormal movements occurring three and seven days in
     \hline
      & coef & std err & t & $P>\left|t\right|$ \\ \hline
 Intercept & 2.385 & 0.354 & 6.735 & 0.000 \\
-cardio & -0.087 & 0.199 & -0.437 & 0.663 \\
-nexium & -0.673 & 0.229 & -2.940 & *0.004 \\
-librax & -0.151 & 0.148 & -1.019 & 0.311 \\
-clrtn & 1.212 & 0.358 & 3.387 & *0.001 \\
-vitd & 0.011 & 0.064 & 0.171 & 0.865 \\
-mtmcl & -0.073 & 0.364 & -0.200 & 0.842 \\
+cardio & -0.087 & 0.199 & -0.437 & NS \\
+nexium & -0.673 & 0.229 & -2.940 & 0.004 \\
+librax & -0.151 & 0.148 & -1.019 & NS \\
+clrtn & 1.212 & 0.358 & 3.387 & 0.001 \\
+vitd & 0.011 & 0.064 & 0.171 & NS \\
+mtmcl & -0.073 & 0.364 & -0.200 & NS \\
     \hline
     \end{tabular}
 \end{center}
@@ -356,23 +350,23 @@ mtmcl & -0.073 & 0.364 & -0.200 & 0.842 \\
     \hline
      & coef & std err & t & $P>\left|t\right|$ \\ \hline
 Intercept & 4.942 & 0.598 & 8.259 & 0.000 \\
-cardio & -0.028 & 0.340 & -0.083 & 0.934 \\
-nexium & -1.139 & 0.397 & -2.872 & *0.005 \\
-librax & -0.224 & 0.263 & -0.850 & 0.398 \\
-clrtn & 1.229 & 0.601 & 2.044 & *0.044 \\
-vitd & 0.120 & 0.109 & 1.104 & 0.273 \\
-mtmcl & -0.123 & 0.611 & -0.202 & 0.841 \\
+cardio & -0.028 & 0.340 & -0.083 & NS \\
+nexium & -1.139 & 0.397 & -2.872 & 0.005 \\
+librax & -0.224 & 0.263 & -0.850 & NS \\
+clrtn & 1.229 & 0.601 & 2.044 & 0.044 \\
+vitd & 0.120 & 0.109 & 1.104 & NS \\
+mtmcl & -0.123 & 0.611 & -0.202 & NS \\
     \hline
     \end{tabular}
 \end{center}
 \end{table}
 
-Tables \ref{tab:hqi_3daymean} and \ref{tab:hqi_3daymean} show statistically positive significance for Nexium and Librax intake.  This is expected for IBS.  However, Clariten-D has a postively significant effect in tables \ref{tab:abnormal_3daymean} and \ref{abnormal_7daymean}.  The coefficient is positive meaning and increasein Clariten-D intake results in an increase of abnormal movements -- this is not desirable. Simultaneously, Nexium shows a significant decrease in abnormal events.  Clariten-D is not significant in tables \ref{tab:hqi_3daymean} and \ref{tab:hqi_3daymean}; therefore, we conclude it does not positively contribute to overall wellbeing.
+Tables \ref{tab:hqi_3daymean} and \ref{tab:hqi_3daymean} show statistically positive significance for Nexium and Librax intake.  This is expected for IBS.  However, Clariten-D has a significant effect in Table \ref{tab:abnormal_3daymean} and \ref{tab:abnormal_7daymean} with a positive coefficient  meaning and increasing Clariten-D intake results in increased number of abnormal movements -- this is not desirable. Clariten-D is not significant in Tables \ref{tab:hqi_3daymean} and \ref{tab:hqi_3daymean}; therefore, we conclude it does not positively contribute to overall wellbeing.  We note Nexium's coefficient shows decrease in abnormal events -- the desired outcome during the original intent of prescription to the patient.  This effect is easly seen in Figure \ref{fig:bss_abnormal} as the number of loose movements decreases from the start of January 23,2017.
 
- The administration of Clariten-D was administrated prn during the period Nexium and Librax were administered (which are regularly dosed).  The adverse events during this period prompted the author to contact several doctors and described the problem requesting a recourse.  All doctors suggested the librax was the main contributor and advised to reduce intake -- advise inconsistent with the regression models.  The author reduced the Librax as instructed  resulting in a slight increase in symptoms. The author then discontinued taking Clariten-d and the symptoms resolved as predicted by the regression model.
+ The administration of Clariten-D was administrated prn during the period Nexium and Librax were administered (which are regularly dosed).  The abnormal stool events during this period prompted the author to contact several doctors and described the problem requesting a recourse.  All doctors suggested the Librax was the main contributor and advised to reduce intake -- advise inconsistent with the regression models.  The author reduced the Librax as instructed resulting in a slight increase in symptoms; this was predicted by the model. The author then discontinued taking Clariten-d and the symptoms resolved as predicted by the regression model. This effect is seen in Figures \ref{fig:bss_box_whisker} and \ref{fig:bss_abnormal} with the decrease of hard stool beginning the week of March 13, 2017.
 
 \section*{Conclusion}
-We demonstrate simple, lightweight daily tracking of medications, exercise, Bristol Stool Scores, and a Health Quality Index can be utilized to manage and reduce symptoms in an N=1 setting.  We demonstrate how simple statistical analysis can be used to tailor medical treatment for an individual allowing for the identification and resolution of bowel issues for an IBS patient.
+We demonstrate simple, lightweight daily tracking of medications, exercise, Bristol Stool Scores, and a Health Quality Index can be utilized to manage and reduce symptoms in an N=1 setting.  We demonstrate how simple statistical analysis can be used to tailor medical treatment for an individual allowing for the identification and resolution of bowel issues for an IBS patient.  We identify in this study a commonly self-prescribed medicine, Clariten-D, and demonstrate it adverse effects on an IBS patient.
 
 % use section* for acknowledgment
 \section*{Acknowledgment}
