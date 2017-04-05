@@ -126,13 +126,13 @@ dfBm = dfBm.rename(columns={'type':'bss'})
 
 # Bring in health spreadsheet data
 dfSpreadsheet = pd.read_csv(spreadsheetFilename)
-dfSpreadsheet = dfSpreadsheet.ix[:,['Date', 'mean', 'cardio', 'nexium', 'librax', 'weights', 'clrtn', 'vit d [IU]', 'mtmcl', 'AM', 'PM']]
+dfSpreadsheet = dfSpreadsheet.ix[:,['Date', 'mean', 'cardio', 'nexium', 'librax', 'weights', 'clrtn', 'vit d [IU]', 'mtmcl', 'AM', 'PM', 'symptoms']]
 dfSpreadsheet['Date'] = pd.to_datetime(dfSpreadsheet['Date'])
 dfSpreadsheet = dfSpreadsheet.set_index('Date')
 
 # Cleanup
 #Remove last day 
-dfSpreadsheet = dfSpreadsheet[:(datetime.datetime.now()-datetime.timedelta(days=4)).strftime('%Y-%m-%d')]
+dfSpreadsheet = dfSpreadsheet[:(datetime.datetime.now()-datetime.timedelta(days=14)).strftime('%Y-%m-%d')]
 
 # TODO Add wx
 #dfSpreadsheet['muTemp'] = 0
@@ -160,6 +160,25 @@ dfSpreadsheet['nexium'] = dfSpreadsheet['nexium'].fillna(0)
 dfSpreadsheet['librax'] = dfSpreadsheet['librax'].fillna(0)
 dfSpreadsheet['mtmcl'] = dfSpreadsheet['mtmcl'].fillna(0)
 dfSpreadsheet['vitd'] = dfSpreadsheet['vitd'].fillna(0)/1000 # make a sane number so matricies for inverseion well conditioned
+
+# master string
+allSymptoms = ''
+for k in dfSpreadsheet['symptoms']:
+    cleaned = str(k)
+    cleaned = cleaned.replace(',', ' ')
+    allSymptoms += ' ' + cleaned
+uniqueSymptoms = allSymptoms.split()
+# remove commas
+unique = list(set(uniqueSymptoms))
+counts = []
+for k in unique:
+    counts.append(allSymptoms.count(k))
+
+k = np.argsort(counts)
+sortCounts = np.sort(counts)             
+    
+s = [unique[x] for x in k]
+    
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 # Merge dfSpreadsheet with dfBm
