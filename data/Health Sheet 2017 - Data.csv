@@ -67,28 +67,42 @@ Date,DOW,AM,PM,mean,7 mu,7mufwd,cardio,crdo mu,weights,vit d [IU],fish oil,pro,g
 3/7/2017,Tuesday,3.5,3.5,3.5,3.507142857,3.278571429,,36.42857143,,5000,,,,,0,2,40,1,,,171,"Some stomach discomfort in AM (60 min), light headedness in afternoon sporadically",TODO librax 2x/day 1 am 1 before bed
 3/8/2017,Wednesday,3.5,3.75,3.625,3.45,3.242857143,150,25.71428571,,5000,,,,,0,2,40,1,,,172,"LUQ stomach pain (60 min), mucous on tp?, AM nausea",
 3/9/2017,Thursday,3.25,3.25,3.25,3.432142857,3.278571429,180,47.14285714,,5000,,,,,1,2,40,1,,,169,PM stomach pain LUQ,
-3/10/2017,Friday,3.25,3.25,3.25,3.360714286,3.314285714,180,72.85714286,,,,,,,1,2,40,1,,,169,"PM stomach pain, cramps",
-3/11/2017,Saturday,3.25,3.25,3.25,3.267857143,3.314285714,120,98.57142857,,,,,,,1,1,40,,,,,,regression says to quit clariten
-3/12/2017,Sunday,3.25,3,3.125,3.321428571,3.367857143,,98.57142857,,,,,,,1,2,40,,,,,"AM stomach cramps& diarrhea after brunch, PM stomach pain, noisy stomach",
+3/10/2017,Friday,3.25,3.25,3.25,3.360714286,3.314285714,180,72.85714286,,0,,,,,1,2,40,1,,,169,"PM stomach pain, cramps",
+3/11/2017,Saturday,3.25,3.25,3.25,3.267857143,3.314285714,120,98.57142857,,0,,,,,1,1,40,,,,,,regression says to quit clariten
+3/12/2017,Sunday,3.25,3,3.125,3.321428571,3.367857143,,98.57142857,,0,,,,,1,2,40,,,,,"AM stomach cramps& diarrhea after brunch, PM stomach pain, noisy stomach",
 3/13/2017,Monday,2,3,2.5,3.339285714,3.567857143,,90,,5000,,,,,1,2,40,,,,,"AM stomach ache, feel tired, nausea after BM","start librax 1x/day, drank glass warm water helped, stayed home from work to rest, had to take another librax due to pain"
-3/14/2017,Tuesday,4,3.9,3.95,3.214285714,3.485714286,30,90,,,,,,,0,1,20,,,,170,,
+3/14/2017,Tuesday,4,3.9,3.95,3.214285714,3.485714286,30,90,,0,,,,,0,1,20,,,,170,,
 3/15/2017,Wednesday,3.5,3.25,3.375,3.278571429,3.560714286,,94.28571429,,5000,,,,,0,1,40,,,,169,"lunchtime stomach tightness, nausea, epigastric tightness PM, lightheaded",librax at lunch? took nap at lunch
 3/16/2017,Thursday,3.25,3.75,3.5,3.242857143,3.553571429,,72.85714286,,5000,,,,,1,2,40,,,,168,AM abdominal pain,took extra librax at 8.50am
-3/17/2017,Friday,3.5,3.5,3.5,3.278571429,3.535714286,,47.14285714,,,,,,,0,2,40,,,,169,"AM abdominal pain, lightheadedness before after BM",took librax 2 at 10.55am
-3/18/2017,Saturday,3,3.5,3.25,3.314285714,3.628571429,140,21.42857143,,,,,,,,3,40,,,,169,,took 1 librax before bed
-3/19/2017,Sunday,3.75,3.25,3.5,3.314285714,3.592857143,60,24.28571429,,,,,,,,3,20,,,,169,minor acid in throat,"took 2 librax in AM, 1 librax right before bed"
-3/20/2017,Monday,3.9,3.9,3.9,3.367857143,3.592857143,,32.85714286,,,,,,,,3,20,,,,170,,1 librax before bed
-3/21/2017,Tuesday,3.5,3.25,3.375,3.567857143,3.628571429,90,32.85714286,,,,,,,,2,20,,,,170,"AM nausea, sporadic dizziness",smart gut sample 1
-3/22/2017,Wednesday,3.9,3.9,3.9,3.485714286,3.553571429,,41.42857143,,,,,,,,2,20,,,,170,,
-3/23/2017,Thursday,3.9,3,3.45,3.560714286,3.489285714,,41.42857143,,,,,,,,3,20,,,,168,"stomach cramps AM, PM nausea and stomach ache",
-3/24/2017,Friday,3.5,3.25,3.375,3.553571429,#DIV/0!,30,41.42857143,,,,,,,,2,40,,,,169,"AM minor aicd in throat, tired, didn't sleep well",
-3/25/2017,Saturday,3.9,3.9,3.9,3.535714286,#DIV/0!,120,45.71428571,,,,,,,,0,40,,,,168,didn't sleep well,
-3/26/2017,Sunday,3,3.5,3.25,3.628571429,#DIV/0!,,42.85714286,,,,,,,,3,20,,,,,"AM stomach cramps, nausea","slept good, cool temp in house"
-3/27/2017,Monday,3.9,3.9,3.9,3.592857143,#DIV/0!,65,34.28571429,,,,,1,,,0,20,,,,170,,"slept good, cool temp in house, l-glutamine start"
-3/28/2017,Tuesday,3.5,3.75,3.625,3.592857143,#DIV/0!,,43.57142857,,,,,1,,,1,40,,,,171,"minor LUQ pain in AM, yellow diarrhea",
-3/29/2017,Wednesday,3,3.75,3.375,3.628571429,#DIV/0!,75,30.71428571,,,,,1,,,3,40,,,,,"nausea, dizziness, epigastric pain, driving position makes worse","took 3 librax, no help, pain reduced after lunch"
-3/30/2017,Thursday,3,,3,3.553571429,#DIV/0!,,41.42857143,,,,,1,,,3,20,,,,170,"LUQ pain, driving position makes worse, PM acid, left stomach pain, nausea",burning gnawing pain
-3/31/2017,Friday,,,#DIV/0!,3.489285714,#DIV/0!,,41.42857143,,,,,,,,,,,,,,,
-4/1/2017,Saturday,,,#DIV/0!,#DIV/0!,#DIV/0!,,,,,,,,,,,,,,,,,
-4/2/2017,Sunday,,,#DIV/0!,#DIV/0!,#DIV/0!,,,,,,,,,,,,,,,,,
-4/3/2017,Monday,,,#DIV/0!,#DIV/0!,#DIV/0!,,,,,,,,,,,,,,,,,
+3/17/2017,Friday,3.5,3.5,3.5,3.278571429,3.535714286,,47.14285714,,0,,,,,0,2,40,,,,169,"AM abdominal pain, lightheadedness before after BM",took librax 2 at 10.55am
+3/18/2017,Saturday,3,3.5,3.25,3.314285714,3.628571429,140,21.42857143,,0,,,,,,3,40,,,,169,,took 1 librax before bed
+3/19/2017,Sunday,3.75,3.25,3.5,3.314285714,3.592857143,60,24.28571429,,0,,,,,,3,20,,,,169,minor acid in throat,"took 2 librax in AM, 1 librax right before bed"
+3/20/2017,Monday,3.9,3.9,3.9,3.367857143,3.592857143,,32.85714286,,0,,,,,,3,20,,,,170,,1 librax before bed
+3/21/2017,Tuesday,3.5,3.25,3.375,3.567857143,3.628571429,90,32.85714286,,0,,,,,,2,20,,,,170,"AM nausea, sporadic dizziness",smart gut sample 1
+3/22/2017,Wednesday,3.9,3.9,3.9,3.485714286,3.553571429,,41.42857143,,0,,,,,,2,20,,,,170,,
+3/23/2017,Thursday,3.9,3,3.45,3.560714286,3.489285714,,41.42857143,,0,,,,,,3,20,,,,168,"stomach cramps AM, PM nausea and stomach ache",
+3/24/2017,Friday,3.5,3.25,3.375,3.553571429,3.507142857,30,41.42857143,,0,,,,,,2,40,,,,169,"AM minor aicd in throat, tired, didn't sleep well",
+3/25/2017,Saturday,3.9,3.9,3.9,3.535714286,3.45,120,45.71428571,,0,,,,,,0,40,,,,168,didn't sleep well,
+3/26/2017,Sunday,3,3.5,3.25,3.628571429,3.478571429,,42.85714286,,0,,,,,,3,20,,,,,"AM stomach cramps, nausea","slept good, cool temp in house"
+3/27/2017,Monday,3.9,3.9,3.9,3.592857143,3.485714286,65,34.28571429,,0,,,1,,,0,20,,,,170,,"slept good, cool temp in house, l-glutamine start"
+3/28/2017,Tuesday,3.5,3.75,3.625,3.592857143,3.45,,43.57142857,,0,,,1,,,1,40,,,,171,"minor LUQ pain in AM, yellow diarrhea",
+3/29/2017,Wednesday,3,3.75,3.375,3.628571429,3.432142857,75,30.71428571,,0,,,1,,,3,40,,,,,"nausea, dizziness, epigastric pain, driving position makes worse","took 3 librax, no help, pain reduced after lunch"
+3/30/2017,Thursday,3,3,3,3.553571429,3.446428571,,41.42857143,,0,,,1,,,4,40,,,,170,"LUQ pain, driving position makes worse, PM acid, left stomach pain, nausea",burning gnawing pain
+3/31/2017,Friday,3.5,3.5,3.5,3.489285714,3.475,,41.42857143,,0,,,,,,3,40,,,,168,,
+4/1/2017,Saturday,3.5,3.5,3.5,3.507142857,3.528571429,,37.14285714,,0,,,,,,3,40,,,,169,cold,
+4/2/2017,Sunday,3,3.9,3.45,3.45,3.6,145,20,,0,,,,,,3,40,,,,,abdominal pain burning,"particle stool, too much veg? protein shake PM"
+4/3/2017,Monday,4,3.9,3.95,3.478571429,3.541666667,,40.71428571,,0,,,,,,2,40,,,,,,
+4/4/2017,Tuesday,3.25,3.5,3.375,3.485714286,3.575,,31.42857143,,0,,,,,,3,40,,,,,,"dc hotel, didnt sleep well"
+4/5/2017,Wednesday,3.5,3,3.25,3.45,3.65625,,31.42857143,,0,,,,0.5,,3,40,,,,,car sick,
+4/6/2017,Thursday,3,3.2,3.1,3.432142857,3.841666667,,20.71428571,,0,,,,,,2,40,,,,168,"yellow diarrhea, nausea after eating",protein shake PM
+4/7/2017,Friday,3.5,3.9,3.7,3.446428571,3.9125,,20.71428571,,0,,,,,,,40,,,,,"cramps, spinach",protein shake AM
+4/8/2017,Saturday,4,3.75,3.875,3.475,3.95,,20.71428571,,0,,,,,,,40,,,,170,,protein shake PM
+4/9/2017,Sunday,4,3.9,3.95,3.528571429,#DIV/0!,,20.71428571,,0,,,,,,,20,,,,168,,protein shake PM
+4/10/2017,Monday,,,,,#DIV/0!,,,,0,,,,,,,,,,,,,
+4/11/2017,Tuesday,,,,,#DIV/0!,,,,0,,,,,,,,,,,,,
+4/12/2017,,,,,,#DIV/0!,,,,0,,,,,,,,,,,,,
+,,,,,,#DIV/0!,,,,0,,,,,,,,,,,,,
+,,,,,,#DIV/0!,,,,,,,,,,,,,,,,,
+,,,,,,#DIV/0!,,,,,,,,,,,,,,,,,
+,,,,,,#DIV/0!,,,,,,,,,,,,,,,,,
+,,,,,,#DIV/0!,,,,,,,,,,,,,,,,,

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.27)  4 APR 2017 21:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.27)  9 APR 2017 20:52
 entering extended mode
 **"C:/Users/idg101/Desktop/New folder/repo/health_analysis/manuscript/Managing_
 IBS_Through_Lightweight_Tracking.tex"
@@ -451,12 +451,12 @@ File: ../output/bss_box_whisker.png Graphic file (type png)
 Package pdftex.def Info: ../output/bss_box_whisker.png used on input line 253.
 (pdftex.def)             Requested size: 252.0pt x 167.85464pt.
 
-<../output/abnormal.png, id=12, 950.1096pt x 665.1249pt>
+<../output/abnormal.png, id=12, 956.6139pt x 665.1249pt>
 File: ../output/abnormal.png Graphic file (type png)
 
 <use ../output/abnormal.png>
 Package pdftex.def Info: ../output/abnormal.png used on input line 261.
-(pdftex.def)             Requested size: 252.0pt x 176.40948pt.
+(pdftex.def)             Requested size: 252.0pt x 175.21191pt.
 
 <../output/time_between_movements.png, id=13, 977.5722pt x 603.6954pt>
 File: ../output/time_between_movements.png Graphic file (type png)
@@ -510,8 +510,8 @@ times/utmb8a.pfb><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/times/utmbi8a.pfb><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/urw/times/utmr8a.pfb><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on Managing_IBS_Through_Lightweight_Tracking.pdf (4 pages, 93568
-7 bytes).
+Output written on Managing_IBS_Through_Lightweight_Tracking.pdf (4 pages, 95793
+3 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

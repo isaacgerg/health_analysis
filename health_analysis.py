@@ -132,7 +132,8 @@ dfSpreadsheet = dfSpreadsheet.set_index('Date')
 
 # Cleanup
 #Remove last day 
-dfSpreadsheet = dfSpreadsheet[:(datetime.datetime.now()-datetime.timedelta(days=14)).strftime('%Y-%m-%d')]
+dfSpreadsheet = dfSpreadsheet['2017-01-01':'2017-04-02']
+#dfSpreadsheet = dfSpreadsheet[:(datetime.datetime.now()-datetime.timedelta(days=14)).strftime('%Y-%m-%d')]
 
 # TODO Add wx
 #dfSpreadsheet['muTemp'] = 0
