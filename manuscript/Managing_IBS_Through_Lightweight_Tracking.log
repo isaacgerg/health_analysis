@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.27)  9 APR 2017 21:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.27)  10 APR 2017 14:28
 entering extended mode
 **"C:/Users/idg101/Desktop/New folder/repo/health_analysis/manuscript/Managing_
 IBS_Through_Lightweight_Tracking.tex"
@@ -475,9 +475,53 @@ Package pdftex.def Info: ../output/hqi_box.png used on input line 275.
 
 Underfull \vbox (badness 6542) has occurred while \output is active []
 
- [2 <../output/bss_box_whisker.png> <../output/abnormal.png> <../output/time_be
-tween_movements.png>] (Managing_IBS_Through_Lightweight_Tracking.bbl [3 <../out
-put/hqi_box.png>])
+
+
+LaTeX Warning: Reference `tab:hqi_3daymean' on page 2 undefined on input line 2
+85.
+
+
+LaTeX Warning: Reference `tab:hqi_7daymean' on page 2 undefined on input line 2
+85.
+
+
+LaTeX Warning: Reference `tab:abnormal_3daymean' on page 2 undefined on input l
+ine 285.
+
+
+LaTeX Warning: Reference `tab:abnormal_7daymean' on page 2 undefined on input l
+ine 285.
+
+
+LaTeX Warning: Reference `tab:hqi_3daymean' on page 2 undefined on input line 3
+48.
+
+
+LaTeX Warning: Reference `tab:hqi_3daymean' on page 2 undefined on input line 3
+48.
+
+
+LaTeX Warning: Reference `tab:abnormal_3daymean' on page 2 undefined on input l
+ine 348.
+
+
+LaTeX Warning: Reference `tab:abnormal_7daymean' on page 2 undefined on input l
+ine 348.
+
+
+LaTeX Warning: Reference `tab:hqi_3daymean' on page 2 undefined on input line 3
+48.
+
+
+LaTeX Warning: Reference `tab:hqi_3daymean' on page 2 undefined on input line 3
+48.
+
+[2 <../output/bss_box_whisker.png> <../output/abnormal.png> <../output/time_bet
+ween_movements.png>]
+Underfull \vbox (badness 6961) has occurred while \output is active []
+
+
+(Managing_IBS_Through_Lightweight_Tracking.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -489,31 +533,32 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
+[3 <../output/hqi_box.png>] (Managing_IBS_Through_Lightweight_Tracking.aux)
 
-] (Managing_IBS_Through_Lightweight_Tracking.aux) ) 
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4869 strings out of 493333
- 75638 string characters out of 3129709
+ 4872 strings out of 493333
+ 75679 string characters out of 3129709
  165722 words of memory out of 3000000
- 8304 multiletter control sequences out of 15000+200000
- 39530 words of font info for 84 fonts, out of 3000000 for 9000
+ 8306 multiletter control sequences out of 15000+200000
+ 40637 words of font info for 85 fonts, out of 3000000 for 9000
  1147 hyphenation exceptions out of 8191
  42i,21n,38p,1089b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/idg101/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/idg101/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/idg1
-01/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy7.pfb><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
-times/utmb8a.pfb><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/urw/times/utmbi8a.pfb><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/urw/times/utmr8a.pfb><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/urw/times/utmri8a.pfb>
-Output written on Managing_IBS_Through_Lightweight_Tracking.pdf (4 pages, 96001
-7 bytes).
+{C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
+c}<C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Users/idg101/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/idg101/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/idg101/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/idg101/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/idg101/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Managing_IBS_Through_Lightweight_Tracking.pdf (3 pages, 95982
+0 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

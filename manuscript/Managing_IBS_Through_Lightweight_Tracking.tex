@@ -286,9 +286,10 @@ We regress on the HQI mean three and seven days in the future shown in Tables \r
 
 \begin{table}
 \begin{center}
-\caption {Regressor: HQI 3-Day Mean} \label{tab:hqi_3daymean}
-    \begin{tabular}{ | l | r | r | r | r |}
+\caption {Regressor: HQI 3-Day Mean} \label{tab:hqi_mean}
+    \begin{tabular}{ | l | r | r | r | r |}    
     \hline
+    \multicolumn{5}{|c|}{Regressor: HQI 3-Day Mean} \\
      & coef & std err & t & p-value \\ \hline
 Intercept & 3.176 & 0.080 & 39.518 & 0.000 \\
 cardio & -0.069 & 0.045 & -1.538 & 0.128 \\
@@ -298,14 +299,7 @@ clrtn & -0.086 & 0.082 & -1.052 & 0.296 \\
 vitd & -0.014 & 0.015 & -0.965 & 0.337 \\
 mtmcl & -0.036 & 0.083 & -0.437 & 0.663 \\
     \hline
-\end{tabular}
-\end{center}
-    \end{table}
-
-\begin{table}
-\begin{center}
-\caption {Regressor: HQI 7-Day Mean} \label{tab:hqi_7daymean}
-    \begin{tabular}{ | l | r | r | r | r |}
+    \multicolumn{5}{|c|}{Regressor: HQI 7-Day Mean} \\
     \hline
      & coef & std err & t & p-value \\ \hline
 Intercept & 3.190 & 0.070 & 45.439 & 0.000 \\
@@ -321,12 +315,13 @@ mtmcl & -0.065 & 0.072 & -0.896 & 0.373 \\
 \end{table}
 
 
-
 \begin{table}
 \begin{center}
-    \caption{Regressor: Abnormal Events 3-Day Mean} \label{tab:abnormal_3daymean}
+\caption{Regressor: Abnormal Events} \label{tab:abnormal_events}
     \begin{tabular}{ | l | r | r | r | r |}
     \hline
+    \multicolumn{5}{|c|}{Abnormal Events 3-Day Mean} \\
+    \hline    
      & coef & std err & t & p-value \\ \hline
 Intercept & 2.346 & 0.342 & 6.864 & 0.000 \\
 cardio & -0.081 & 0.192 & -0.422 & 0.674 \\
@@ -334,18 +329,10 @@ nexium & -0.702 & 0.221 & -3.180 & 0.002 \\
 librax & -0.142 & 0.139 & -1.018 & 0.312 \\
 clrtn & 1.237 & 0.349 & 3.547 & 0.001 \\
 vitd & 0.020 & 0.062 & 0.328 & 0.744 \\
-mtmcl & -0.043 & 0.354 & -0.122 & 0.903 \\
+mtmcl & -0.043 & 0.354 & -0.122 & 0.903 \\       
+    \hline    
+    \multicolumn{5}{|c|}{Abnormal Events 7-Day Mean} \\
     \hline
-    \end{tabular}
-\end{center}
-\end{table}
-
-\begin{table}
-\begin{center}
-\caption{Regressor: Abnormal Events 7-Day Mean} \label{tab:abnormal_7daymean}
-    \begin{tabular}{ | l | r | r | r | r |}
-    \hline
-     & coef & std err & t & p-value \\ \hline
 Intercept & 4.799 & 0.585 & 8.208 & 0.000 \\
 cardio & -0.025 & 0.328 & -0.076 & 0.939 \\
 nexium & -1.132 & 0.378 & -2.995 & 0.004 \\

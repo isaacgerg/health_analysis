@@ -1,5 +1,173 @@
 [ENTRIES]
 
+Time: 2017-05-01 11:12a Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-05-01 08:52a Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-04-30 10:15a Sunday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-04-30 09:50a Sunday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
+Time: 2017-04-29 11:27a Saturday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+
+Time: 2017-04-29 09:25a Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-04-29 07:34a Saturday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: heartburn
+
+
+Time: 2017-04-28 03:09p Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-04-28 08:25a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: smart gut , ubiome samples, large amount
+
+
+Time: 2017-04-27 01:15p Thursday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+Note: gas
+
+
+Time: 2017-04-27 08:30a Thursday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-04-26 09:06a Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
+Time: 2017-04-25 12:30p Tuesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-04-25 09:24a Tuesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-04-24 01:41p Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: thin
+
+
+Time: 2017-04-24 08:57a Monday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
+Time: 2017-04-23 09:19a Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-04-22 11:30a Saturday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+
+Time: 2017-04-22 09:29a Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-04-21 11:00a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-04-20 10:29a Thursday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+
+Time: 2017-04-20 07:45a Thursday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+Note: slow to pass
+
+
+Time: 2017-04-19 12:05p Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-04-19 09:09a Wednesday
+Type: 2. Slighty constipated
+Duration: 00:01
+
+Time: 2017-04-18 09:01a Tuesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-04-17 11:43a Monday
+Type: 3. Normal (Sausage with crack)
+Duration: 00:01
+
+Time: 2017-04-16 11:55a Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-04-16 07:32a Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-04-15 03:14p Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-04-15 09:04a Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: ubiome, they've sample from outside of stool
+
+
+Time: 2017-04-14 12:38p Friday
+Type: 6. Inflammation (Porridge)
+Duration: 00:00
+
+Time: 2017-04-14 10:03a Friday
+Type: 2. Slighty constipated
+Duration: 00:01
+
+Time: 2017-04-13 10:52p Thursday
+Type: 2. Slighty constipated
+Duration: 00:01
+
+Time: 2017-04-13 04:16p Thursday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-04-13 11:25a Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-04-12 12:52p Wednesday
+Type: 6. Inflammation (Porridge)
+Duration: 00:02
+
+Time: 2017-04-12 10:02a Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:03
+Note: large amount
+
+
+Time: 2017-04-10 12:07p Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
 Time: 2017-04-09 02:36p Sunday
 Type: 7. Inflammation (Gravy)
 Duration: 00:01

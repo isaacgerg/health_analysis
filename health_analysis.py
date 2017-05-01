@@ -41,7 +41,7 @@ df_bm = pd.DataFrame.from_records(data = bmArray, columns = ['datetime', 'type']
 df_bm = df_bm.sort_index()
 
 # Start at 2017
-df_bm = df_bm['2017-01-01':]
+df_bm = df_bm['2017-01-02':]
 
 # PLOT: delta between movements
 df_bm['deltaHours'] = df_bm.index.to_series().diff()/np.timedelta64(1, 'h')
@@ -79,8 +79,9 @@ plt.ylabel('Bristol Stool Scale')
 plt.savefig(r'output\bss_box_whisker.png', bbox='tight')
 
 # Determine number of hard / loose per week
-tmp = df_bm['type'].resample('W-MON', label='left').mean()
+tmp = df_bm['type'].resample('W-MON', label='right').mean()
 tmp2 = df_bm[['loose','hard']].resample('W-MON', label='left').sum()
+tmp2 = tmp2['2017-01-02':]
 tmp2['total'] = tmp2['loose'] + tmp2['hard']
 
 # Plot results
@@ -111,8 +112,13 @@ plt.xlabel('Week')
 plt.legend(['loose','hard'])
 plt.xticks(rotation='vertical')
 ax = matplotlib.pyplot.gca()
+lbls = []
+#for k in tmp2.index:
+#    lbls.append(k.strftime('%Y-%m-%d'))
+#ax.set_xticklabels(lbls)
 ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
 ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))
+ax.set_xlim(tmp2.index[0], tmp2.index[-1])
 plt.savefig(r'output\abnormal.png',  bbox='tight')
 
 
@@ -132,7 +138,7 @@ dfSpreadsheet = dfSpreadsheet.set_index('Date')
 
 # Cleanup
 #Remove last day 
-dfSpreadsheet = dfSpreadsheet['2017-01-01':'2017-04-09']
+dfSpreadsheet = dfSpreadsheet['2017-01-03':'2017-04-30']
 #dfSpreadsheet = dfSpreadsheet[:(datetime.datetime.now()-datetime.timedelta(days=14)).strftime('%Y-%m-%d')]
 
 # TODO Add wx
