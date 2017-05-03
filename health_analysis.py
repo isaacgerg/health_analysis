@@ -121,6 +121,36 @@ ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))
 ax.set_xlim(tmp2.index[0], tmp2.index[-1])
 plt.savefig(r'output\abnormal.png',  bbox='tight')
 
+plt.figure()
+fig = matplotlib.pyplot.gcf()
+fig.set_size_inches(8,8)
+count  = df_bm['type'].resample('M', label='right').count()
+numLoose  = df_bm['loose'].resample('M', label='right').sum()
+numHard  = df_bm['hard'].resample('M', label='right').sum()
+for c,l,h,label in zip(count, numLoose, numHard, count.index):
+    plt.plot(l/c,h/c, 'x')
+    plt.annotate(label.strftime('%Y-%m'), xy = (l/c,h/c), xytext = (5,0), textcoords = 'offset points')
+plt.xlim(0,1)
+plt.ylim(0,1)
+plt.xlabel('Proportion Loose Stool')
+plt.ylabel('Proportion Hard Stool')
+plt.title('Proportion of Abnormal Stool by Month')
+plt.plot([0,0.25], [0.25,0], color='black', linestyle='-')
+plt.savefig(r'output\abnormal - proportion.png',  bbox='tight')
+
+plt.figure()
+fig = matplotlib.pyplot.gcf()
+fig.set_size_inches(16,9)
+v = np.array(df_bm['type'])
+h = np.histogram(v, bins=7)[0]
+h = h/h.sum()
+plt.bar(np.arange(1,8), h)
+plt.title('Bristol Stool Score Proportions')
+plt.xlabel('Score')
+plt.ylabel('Proportion')
+plt.savefig(r'output\bss - histogram.png',  bbox='tight')
+
+
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 # Format dataframe for regression analysis bringing in all data
