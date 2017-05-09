@@ -162,7 +162,7 @@ dfBm = dfBm.rename(columns={'type':'bss'})
 
 # Bring in health spreadsheet data
 dfSpreadsheet = pd.read_csv(spreadsheetFilename)
-dfSpreadsheet = dfSpreadsheet.ix[:,['Date', 'mean', 'cardio', 'nexium', 'librax', 'weights', 'clrtn', 'vit d [IU]', 'mtmcl', 'AM', 'PM', 'symptoms']]
+dfSpreadsheet = dfSpreadsheet.ix[:,['Date', 'mean', 'cardio', 'nexium', 'librax', 'weights', 'clrtn', 'vit d [IU]', 'mtmcl', 'AM', 'PM', 'symptoms', 'prilo']]
 dfSpreadsheet['Date'] = pd.to_datetime(dfSpreadsheet['Date'])
 dfSpreadsheet = dfSpreadsheet.set_index('Date')
 
@@ -295,6 +295,14 @@ eqn = 'bss_abnormal_events_7day ~ cardio + nexium + librax + clrtn + vitd + mtmc
 tools.regression(eqn, df)
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
+# Mean HQI while on each medicine
+# TODO graph these via box and whisker
+prilo = df[['hqi', 'prilo']].dropna()
+prilo.mean()
+nexium = df[['hqi', 'nexium']].dropna()
+nexium.mean()
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------
 # HQI plots
 tmp = df['hqi'].resample('W-MON', label='left').mean()
 plt.figure()
@@ -310,6 +318,24 @@ ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))
 plt.xticks(rotation='vertical')
 plt.savefig(r'output\hqi.png',  bbox='tight')
 
+# Meds
+for k in ['nexium', 'librax', 'clrtn', 'vitd']:
+    plt.figure()
+    fig = matplotlib.pyplot.gcf()
+    fig.set_size_inches(16,9)
+    tmp = df[k].resample('W-MON', label='left').mean()
+    plt.plot(tmp, marker='X');
+    #plt.ylim(0,8)
+    plt.ylabel('Dose')
+    plt.xlabel('Week')
+    plt.title('{0} Dose Mean Per Week'.format(k))
+    ax = matplotlib.pyplot.gca()
+    ax.xaxis.set_major_formatter(matplotlib.dates.DateFormatter('%Y-%m-%d'))
+    ax.xaxis.set_major_locator(mdates.WeekdayLocator(byweekday=mdates.MO))
+    plt.xticks(rotation='vertical')
+    plt.savefig(r'output\{0}_mean.png'.format(k), bbox='tight')
+    plt.close('all')
+
 p = df.boxplot('hqi', 'year_week', whis=np.inf, showfliers=True, showmeans=True)
 plt.ylim(1,4)
 plt.xticks(rotation='vertical', size='xx-large')
@@ -320,5 +346,22 @@ fig = matplotlib.pyplot.gcf()
 fig.set_size_inches(16,9)
 plt.ylabel('Health Quality Index')
 plt.savefig(r'output\hqi_box.png', bbox='tight')
+
+df_cardio = df[['cardio', 'year_week']]
+df_cardio['cardio'] *= 60
+p = df_cardio.boxplot('cardio', 'year_week', whis=np.inf, showfliers=True, showmeans=True)
+mx = df_cardio['cardio'].max()
+ticks = np.arange(0,30*(np.ceil(mx/30)+1),30)
+plt.yticks(ticks)
+plt.ylim(0,None)
+plt.xticks(rotation='vertical', size='xx-large')
+plt.title('Cardiovascular Exercise by Week')
+plt.suptitle('')
+plt.xlabel('Week')
+fig = matplotlib.pyplot.gcf()
+fig.set_size_inches(16,9)
+plt.ylabel('Minutes per Day')
+plt.savefig(r'output\cardio_box.png', bbox='tight')
+
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 print('Done')
