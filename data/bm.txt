@@ -1,5 +1,93 @@
 [ENTRIES]
 
+Time: 2017-05-10 08:49a Wednesday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+
+Time: 2017-05-10 08:31a Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-05-09 11:35a Tuesday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+
+Time: 2017-05-09 10:05a Tuesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: particles, large amt
+
+
+Time: 2017-05-08 04:55p Monday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-05-08 11:35a Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-05-07 11:30a Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-05-06 11:19a Saturday
+Type: 4. Normal (Soft sausage)
+Duration: 00:03
+Note: large amount
+
+
+Time: 2017-05-05 02:10p Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: large amount
+
+
+Time: 2017-05-04 01:54p Thursday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+
+Time: 2017-05-04 01:05p Thursday
+Type: 7. Inflammation (Gravy)
+Duration: 00:01
+
+Time: 2017-05-04 12:38p Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: urgent
+
+
+Time: 2017-05-04 08:54a Thursday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-05-03 02:52p Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-05-03 08:41a Wednesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+
+Time: 2017-05-03 07:55a Wednesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-05-02 10:33a Tuesday
+Type: 6. Inflammation (Porridge)
+Duration: 00:01
+
+Time: 2017-05-02 09:23a Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:01
+Note: particles
+
+
+Time: 2017-05-02 08:29a Tuesday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
 Time: 2017-05-01 11:12a Monday
 Type: 5. Lackng fiber (Chicken nuggets)
 Duration: 00:01

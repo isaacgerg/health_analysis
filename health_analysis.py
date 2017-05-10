@@ -16,6 +16,7 @@ import tools
 # Read in health sheet data
 spreadsheetFilename = r'data/Health Sheet 2017 - Data.csv'
 bmFilename = r'data\bm.txt'
+endDate = '2017-04-2'
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 # reading in json example
@@ -41,7 +42,7 @@ df_bm = pd.DataFrame.from_records(data = bmArray, columns = ['datetime', 'type']
 df_bm = df_bm.sort_index()
 
 # Start at 2017
-df_bm = df_bm['2017-01-02':]
+df_bm = df_bm['2017-01-02':endDate]
 
 # PLOT: delta between movements
 df_bm['deltaHours'] = df_bm.index.to_series().diff()/np.timedelta64(1, 'h')
@@ -168,7 +169,7 @@ dfSpreadsheet = dfSpreadsheet.set_index('Date')
 
 # Cleanup
 #Remove last day 
-dfSpreadsheet = dfSpreadsheet['2017-01-03':'2017-04-30']
+dfSpreadsheet = dfSpreadsheet['2017-01-03':endDate]
 #dfSpreadsheet = dfSpreadsheet[:(datetime.datetime.now()-datetime.timedelta(days=14)).strftime('%Y-%m-%d')]
 
 # TODO Add wx
@@ -254,6 +255,9 @@ df['hqi_am_3daymean'] = df['hqi_am_3daymean'].shift(-3)
 df['hqi_am_7daymean'] = df['hqi_am'].rolling(window=7).mean()
 df['hqi_am_7daymean'] = df['hqi_am_7daymean'].shift(-7)
 
+# Straight predictions 3 and 7 days out
+df['hqi_3daysout'] = df['hqi'].shift(-3)
+df['hqi_7daysout'] = df['hqi'].shift(-7)
 
 # Perform regression
 eqn = 'hqi_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
@@ -268,12 +272,20 @@ tools.regression(eqn, df)
 eqn = 'hqi_am_7daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
 
+eqn = 'hqi_3daysout ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+tools.regression(eqn, df)
+eqn = 'hqi_7daysout ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+tools.regression(eqn, df)
+
 # Compute more moving averages
 df['bss_3daymean'] = df['bss'].rolling(window=3).mean()
 df['bss_3daymean'] = df['bss_3daymean'].shift(-3)
 
 df['bss_7daymean'] = df['bss'].rolling(window=7).mean()
 df['bss_7daymean'] = df['bss_7daymean'].shift(-7)
+
+df['bss_3daysout'] = df['bss'].shift(-3)
+df['bss_7daysout'] = df['bss'].shift(-7)
 
 eqn = 'bss_3daymean ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
@@ -293,6 +305,12 @@ tools.regression(eqn, df)
 
 eqn = 'bss_abnormal_events_7day ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
 tools.regression(eqn, df)
+
+eqn = 'bss_3daysout ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+tools.regression(eqn, df)
+eqn = 'bss_7daysout ~ cardio + nexium + librax + clrtn + vitd + mtmcl'
+tools.regression(eqn, df)
+
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 # Mean HQI while on each medicine
@@ -319,7 +337,7 @@ plt.xticks(rotation='vertical')
 plt.savefig(r'output\hqi.png',  bbox='tight')
 
 # Meds
-for k in ['nexium', 'librax', 'clrtn', 'vitd']:
+for k in ['nexium', 'librax', 'clrtn', 'vitd', 'prilo']:
     plt.figure()
     fig = matplotlib.pyplot.gcf()
     fig.set_size_inches(16,9)
