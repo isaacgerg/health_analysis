@@ -1,5 +1,19 @@
 [ENTRIES]
 
+Time: 2017-05-12 09:04a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+
+Time: 2017-05-11 02:00p Thursday
+Type: 4. Normal (Soft sausage)
+Duration: 00:01
+Note: large amout
+
+
+Time: 2017-05-10 02:21p Wednesday
+Type: 6. Inflammation (Porridge)
+Duration: 00:00
+
 Time: 2017-05-10 08:49a Wednesday
 Type: 6. Inflammation (Porridge)
 Duration: 00:01

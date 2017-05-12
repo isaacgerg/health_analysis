@@ -121,17 +121,17 @@ Date,DOW,AM,PM,mean,7 mu,7mufwd,cardio,crdo mu,weights,vit d [IU],fish oil,pro,g
 4/30/2017,Sunday,3,3,3,3.607142857,2.832142857,,41.42857143,,,,,,,,,,0,0,,20,3,,,
 5/1/2017,Monday,3,3,3,3.542857143,2.885714286,,18.57142857,,,,,,,,,,0,0,,20,3,167,abdominal pressure or cramps (can't tell),
 5/2/2017,Tuesday,2.5,2.5,2.5,3.442857143,3.010714286,,18.57142857,,,,,,75,,,1,0,0,,20,0.5,166,"am nausea dizziness, pain left flank, left work sick","75mg zantac, switch to trader darwins melatonin"
-5/3/2017,Wednesday,2.5,2.5,2.5,3.242857143,3.095833333,,14.28571429,,,,,,75,0.5,,1,0,0,,20,,167,"am nausea, missed work",75mg zantac
-5/4/2017,Thursday,2.5,2.5,2.5,3.042857143,3.215,,0,,,,,,150,,,,0,0,,20,,,"am nausea, dizziness, acid, diarhea post lunch","don't take prilosec in am, see what happens, took zantac 75 in am"
-5/5/2017,Friday,2,2.5,2.25,2.842857143,3.45625,,0,,,,,,75,,,,0,0,,20,,,"am nausea, dizziness, stomach pain, lethargy","Symptoms started 15 min after taking prilosec, NO MORE PRILOSEC, drank tons of water in afternoon => stomach felt better"
-5/6/2017,Saturday,3,3.5,3.25,2.607142857,3.525,,0,,,,,,75,,,,0,0,,0,,,,
-5/7/2017,Sunday,3.9,3.75,3.825,2.714285714,3.375,,0,,,,,,150,,,,0,0,,0,0.5,,"reflux, heartburn",
-5/8/2017,Monday,3.25,3.5,3.375,2.832142857,3.375,60,0,,,,,,75,,,,,,,,0.5,,"reflux, upset stomach","pepto, ginger tea -> helps"
+5/3/2017,Wednesday,2.5,2.5,2.5,3.242857143,3.135714286,,14.28571429,,,,,,75,0.5,,1,0,0,,20,,167,"am nausea, missed work",75mg zantac
+5/4/2017,Thursday,2.5,2.5,2.5,3.042857143,3.325,,0,,,,,,150,,,,0,0,,20,,,"am nausea, dizziness, acid, diarhea post lunch","don't take prilosec in am, see what happens, took zantac 75 in am"
+5/5/2017,Friday,2,2.5,2.25,2.842857143,3.503571429,,0,,,,,,75,,,,0,0,,20,,,"am nausea, dizziness, stomach pain, lethargy","Symptoms started 15 min after taking prilosec, NO MORE PRILOSEC, drank tons of water in afternoon => stomach felt better"
+5/6/2017,Saturday,3,3.5,3.25,2.607142857,#DIV/0!,,0,,,,,,75,,,,0,0,,0,,,,
+5/7/2017,Sunday,3.9,3.75,3.825,2.714285714,#DIV/0!,,0,,,,,,150,,,,0,0,,0,0.5,,"reflux, heartburn",
+5/8/2017,Monday,3.25,3.5,3.375,2.832142857,#DIV/0!,60,0,,,,,,75,,,,,,,,0.5,,"reflux, upset stomach","pepto, ginger tea -> helps"
 5/9/2017,Tuesday,3.25,3.5,3.375,2.885714286,#DIV/0!,,8.571428571,,,,,,150,,,,,,,,0.5,166,"stomach pains, left heel nerve pull","digestive enzyme, pepto --> helped"
-5/10/2017,Wednesday,3.5,,,,#DIV/0!,,8.571428571,,,,,,150,,,1,,,,,,166,"am stomach pressure & pain R/LUQ, lightheadedness after BM",leg weakness?
-5/11/2017,Thursday,,,,,#DIV/0!,,8.571428571,,,,,,,,,,,,,,,,,
-5/12/2017,Friday,,,,,#DIV/0!,,8.571428571,,,,,,,,,,,,,,,,,
-5/13/2017,Saturday,,,,,#DIV/0!,,8.571428571,,,,,,,,,,,,,,,,,
-5/14/2017,Sunday,,,,,#DIV/0!,,8.571428571,,,,,,,,,,,,,,,,,
-5/15/2017,Monday,,,,,#DIV/0!,,8.571428571,,,,,,,,,,,,,,,,,
-5/16/2017,Tuesday,,,,,,,0,,,,,,,,,,,,,,,,,
+5/10/2017,Wednesday,3.5,3.25,3.375,3.010714286,#DIV/0!,60,8.571428571,,,,,,150,0.5,,1,,,,,,166,"am stomach pressure & pain R/LUQ, lightheadedness after BM","leg weakness?, pepto, benedryl before bed"
+5/11/2017,Thursday,3.9,3.75,3.825,3.135714286,#DIV/0!,90,17.14285714,,,,,,150,,,,,,,,0.5,165,"minor stomach pain, nausea after eating lunch","TODO take clairten in AM, took clariten-d 12 hour"
+5/12/2017,Friday,3.5,,3.5,3.325,#DIV/0!,,30,,,,,,150,,,,,,,,,165,stomach pressure while eating lunch,
+5/13/2017,Saturday,,,#DIV/0!,3.503571429,#DIV/0!,,30,,,,,,,,,,,,,,,,,
+5/14/2017,Sunday,,,#DIV/0!,#DIV/0!,#DIV/0!,,30,,,,,,,,,,,,,,,,,
+5/15/2017,Monday,,,#DIV/0!,#DIV/0!,#DIV/0!,,30,,,,,,,,,,,,,,,,,
+5/16/2017,Tuesday,,,#DIV/0!,,,,21.42857143,,,,,,,,,,,,,,,,,
