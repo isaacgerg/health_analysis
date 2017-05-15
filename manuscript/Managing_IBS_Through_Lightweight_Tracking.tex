@@ -152,19 +152,24 @@
 % author names and affiliations
 % use a multiple column layout for up to three different
 % affiliations
-\author{\IEEEauthorblockN{Isaac D. Gerg, TODO }
+\author{
+\IEEEauthorblockN{Isaac D. Gerg}
 \IEEEauthorblockA{The Pennsylvania State Univeristy\\
 Applied Research Laboratory\\
 State College, PA 16804--0030\\
 Email: idg101@arl.psu.edu}
-}
 
+\and
+
+\IEEEauthorblockN{Sameer Dhalla, MD}
+\IEEEauthorblockA{The Johns Hopkins University School of Medicine\\
+Division of Gastroenterology and Hepatology\\
+Baltimore, MD}
+}
 % conference papers do not typically use \thanks and this command
 % is locked out in conference mode. If really needed, such as for
 % the acknowledgment of grants, issue a \IEEEoverridecommandlockouts
 % after \documentclass
-
-
 
 
 % make the title area
@@ -287,9 +292,9 @@ We regress on the HQI mean three and seven days in the future shown in Tables \r
 \begin{table}
 \begin{center}
 \caption {Regressor: HQI 3-Day Mean} \label{tab:hqi_mean}
-    \begin{tabular}{ | l | r | r | r | r |}    
+    \begin{tabular}{ | l | r | r | r | r |}
     \hline
-    \multicolumn{5}{|c|}{Regressor: HQI 3-Day Mean} \\
+    \multicolumn{5}{|c|}{Regressor: HQI 3-Day Mean} \\ \hline
      & coef & std err & t & p-value \\ \hline
 Intercept & 3.176 & 0.080 & 39.518 & 0.000 \\
 cardio & -0.069 & 0.045 & -1.538 & 0.128 \\
@@ -321,7 +326,7 @@ mtmcl & -0.065 & 0.072 & -0.896 & 0.373 \\
     \begin{tabular}{ | l | r | r | r | r |}
     \hline
     \multicolumn{5}{|c|}{Abnormal Events 3-Day Mean} \\
-    \hline    
+    \hline
      & coef & std err & t & p-value \\ \hline
 Intercept & 2.346 & 0.342 & 6.864 & 0.000 \\
 cardio & -0.081 & 0.192 & -0.422 & 0.674 \\
@@ -329,8 +334,8 @@ nexium & -0.702 & 0.221 & -3.180 & 0.002 \\
 librax & -0.142 & 0.139 & -1.018 & 0.312 \\
 clrtn & 1.237 & 0.349 & 3.547 & 0.001 \\
 vitd & 0.020 & 0.062 & 0.328 & 0.744 \\
-mtmcl & -0.043 & 0.354 & -0.122 & 0.903 \\       
-    \hline    
+mtmcl & -0.043 & 0.354 & -0.122 & 0.903 \\
+    \hline
     \multicolumn{5}{|c|}{Abnormal Events 7-Day Mean} \\
     \hline
 Intercept & 4.799 & 0.585 & 8.208 & 0.000 \\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.27)  10 APR 2017 14:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.2.27)  15 MAY 2017 09:50
 entering extended mode
 **"C:/Users/idg101/Desktop/New folder/repo/health_analysis/manuscript/Managing_
 IBS_Through_Lightweight_Tracking.tex"
@@ -422,12 +422,12 @@ Configuring pdfsync
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 197.
+LaTeX Font Info:    Try loading font information for U+msa on input line 202.
  ("C:\Users\idg101\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
 "
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 197.
+LaTeX Font Info:    Try loading font information for U+msb on input line 202.
 
 ("C:\Users\idg101\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -448,77 +448,77 @@ Missing character: There is no ù in font ptmr7t!
 File: ../output/bss_box_whisker.png Graphic file (type png)
 
 <use ../output/bss_box_whisker.png>
-Package pdftex.def Info: ../output/bss_box_whisker.png used on input line 253.
+Package pdftex.def Info: ../output/bss_box_whisker.png used on input line 258.
 (pdftex.def)             Requested size: 252.0pt x 167.85464pt.
 
-<../output/abnormal.png, id=12, 956.6139pt x 665.1249pt>
+<../output/abnormal.png, id=12, 957.5775pt x 665.1249pt>
 File: ../output/abnormal.png Graphic file (type png)
 
 <use ../output/abnormal.png>
-Package pdftex.def Info: ../output/abnormal.png used on input line 261.
-(pdftex.def)             Requested size: 252.0pt x 175.21191pt.
+Package pdftex.def Info: ../output/abnormal.png used on input line 266.
+(pdftex.def)             Requested size: 252.0pt x 175.02924pt.
 
 <../output/time_between_movements.png, id=13, 977.5722pt x 603.6954pt>
 File: ../output/time_between_movements.png Graphic file (type png)
 
 <use ../output/time_between_movements.png>
 Package pdftex.def Info: ../output/time_between_movements.png used on input lin
-e 268.
+e 273.
 (pdftex.def)             Requested size: 252.0pt x 155.62141pt.
 
 <../output/hqi_box.png, id=14, 995.3988pt x 652.1163pt>
 File: ../output/hqi_box.png Graphic file (type png)
 
 <use ../output/hqi_box.png>
-Package pdftex.def Info: ../output/hqi_box.png used on input line 275.
+Package pdftex.def Info: ../output/hqi_box.png used on input line 280.
 (pdftex.def)             Requested size: 252.0pt x 165.08841pt.
 
-Underfull \vbox (badness 6542) has occurred while \output is active []
+Underfull \vbox (badness 1237) has occurred while \output is active []
 
 
 
 LaTeX Warning: Reference `tab:hqi_3daymean' on page 2 undefined on input line 2
-85.
+90.
 
 
 LaTeX Warning: Reference `tab:hqi_7daymean' on page 2 undefined on input line 2
-85.
+90.
 
 
 LaTeX Warning: Reference `tab:abnormal_3daymean' on page 2 undefined on input l
-ine 285.
+ine 290.
 
 
 LaTeX Warning: Reference `tab:abnormal_7daymean' on page 2 undefined on input l
-ine 285.
+ine 290.
 
 
 LaTeX Warning: Reference `tab:hqi_3daymean' on page 2 undefined on input line 3
-48.
+53.
 
 
 LaTeX Warning: Reference `tab:hqi_3daymean' on page 2 undefined on input line 3
-48.
+53.
 
 
 LaTeX Warning: Reference `tab:abnormal_3daymean' on page 2 undefined on input l
-ine 348.
+ine 353.
 
 
 LaTeX Warning: Reference `tab:abnormal_7daymean' on page 2 undefined on input l
-ine 348.
+ine 353.
 
 
 LaTeX Warning: Reference `tab:hqi_3daymean' on page 2 undefined on input line 3
-48.
+53.
 
 
 LaTeX Warning: Reference `tab:hqi_3daymean' on page 2 undefined on input line 3
-48.
+53.
 
 [2 <../output/bss_box_whisker.png> <../output/abnormal.png> <../output/time_bet
 ween_movements.png>]
-Underfull \vbox (badness 6961) has occurred while \output is active []
+Underfull \vbox (badness 6608) has occurred while \output is active []
 
 
 (Managing_IBS_Through_Lightweight_Tracking.bbl)
@@ -555,8 +555,8 @@ ms/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/idg101/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/idg101/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/idg101/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Managing_IBS_Through_Lightweight_Tracking.pdf (3 pages, 95982
-0 bytes).
+Output written on Managing_IBS_Through_Lightweight_Tracking.pdf (3 pages, 10022
+96 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

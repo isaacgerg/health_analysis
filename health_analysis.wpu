@@ -4,14 +4,10 @@
 # Wing IDE project file : User-specific branch                   #
 ##################################################################
 [user attributes]
-debug.breakpoints = {loc('health_analysis.py'): {318: (0,
+debug.breakpoints = {loc('health_analysis.py'): {385: (0,
         None,
         1,
-        0),
-        385: (0,
-              None,
-              1,
-              0)}}
+        0)}}
 debug.show-args-dialog = {loc('health_analysis.py'): False}
 guimgr.overall-gui-state = {'windowing-policy': 'combined-window',
                             'windows': [{'name': 'lbzzgAmZwCcb8UZcOyo4KKZReL'\
@@ -857,7 +853,7 @@ guimgr.overall-gui-state = {'windowing-policy': 'combined-window',
                  'primary_view_state': {'area': 'wide',
         'constraint': None,
         'current_pages': [2,
-                          1],
+                          0],
         'notebook_display': 'normal',
         'notebook_percent': 0.28555917480998916,
         'override_title': None,
@@ -1239,12 +1235,12 @@ guimgr.overall-gui-state = {'windowing-policy': 'combined-window',
                                 'selection_start': 95257}),
                               (loc('health_analysis.py'),
                                {'attrib-starts': [],
-                                'first-line': 3,
+                                'first-line': 350,
                                 'folded-linenos': [],
-                                'sel-line': 18,
-                                'sel-line-start': 524,
-                                'selection_end': 545,
-                                'selection_start': 545}),
+                                'sel-line': 384,
+                                'sel-line-start': 14839,
+                                'selection_end': 14839,
+                                'selection_start': 14839}),
                               (loc('../../../../../../Python35/Lib/site-packages/pandas/indexes/base.py'),
                                {'attrib-starts': [('Index',
         91),
