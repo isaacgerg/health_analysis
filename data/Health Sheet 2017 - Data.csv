@@ -1,137 +1,227 @@
-Date,DOW,AM,PM,mean,7 mu,7mufwd,cardio,crdo mu,weights,vit d [IU],fish oil,pro,glut [0.5g],zntc,atavan,mtmcl,prtn,librax,nexium,clrtn,prilo,mltnn[mg],wt [lbs],symptoms,notes
-1/1/2017,Sunday,3.5,3.5,3.5,,3.678571429,60,,,5000,1,1,,,0,0,,0,0,0,0,,,am / pm bloating upper abdomen,"cliff bar for lunch, 25-50mg sugar/day target, fruit/milk sugar OK, no artf sweetners"
-1/2/2017,Monday,4,4,4,,3.678571429,20,,40,0,1,1,,,0,0,,0,0,0,0,,173,,starting drinking green tea daily sometime before today
-1/3/2017,Tuesday,3.5,3.5,3.5,,3.678571429,20,,40,0,1,1,,,0,0,,0,0,0,0,,,upset stomach post lunch,
-1/4/2017,Wednesday,3.5,3,3.25,,3.75,,,45,5000,1,1,,,0,0,,0,0,0,0,,171.6,"nausea post lunch, extreme bloating at gym and after dinner","4 tums, cliff bar for lunch"
-1/5/2017,Thursday,3.5,3,3.25,,3.857142857,,,,5000,,1,,,0,0,,0,0,0,0,,173,,
-1/6/2017,Friday,3.5,4,3.75,,3.642857143,,,40,5000,,,,,0,0,,0,20,0,0,,171.6,"no cliff bar, no bloating",
-1/7/2017,Saturday,,4,4,,3.535714286,,,,0,,,,,0,0,,0,20,0,0,,170.6,,
-1/8/2017,Sunday,4,4,4,3.607142857,3.428571429,20,14.28571429,45,0,,,,,0,0,,0,20,0,0,,,,
-1/9/2017,Monday,4,,4,3.678571429,3.357142857,,8.571428571,,5000,,,,,0,0,,0,20,0,0,,173,stomach ache after eating at IST (wrap),
-1/10/2017,Tuesday,4,3,3.5,3.678571429,3.285714286,30,5.714285714,15,0,1,,,,0,0,,0,0,0,0,,,stomach ache after eating dinner,
-1/11/2017,Wednesday,4,3.5,3.75,3.678571429,3,20,7.142857143,30,5000,,,,,0,0,,0,20,0,0,,170,,
-1/12/2017,Thursday,4,4,4,3.75,2.75,,10,,0,,,,,0,0,,0,0,0,0,,,,
-1/13/2017,Friday,2.5,2,2.25,3.857142857,2.857142857,,10,,5000,,,,,0.5,0,,0,20,0,0,,171.6,"woke up at 5am hungary, constipated, feel weak",
-1/14/2017,Saturday,3,3.5,3.25,3.642857143,2.821428571,60,10,,5000,1,,,,0,0,,0,20,0,0,,172.2,woke up at 5am with upset stomach,
-1/15/2017,Sunday,3,3.5,3.25,3.535714286,2.642857143,70,18.57142857,,5000,,1,,,0,0,,0,20,0,0,,173,"after dinner bloating (chilli, coke?)",
-1/16/2017,Monday,3.5,3.5,3.5,3.428571429,2.571428571,30,25.71428571,,5000,1,,,,0,0,,0,20,0,0,,173,"anxiety in AM, bloating after rum&coke",
-1/17/2017,Tuesday,3,3,3,3.357142857,2.5,,30,45,5000,,1,,,0,0,,0,0,0,20,1.5,172,"pm bloating (pizza, latte?), feel run down, 4 tums","coffee in am feel better, bloat score (1-3 high) begins today"
-1/18/2017,Wednesday,2.5,1,1.75,3.285714286,2.714285714,30,25.71428571,,0,2,1,,,0.5,0,,0,0,0,40,,173,"am bloat, feel run down","self cbt in am, feel better, atavan feel better, slept feel better"
-1/19/2017,Thursday,1,3.5,2.25,3,2.821428571,,27.14285714,40,0,1,1,,,0,0,,0,0,0,40,,171,"feel run down, am anxiety",3-4 weeks 40mg prilosec per doberstein
-1/20/2017,Friday,3,3,3,2.75,2.857142857,,27.14285714,,5000,,2,,,1,0,,0,0,0,40,,,"random stomach pain, slighty dizzy, weak feeling arms &legs","i suspect panic attack, stomach ache after 0.5mg atavan"
-1/21/2017,Saturday,3,3,3,2.857142857,2.75,60,27.14285714,,0,,2,,,0.5,0,,0,0,0,0,,,"random stomach pain, feel tired, am anxiety",
-1/22/2017,Sunday,2,2,2,2.821428571,2.964285714,,27.14285714,,5000,,,,,0,0,,0,0,0,20,1.5,,"stomach pain, tired","flu? no fever, no diarhea but loose stools"
-1/23/2017,Monday,3,3,3,2.642857143,3.035714286,,17.14285714,,5000,,,,,0,0,,0,0,0,20,,,"tired in AM, tired periods in PM, diarrhea, naseau",flu?
-1/24/2017,Tuesday,2,3,2.5,2.571428571,3.178571429,45,12.85714286,,5000,,,,,0.5,0,,2,0,1,20,,,"tired, anxious in AM, didn't sleep","anxiety?, atavan & clariten-d before bed slept well and breath well"
-1/25/2017,Wednesday,3,3.5,3.25,2.5,3.071428571,60,19.28571429,,5000,,,,,0,0,,2,0,1,20,,172,tight stomach luq under ribs,
-1/26/2017,Thursday,3,3,3,2.714285714,3.178571429,,23.57142857,,5000,1,1,,,0.25,0,,2,0,1,20,,173,"weakness in hands, stomach pain/tightness, fatigue, tense, nasuea after eating",
-1/27/2017,Friday,3.5,3,3.25,2.821428571,3.142857143,,23.57142857,,5000,,,,,0,0,,1,0,1,20,,172,minor upset stomach,
-1/28/2017,Saturday,2,2.5,2.25,2.857142857,3.214285714,,23.57142857,,5000,,,,,0,0,,0,40,1,0,,172,"woke up at 5am with diarhea, went to doc",
-1/29/2017,Sunday,3.5,3.5,3.5,2.75,3.25,120,15,,5000,,,,,0,0,,0,40,1,0,,,,
-1/30/2017,Monday,3.5,3.5,3.5,2.964285714,3.303571429,,32.14285714,,5000,,,,,0,0,,0,40,1,0,,173,"naseated pm, spasming under left rib",after drinking yogi ginger tea?
-1/31/2017,Tuesday,3.5,3.5,3.5,3.035714286,3.375,60,32.14285714,,0,,,,,0,0,,0,40,1,0,,173,"woke up at 5am, minor stomach pain","drank glass of water first thing am, mtb"
-2/1/2017,Wednesday,2,3,2.5,3.178571429,3.571428571,,34.28571429,,5000,,,,,0.5,0,,1,40,1,0,1.5,,"naseated am, dizzy, pencil stool hard to pass, stomach tightness","drank glass of water first thing am, woke up before 6.45am alarm, mtb yesterday?"
-2/2/2017,Thursday,4,3.5,3.75,3.071428571,3.607142857,45,25.71428571,,5000,,1,,,0,0,,1,40,1,0,,171,"epigastric pain after bm, bm hard to pass",
-2/3/2017,Friday,3.5,2.5,3,3.178571429,3.714285714,,32.14285714,,5000,,,,,0.5,0,,2,40,0,0,,171,"diarhea after lcl whsky buffalo chicken salad, anxiety attack","normal stool followed by diarhea, parent stress"
-2/4/2017,Saturday,2,3.5,2.75,3.142857143,3.785714286,120,32.14285714,,5000,,,,,,0,,3,40,0,0,,,,"2 librax am, 1 before dinner"
-2/5/2017,Sunday,3.5,4,3.75,3.214285714,3.732142857,35,49.28571429,,0,,,,,,0,,3,40,1,0,,171,vivid dreams,"2 librax am, 1 before dinner, superbowl ate buffalo chicken dip, oatmeal carmel brownies, 3 tums before bed"
-2/6/2017,Monday,4,3.75,3.875,3.25,3.678571429,,37.14285714,,0,,,,,,0,,3,40,1,0,,,,
-2/7/2017,Tuesday,4,4,4,3.303571429,3.607142857,,37.14285714,20,0,,,,,,0,,3,40,0,0,,174,a little tired,
-2/8/2017,Wednesday,4,3.75,3.875,3.375,3.553571429,40,28.57142857,,5000,,,,,,0,,3,40,0,0,,,"vivid dreams, anxiety fullness at the future",
-2/9/2017,Thursday,4,4,4,3.571428571,3.464285714,60,34.28571429,,5000,,,,,,0,,3,40,1,0,,,,
-2/10/2017,Friday,3.5,4,3.75,3.607142857,3.464285714,60,36.42857143,,0,,,,,,0,,2,40,0,0,,,stomach pain in am,"no librax in pm, constipation"
-2/11/2017,Saturday,3.5,3,3.25,3.714285714,3.464285714,120,45,,0,,,,,,0,,3,40,1,0,,,stomach pain in am,
-2/12/2017,Sunday,3.75,3,3.375,3.785714286,3.464285714,,45,,5000,,,,,,1,,2,40,1,0,,172,"diarhea after hard to pass stool, hard to pass stool, felt wierd after dinner","no librax in pm, metamucil pm"
-2/13/2017,Monday,3.5,3.5,3.5,3.732142857,3.517857143,30,40,,5000,,,,,,1,,2,40,1,0,1.5,174,minor stomach pain,metamucil pm
-2/14/2017,Tuesday,3.5,3.5,3.5,3.678571429,3.553571429,60,44.28571429,,0,,,,,,0,,2,40,0,0,,172,"minor stomach pain in am, lightheaded after bm and eating",
-2/15/2017,Wednesday,3.5,3.5,3.5,3.607142857,3.553571429,,52.85714286,,5000,,,,,,0,,3,40,0,0,,172,,librax before bed
-2/16/2017,Thursday,3.5,3.25,3.375,3.553571429,3.553571429,,47.14285714,,5000,,,,,,0,,3,40,0,0,,173,"am stomach pain, pm headache",
-2/17/2017,Friday,4,3.5,3.75,3.464285714,3.553571429,,38.57142857,,0,,,,,,0,,3,40,0,0,,173,,
-2/18/2017,Saturday,3.5,3,3.25,3.464285714,3.589285714,,30,,0,,,,,,0,,3,40,0,0,,,feel strange then multiple normal BMs,no one could tell i wasnt feeling well
-2/19/2017,Sunday,3.75,3,3.375,3.464285714,3.589285714,135,12.85714286,,0,,,,,,0,,1,40,1,0,,,"stomach cramps after dinner, pellet stool followed by diarrhea, levsin",
-2/20/2017,Monday,3.75,4,3.875,3.464285714,3.564285714,,32.14285714,,5000,,,,,,0,,1,40,0,0,,171,,
-2/21/2017,Tuesday,4,3.5,3.75,3.517857143,3.585714286,,27.85714286,,5000,,,,,,1,,,20,0,0,,172,5 seconds really bad dizziness,"levsin, metamucil"
-2/22/2017,Wednesday,3.5,3.5,3.5,3.553571429,3.621428571,,19.28571429,,0,,,,,,0,,1,20,0,0,,,,
-2/23/2017,Thursday,3,3.75,3.375,3.553571429,3.675,50,19.28571429,,0,,,,,,0,,3,40,0,0,,,diarrhea after the future,
-2/24/2017,Friday,,3.75,3.75,3.553571429,3.696428571,,26.42857143,,0,,,,,,0,,2,40,0,0,,170,,
-2/25/2017,Saturday,3.25,3.75,3.5,3.553571429,3.607142857,,26.42857143,,0,,,,,,0,,3,40,0,0,,,"tired, am stomach pain",
-2/26/2017,Sunday,3,3.75,3.375,3.589285714,3.553571429,60,26.42857143,,0,,,,,,1,,3,40,0,0,,173,feel sick after bm,
-2/27/2017,Monday,3.9,3.5,3.7,3.589285714,3.507142857,,15.71428571,,0,,,,,,2,,3,40,1,0,,171,30 min wierd after bm,
-2/28/2017,Tuesday,3.9,3.9,3.9,3.564285714,3.45,75,15.71428571,,0,,,,,,0,,3,40,0,0,,172,30 min wierd after bm,
-3/1/2017,Wednesday,4,3.5,3.75,3.585714286,3.432142857,,26.42857143,,0,,,,,,1,,3,40,1,0,,171,,
-3/2/2017,Thursday,3.75,3.75,3.75,3.621428571,3.360714286,,26.42857143,,5000,,,,,,1,,2,20,0,0,,171,"vertigo after bm, few seconds, no straining",
-3/3/2017,Friday,3.9,3.9,3.9,3.675,3.267857143,,19.28571429,,0,,,,,,0,,2,40,0,0,,,,
-3/4/2017,Saturday,3.75,2,2.875,3.696428571,3.321428571,120,19.28571429,,0,,,,,,1,,4,40,1,0,,169,"dizziness before BM, post BM cramps, dizziness, dry heaving (4hrs)","not enough fluids?, begin logging glasses of water after episode"
-3/5/2017,Sunday,3.5,2.5,3,3.607142857,3.339285714,60,36.42857143,,0,,,,,,1,,4,40,0,0,,,,
-3/6/2017,Monday,3.25,3.5,3.375,3.553571429,3.214285714,,36.42857143,,5000,,,,,,1,,2,40,1,0,,173,,
-3/7/2017,Tuesday,3.5,3.5,3.5,3.507142857,3.278571429,,36.42857143,,5000,,,,,,0,,2,40,1,0,,171,"Some stomach discomfort in AM (60 min), light headedness in afternoon sporadically",TODO librax 2x/day 1 am 1 before bed
-3/8/2017,Wednesday,3.5,3.75,3.625,3.45,3.242857143,150,25.71428571,,5000,,,,,,0,,2,40,1,0,,172,"LUQ stomach pain (60 min), mucous on tp?, AM nausea",
-3/9/2017,Thursday,3.25,3.25,3.25,3.432142857,3.278571429,180,47.14285714,,5000,,,,,,1,,2,40,1,0,,169,PM stomach pain LUQ,
-3/10/2017,Friday,3.25,3.25,3.25,3.360714286,3.314285714,180,72.85714286,,0,,,,,,1,,2,40,1,0,,169,"PM stomach pain, cramps",
-3/11/2017,Saturday,3.25,3.25,3.25,3.267857143,3.314285714,120,98.57142857,,0,,,,,,1,,1,40,,0,,,,regression says to quit clariten
-3/12/2017,Sunday,3.25,3,3.125,3.321428571,3.367857143,,98.57142857,,0,,,,,,1,,2,40,,0,,,"AM stomach cramps& diarrhea after brunch, PM stomach pain, noisy stomach",
-3/13/2017,Monday,2,3,2.5,3.339285714,3.567857143,,90,,5000,,,,,,1,,2,40,,0,,,"AM stomach ache, feel tired, nausea after BM","start librax 1x/day, drank glass warm water helped, stayed home from work to rest, had to take another librax due to pain"
-3/14/2017,Tuesday,4,3.9,3.95,3.214285714,3.485714286,30,90,,0,,,,,,0,,1,20,,0,,170,,
-3/15/2017,Wednesday,3.5,3.25,3.375,3.278571429,3.560714286,,94.28571429,,5000,,,,,,0,,1,40,,0,,169,"lunchtime stomach tightness, nausea, epigastric tightness PM, lightheaded",librax at lunch? took nap at lunch
-3/16/2017,Thursday,3.25,3.75,3.5,3.242857143,3.553571429,,72.85714286,,5000,,,,,,1,,2,40,,0,,168,AM abdominal pain,took extra librax at 8.50am
-3/17/2017,Friday,3.5,3.5,3.5,3.278571429,3.535714286,,47.14285714,,0,,,,,,0,,2,40,,0,,169,"AM abdominal pain, lightheadedness before after BM",took librax 2 at 10.55am
-3/18/2017,Saturday,3,3.5,3.25,3.314285714,3.628571429,140,21.42857143,,0,,,,,,,,3,40,,0,,169,,took 1 librax before bed
-3/19/2017,Sunday,3.75,3.25,3.5,3.314285714,3.592857143,60,24.28571429,,0,,,,,,,,3,20,,0,,169,minor acid in throat,"took 2 librax in AM, 1 librax right before bed"
-3/20/2017,Monday,3.9,3.9,3.9,3.367857143,3.592857143,,32.85714286,,0,,,,,,,,3,20,,0,,170,,1 librax before bed
-3/21/2017,Tuesday,3.5,3.25,3.375,3.567857143,3.628571429,90,32.85714286,,0,,,,,,,,2,20,,0,,170,"AM nausea, sporadic dizziness",smart gut sample 1
-3/22/2017,Wednesday,3.9,3.9,3.9,3.485714286,3.553571429,,41.42857143,,0,,,,,,,,2,20,,0,,170,,
-3/23/2017,Thursday,3.9,3,3.45,3.560714286,3.489285714,,41.42857143,,0,,,,,,,,3,20,,0,,168,"stomach cramps AM, PM nausea and stomach ache",
-3/24/2017,Friday,3.5,3.25,3.375,3.553571429,3.507142857,30,41.42857143,,0,,,,,,,,2,40,,0,,169,"AM minor aicd in throat, tired, didn't sleep well",
-3/25/2017,Saturday,3.9,3.9,3.9,3.535714286,3.45,120,45.71428571,,0,,,,,,,,0,40,,0,,168,didn't sleep well,
-3/26/2017,Sunday,3,3.5,3.25,3.628571429,3.478571429,,42.85714286,,0,,,,,,,,3,20,,0,,,"AM stomach cramps, nausea","slept good, cool temp in house"
-3/27/2017,Monday,3.9,3.9,3.9,3.592857143,3.485714286,65,34.28571429,,0,,,1,,,,,0,20,,0,,170,,"slept good, cool temp in house, l-glutamine start"
-3/28/2017,Tuesday,3.5,3.75,3.625,3.592857143,3.45,,43.57142857,,0,,,1,,,,,1,40,,0,,171,"minor LUQ pain in AM, yellow diarrhea",
-3/29/2017,Wednesday,3,3.75,3.375,3.628571429,3.432142857,75,30.71428571,,0,,,1,,,,,3,40,,0,,,"nausea, dizziness, epigastric pain, driving position makes worse","took 3 librax, no help, pain reduced after lunch"
-3/30/2017,Thursday,3,3,3,3.553571429,3.446428571,,41.42857143,,0,,,1,,,,,4,40,,0,,170,"LUQ pain, driving position makes worse, PM acid, left stomach pain, nausea",burning gnawing pain
-3/31/2017,Friday,3.5,3.5,3.5,3.489285714,3.475,,41.42857143,,0,,,,,,,,3,40,,0,,168,,
-4/1/2017,Saturday,3.5,3.5,3.5,3.507142857,3.528571429,,37.14285714,,0,,,,,,,,3,40,,0,,169,cold,
-4/2/2017,Sunday,3,3.9,3.45,3.45,3.6,145,20,,0,,,,,,,,3,40,,0,,,abdominal pain burning,"particle stool, too much veg? protein shake PM"
-4/3/2017,Monday,4,3.9,3.95,3.478571429,3.6,,40.71428571,,0,,,,,,,,2,40,,0,,,,
-4/4/2017,Tuesday,3.25,3.5,3.375,3.485714286,3.682142857,,31.42857143,,0,,,,,,,,3,40,,0,,,,"dc hotel, didnt sleep well"
-4/5/2017,Wednesday,3.5,3,3.25,3.45,3.775,,31.42857143,,0,,,,,0.5,,,3,40,,0,,,car sick,
-4/6/2017,Thursday,3,3.2,3.1,3.432142857,3.889285714,,20.71428571,,0,,,,,,,1,2,40,,0,,168,"yellow diarrhea, nausea after eating",protein shake PM
-4/7/2017,Friday,3.5,3.9,3.7,3.446428571,3.842857143,,20.71428571,,0,,,,,,,1,0,40,,0,,,"cramps, spinach",protein shake AM
-4/8/2017,Saturday,4,3.75,3.875,3.475,3.771428571,60,20.71428571,,0,,,,,,,1,0,40,,0,,170,,protein shake PM
-4/9/2017,Sunday,4,3.9,3.95,3.528571429,3.689285714,90,29.28571429,,0,,,,,,,1,0,20,,0,,168,,protein shake PM
-4/10/2017,Monday,4,3.9,3.95,3.6,3.660714286,,21.42857143,,0,,,,,,,1,0,20,,0,,,,"start of dairy tracking, suvock - stop nexium"
-4/11/2017,Tuesday,4,3.9,3.95,3.6,3.632142857,,21.42857143,,0,,,,,,,1,0,0,,0,,168,,
-4/12/2017,Wednesday,3.9,3.9,3.9,3.682142857,3.485714286,75,21.42857143,,0,,,,,,,1,0,0,,0,,169,,
-4/13/2017,Thursday,3.9,3.9,3.9,3.775,3.285714286,,32.14285714,,0,,,,,,,1,0,0,,0,,168,,
-4/14/2017,Friday,3.5,3.25,3.375,3.889285714,3.332142857,90,32.14285714,,,,,,,,,,1,0,,0,,169,nausea,
-4/15/2017,Saturday,3.25,3.5,3.375,3.842857143,3.35,120,45,,,,,,,,,1,2,0,,0,,,"acid, sour stomach",
-4/16/2017,Sunday,3.25,3.5,3.375,3.771428571,3.360714286,,53.57142857,,,,,,,,,1,1,0,,0,,,,
-4/17/2017,Monday,3.75,3.75,3.75,3.689285714,3.353571429,110,40.71428571,,,,,,,,,1,0,0,,0,,167,,
-4/18/2017,Tuesday,3.75,3.75,3.75,3.660714286,3.375,110,56.42857143,,,,,,,,,,0,0,,0,,,,
-4/19/2017,Wednesday,3.25,2.5,2.875,3.632142857,3.521428571,,72.14285714,,,,,,,,,,2,0,,0,,168,"stomach ache am coffee, dizzy, left work PM","30ml pepto, zantac 150mg"
-4/20/2017,Thursday,2.5,,2.5,3.485714286,3.721428571,,61.42857143,,,,,,,,,,2,0,,0,,168,nausea,"pepto, ginger tea"
-4/21/2017,Friday,3.5,3.9,3.7,3.285714286,3.75,,61.42857143,,,,,,,,,,0,0,,0,,,,
-4/22/2017,Saturday,3.5,3.5,3.5,3.332142857,3.607142857,,48.57142857,,,,,,,,,,0,0,,0,,,,
-4/23/2017,Sunday,3.9,3,3.45,3.35,3.542857143,160,31.42857143,,,,,,,,,,0,40,,0,,,nausea,
-4/24/2017,Monday,3.9,3.5,3.7,3.360714286,3.442857143,,54.28571429,,,,,,,,,,0,20,,0,,170,"nausea, pencil stool",reflux after yogurt? sugar?
-4/25/2017,Tuesday,3.9,3.9,3.9,3.353571429,3.242857143,30,38.57142857,,,,,,,,,,0,0,,20,,168,nausea,
-4/26/2017,Wednesday,3.9,3.9,3.9,3.375,3.042857143,100,27.14285714,,,,,,,,,,0,0,,20,,,nausea,
-4/27/2017,Thursday,3.9,,3.9,3.521428571,2.842857143,,41.42857143,,,,,,,,,,0,0,,20,,166,,
-4/28/2017,Friday,3.9,,3.9,3.721428571,2.607142857,,41.42857143,,,,,,,,,,0,0,,20,,166,pm nausea,
-4/29/2017,Saturday,2,3,2.5,3.75,2.714285714,,41.42857143,,,,,,,,,,0,0,,40,,,"nausea, retching",
-4/30/2017,Sunday,3,3,3,3.607142857,2.832142857,,41.42857143,,,,,,,,,,0,0,,20,3,,,
-5/1/2017,Monday,3,3,3,3.542857143,2.885714286,,18.57142857,,,,,,,,,,0,0,,20,3,167,abdominal pressure or cramps (can't tell),
-5/2/2017,Tuesday,2.5,2.5,2.5,3.442857143,3.010714286,,18.57142857,,,,,,75,,,1,0,0,,20,0.5,166,"am nausea dizziness, pain left flank, left work sick","75mg zantac, switch to trader darwins melatonin"
-5/3/2017,Wednesday,2.5,2.5,2.5,3.242857143,3.135714286,,14.28571429,,,,,,75,0.5,,1,0,0,,20,,167,"am nausea, missed work",75mg zantac
-5/4/2017,Thursday,2.5,2.5,2.5,3.042857143,3.325,,0,,,,,,150,,,,0,0,,20,,,"am nausea, dizziness, acid, diarhea post lunch","don't take prilosec in am, see what happens, took zantac 75 in am"
-5/5/2017,Friday,2,2.5,2.25,2.842857143,3.503571429,,0,,,,,,75,,,,0,0,,20,,,"am nausea, dizziness, stomach pain, lethargy","Symptoms started 15 min after taking prilosec, NO MORE PRILOSEC, drank tons of water in afternoon => stomach felt better"
-5/6/2017,Saturday,3,3.5,3.25,2.607142857,#DIV/0!,,0,,,,,,75,,,,0,0,,0,,,,
-5/7/2017,Sunday,3.9,3.75,3.825,2.714285714,#DIV/0!,,0,,,,,,150,,,,0,0,,0,0.5,,"reflux, heartburn",
-5/8/2017,Monday,3.25,3.5,3.375,2.832142857,#DIV/0!,60,0,,,,,,75,,,,,,,,0.5,,"reflux, upset stomach","pepto, ginger tea -> helps"
-5/9/2017,Tuesday,3.25,3.5,3.375,2.885714286,#DIV/0!,,8.571428571,,,,,,150,,,,,,,,0.5,166,"stomach pains, left heel nerve pull","digestive enzyme, pepto --> helped"
-5/10/2017,Wednesday,3.5,3.25,3.375,3.010714286,#DIV/0!,60,8.571428571,,,,,,150,0.5,,1,,,,,,166,"am stomach pressure & pain R/LUQ, lightheadedness after BM","leg weakness?, pepto, benedryl before bed"
-5/11/2017,Thursday,3.9,3.75,3.825,3.135714286,#DIV/0!,90,17.14285714,,,,,,150,,,,,,,,0.5,165,"minor stomach pain, nausea after eating lunch","TODO take clairten in AM, took clariten-d 12 hour"
-5/12/2017,Friday,3.5,,3.5,3.325,#DIV/0!,,30,,,,,,150,,,,,,,,,165,stomach pressure while eating lunch,
-5/13/2017,Saturday,,,#DIV/0!,3.503571429,#DIV/0!,,30,,,,,,,,,,,,,,,,,
-5/14/2017,Sunday,,,#DIV/0!,#DIV/0!,#DIV/0!,,30,,,,,,,,,,,,,,,,,
-5/15/2017,Monday,,,#DIV/0!,#DIV/0!,#DIV/0!,,30,,,,,,,,,,,,,,,,,
-5/16/2017,Tuesday,,,#DIV/0!,,,,21.42857143,,,,,,,,,,,,,,,,,
+Date,DOW,AM,PM,mean,7 mu,7mufwd,cardio,crdo mu,weights,vit d [IU],fish oil,pro,glut [0.5g],zntc,algn,atavan,mtmcl,flrstr,prtn,librax,nexium,zfrn,bntl,clrtn,prilo,mltnn[mg],wt [lbs],przc,symptoms,notes
+1/1/2017,Sunday,3.5,3.5,3.5,,3.678571429,60,,,5000,1,1,,,,0,0,,,0,0,,,0,0,,,,am / pm bloating upper abdomen,"cliff bar for lunch, 25-50mg sugar/day target, fruit/milk sugar OK, no artf sweetners"
+1/2/2017,Monday,4,4,4,,3.678571429,20,,40,0,1,1,,,,0,0,,,0,0,,,0,0,,173,,,starting drinking green tea daily sometime before today
+1/3/2017,Tuesday,3.5,3.5,3.5,,3.678571429,20,,40,0,1,1,,,,0,0,,,0,0,,,0,0,,,,upset stomach post lunch,
+1/4/2017,Wednesday,3.5,3,3.25,,3.75,,,45,5000,1,1,,,,0,0,,,0,0,,,0,0,,171.6,,"nausea post lunch, extreme bloating at gym and after dinner","4 tums, cliff bar for lunch"
+1/5/2017,Thursday,3.5,3,3.25,,3.857142857,,,,5000,,1,,,,0,0,,,0,0,,,0,0,,173,,,
+1/6/2017,Friday,3.5,4,3.75,,3.642857143,,,40,5000,,,,,,0,0,,,0,20,,,0,0,,171.6,,"no cliff bar, no bloating",
+1/7/2017,Saturday,,4,4,,3.535714286,,,,0,,,,,,0,0,,,0,20,,,0,0,,170.6,,,
+1/8/2017,Sunday,4,4,4,3.607142857,3.428571429,20,14.28571429,45,0,,,,,,0,0,,,0,20,,,0,0,,,,,
+1/9/2017,Monday,4,,4,3.678571429,3.357142857,,8.571428571,,5000,,,,,,0,0,,,0,20,,,0,0,,173,,stomach ache after eating at IST (wrap),
+1/10/2017,Tuesday,4,3,3.5,3.678571429,3.285714286,30,5.714285714,15,0,1,,,,,0,0,,,0,0,,,0,0,,,,stomach ache after eating dinner,
+1/11/2017,Wednesday,4,3.5,3.75,3.678571429,3,20,7.142857143,30,5000,,,,,,0,0,,,0,20,,,0,0,,170,,,
+1/12/2017,Thursday,4,4,4,3.75,2.75,,10,,0,,,,,,0,0,,,0,0,,,0,0,,,,,
+1/13/2017,Friday,2.5,2,2.25,3.857142857,2.857142857,,10,,5000,,,,,,0.5,0,,,0,20,,,0,0,,171.6,,"woke up at 5am hungary, constipated, feel weak",
+1/14/2017,Saturday,3,3.5,3.25,3.642857143,2.821428571,60,10,,5000,1,,,,,0,0,,,0,20,,,0,0,,172.2,,woke up at 5am with upset stomach,
+1/15/2017,Sunday,3,3.5,3.25,3.535714286,2.642857143,70,18.57142857,,5000,,1,,,,0,0,,,0,20,,,0,0,,173,,"after dinner bloating (chilli, coke?)",
+1/16/2017,Monday,3.5,3.5,3.5,3.428571429,2.571428571,30,25.71428571,,5000,1,,,,,0,0,,,0,20,,,0,0,,173,,"anxiety in AM, bloating after rum&coke",
+1/17/2017,Tuesday,3,3,3,3.357142857,2.5,,30,45,5000,,1,,,,0,0,,,0,0,,,0,20,1.5,172,,"pm bloating (pizza, latte?), feel run down, 4 tums","coffee in am feel better, bloat score (1-3 high) begins today"
+1/18/2017,Wednesday,2.5,1,1.75,3.285714286,2.714285714,30,25.71428571,,0,2,1,,,,0.5,0,,,0,0,,,0,40,,173,,"am bloat, feel run down","self cbt in am, feel better, atavan feel better, slept feel better"
+1/19/2017,Thursday,1,3.5,2.25,3,2.821428571,,27.14285714,40,0,1,1,,,,0,0,,,0,0,,,0,40,,171,,"feel run down, am anxiety",3-4 weeks 40mg prilosec per doberstein
+1/20/2017,Friday,3,3,3,2.75,2.857142857,,27.14285714,,5000,,2,,,,1,0,,,0,0,,,0,40,,,,"random stomach pain, slighty dizzy, weak feeling arms &legs","i suspect panic attack, stomach ache after 0.5mg atavan"
+1/21/2017,Saturday,3,3,3,2.857142857,2.75,60,27.14285714,,0,,2,,,,0.5,0,,,0,0,,,0,0,,,,"random stomach pain, feel tired, am anxiety",
+1/22/2017,Sunday,2,2,2,2.821428571,2.964285714,,27.14285714,,5000,,,,,,0,0,,,0,0,,,0,20,1.5,,,"stomach pain, tired","flu? no fever, no diarhea but loose stools"
+1/23/2017,Monday,3,3,3,2.642857143,3.035714286,,17.14285714,,5000,,,,,,0,0,,,0,0,,,0,20,,,,"tired in AM, tired periods in PM, diarrhea, naseau",flu?
+1/24/2017,Tuesday,2,3,2.5,2.571428571,3.178571429,45,12.85714286,,5000,,,,,,0.5,0,,,2,0,,,1,20,,,,"tired, anxious in AM, didn't sleep","anxiety?, atavan & clariten-d before bed slept well and breath well"
+1/25/2017,Wednesday,3,3.5,3.25,2.5,3.071428571,60,19.28571429,,5000,,,,,,0,0,,,2,0,,,1,20,,172,,tight stomach luq under ribs,
+1/26/2017,Thursday,3,3,3,2.714285714,3.178571429,,23.57142857,,5000,1,1,,,,0.25,0,,,2,0,,,1,20,,173,,"weakness in hands, stomach pain/tightness, fatigue, tense, nasuea after eating",
+1/27/2017,Friday,3.5,3,3.25,2.821428571,3.142857143,,23.57142857,,5000,,,,,,0,0,,,1,0,,,1,20,,172,,minor upset stomach,
+1/28/2017,Saturday,2,2.5,2.25,2.857142857,3.214285714,,23.57142857,,5000,,,,,,0,0,,,0,40,,,1,0,,172,,"woke up at 5am with diarhea, went to doc",
+1/29/2017,Sunday,3.5,3.5,3.5,2.75,3.25,120,15,,5000,,,,,,0,0,,,0,40,,,1,0,,,,,
+1/30/2017,Monday,3.5,3.5,3.5,2.964285714,3.303571429,,32.14285714,,5000,,,,,,0,0,,,0,40,,,1,0,,173,,"naseated pm, spasming under left rib",after drinking yogi ginger tea?
+1/31/2017,Tuesday,3.5,3.5,3.5,3.035714286,3.375,60,32.14285714,,0,,,,,,0,0,,,0,40,,,1,0,,173,,"woke up at 5am, minor stomach pain","drank glass of water first thing am, mtb"
+2/1/2017,Wednesday,2,3,2.5,3.178571429,3.571428571,,34.28571429,,5000,,,,,,0.5,0,,,1,40,,,1,0,1.5,,,"naseated am, dizzy, pencil stool hard to pass, stomach tightness","drank glass of water first thing am, woke up before 6.45am alarm, mtb yesterday?"
+2/2/2017,Thursday,4,3.5,3.75,3.071428571,3.607142857,45,25.71428571,,5000,,1,,,,0,0,,,1,40,,,1,0,,171,,"epigastric pain after bm, bm hard to pass",
+2/3/2017,Friday,3.5,2.5,3,3.178571429,3.714285714,,32.14285714,,5000,,,,,,0.5,0,,,2,40,,,0,0,,171,,"diarhea after lcl whsky buffalo chicken salad, anxiety attack","normal stool followed by diarhea, parent stress"
+2/4/2017,Saturday,2,3.5,2.75,3.142857143,3.785714286,120,32.14285714,,5000,,,,,,,0,,,3,40,,,0,0,,,,,"2 librax am, 1 before dinner"
+2/5/2017,Sunday,3.5,4,3.75,3.214285714,3.732142857,35,49.28571429,,0,,,,,,,0,,,3,40,,,1,0,,171,,vivid dreams,"2 librax am, 1 before dinner, superbowl ate buffalo chicken dip, oatmeal carmel brownies, 3 tums before bed"
+2/6/2017,Monday,4,3.75,3.875,3.25,3.678571429,,37.14285714,,0,,,,,,,0,,,3,40,,,1,0,,,,,
+2/7/2017,Tuesday,4,4,4,3.303571429,3.607142857,,37.14285714,20,0,,,,,,,0,,,3,40,,,0,0,,174,,a little tired,
+2/8/2017,Wednesday,4,3.75,3.875,3.375,3.553571429,40,28.57142857,,5000,,,,,,,0,,,3,40,,,0,0,,,,"vivid dreams, anxiety fullness at the future",
+2/9/2017,Thursday,4,4,4,3.571428571,3.464285714,60,34.28571429,,5000,,,,,,,0,,,3,40,,,1,0,,,,,
+2/10/2017,Friday,3.5,4,3.75,3.607142857,3.464285714,60,36.42857143,,0,,,,,,,0,,,2,40,,,0,0,,,,stomach pain in am,"no librax in pm, constipation"
+2/11/2017,Saturday,3.5,3,3.25,3.714285714,3.464285714,120,45,,0,,,,,,,0,,,3,40,,,1,0,,,,stomach pain in am,
+2/12/2017,Sunday,3.75,3,3.375,3.785714286,3.464285714,,45,,5000,,,,,,,1,,,2,40,,,1,0,,172,,"diarhea after hard to pass stool, hard to pass stool, felt wierd after dinner","no librax in pm, metamucil pm"
+2/13/2017,Monday,3.5,3.5,3.5,3.732142857,3.517857143,30,40,,5000,,,,,,,1,,,2,40,,,1,0,1.5,174,,minor stomach pain,metamucil pm
+2/14/2017,Tuesday,3.5,3.5,3.5,3.678571429,3.553571429,60,44.28571429,,0,,,,,,,0,,,2,40,,,0,0,,172,,"minor stomach pain in am, lightheaded after bm and eating",
+2/15/2017,Wednesday,3.5,3.5,3.5,3.607142857,3.553571429,,52.85714286,,5000,,,,,,,0,,,3,40,,,0,0,,172,,,librax before bed
+2/16/2017,Thursday,3.5,3.25,3.375,3.553571429,3.553571429,,47.14285714,,5000,,,,,,,0,,,3,40,,,0,0,,173,,"am stomach pain, pm headache",
+2/17/2017,Friday,4,3.5,3.75,3.464285714,3.553571429,,38.57142857,,0,,,,,,,0,,,3,40,,,0,0,,173,,,
+2/18/2017,Saturday,3.5,3,3.25,3.464285714,3.589285714,,30,,0,,,,,,,0,,,3,40,,,0,0,,,,feel strange then multiple normal BMs,no one could tell i wasnt feeling well
+2/19/2017,Sunday,3.75,3,3.375,3.464285714,3.589285714,135,12.85714286,,0,,,,,,,0,,,1,40,,,1,0,,,,"stomach cramps after dinner, pellet stool followed by diarrhea, levsin",
+2/20/2017,Monday,3.75,4,3.875,3.464285714,3.564285714,,32.14285714,,5000,,,,,,,0,,,1,40,,,0,0,,171,,,
+2/21/2017,Tuesday,4,3.5,3.75,3.517857143,3.585714286,,27.85714286,,5000,,,,,,,1,,,,20,,,0,0,,172,,5 seconds really bad dizziness,"levsin, metamucil"
+2/22/2017,Wednesday,3.5,3.5,3.5,3.553571429,3.621428571,,19.28571429,,0,,,,,,,0,,,1,20,,,0,0,,,,,
+2/23/2017,Thursday,3,3.75,3.375,3.553571429,3.675,50,19.28571429,,0,,,,,,,0,,,3,40,,,0,0,,,,diarrhea after the future,
+2/24/2017,Friday,,3.75,3.75,3.553571429,3.696428571,,26.42857143,,0,,,,,,,0,,,2,40,,,0,0,,170,,,
+2/25/2017,Saturday,3.25,3.75,3.5,3.553571429,3.607142857,,26.42857143,,0,,,,,,,0,,,3,40,,,0,0,,,,"tired, am stomach pain",
+2/26/2017,Sunday,3,3.75,3.375,3.589285714,3.553571429,60,26.42857143,,0,,,,,,,1,,,3,40,,,0,0,,173,,feel sick after bm,
+2/27/2017,Monday,3.9,3.5,3.7,3.589285714,3.507142857,,15.71428571,,0,,,,,,,2,,,3,40,,,1,0,,171,,30 min wierd after bm,
+2/28/2017,Tuesday,3.9,3.9,3.9,3.564285714,3.45,75,15.71428571,,0,,,,,,,0,,,3,40,,,0,0,,172,,30 min wierd after bm,
+3/1/2017,Wednesday,4,3.5,3.75,3.585714286,3.432142857,,26.42857143,,0,,,,,,,1,,,3,40,,,1,0,,171,,,
+3/2/2017,Thursday,3.75,3.75,3.75,3.621428571,3.360714286,,26.42857143,,5000,,,,,,,1,,,2,20,,,0,0,,171,,"vertigo after bm, few seconds, no straining",
+3/3/2017,Friday,3.9,3.9,3.9,3.675,3.267857143,,19.28571429,,0,,,,,,,0,,,2,40,,,0,0,,,,,
+3/4/2017,Saturday,3.75,2,2.875,3.696428571,3.321428571,120,19.28571429,,0,,,,,,,1,,,4,40,,,1,0,,169,,"dizziness before BM, post BM cramps, dizziness, dry heaving (4hrs)","not enough fluids?, begin logging glasses of water after episode"
+3/5/2017,Sunday,3.5,2.5,3,3.607142857,3.339285714,60,36.42857143,,0,,,,,,,1,,,4,40,,,0,0,,,,,
+3/6/2017,Monday,3.25,3.5,3.375,3.553571429,3.214285714,,36.42857143,,5000,,,,,,,1,,,2,40,,,1,0,,173,,,
+3/7/2017,Tuesday,3.5,3.5,3.5,3.507142857,3.278571429,,36.42857143,,5000,,,,,,,0,,,2,40,,,1,0,,171,,"Some stomach discomfort in AM (60 min), light headedness in afternoon sporadically",TODO librax 2x/day 1 am 1 before bed
+3/8/2017,Wednesday,3.5,3.75,3.625,3.45,3.242857143,150,25.71428571,,5000,,,,,,,0,,,2,40,,,1,0,,172,,"LUQ stomach pain (60 min), mucous on tp?, AM nausea",
+3/9/2017,Thursday,3.25,3.25,3.25,3.432142857,3.278571429,180,47.14285714,,5000,,,,,,,1,,,2,40,,,1,0,,169,,PM stomach pain LUQ,
+3/10/2017,Friday,3.25,3.25,3.25,3.360714286,3.314285714,180,72.85714286,,0,,,,,,,1,,,2,40,,,1,0,,169,,"PM stomach pain, cramps",
+3/11/2017,Saturday,3.25,3.25,3.25,3.267857143,3.314285714,120,98.57142857,,0,,,,,,,1,,,1,40,,,,0,,,,,regression says to quit clariten
+3/12/2017,Sunday,3.25,3,3.125,3.321428571,3.367857143,,98.57142857,,0,,,,,,,1,,,2,40,,,,0,,,,"AM stomach cramps& diarrhea after brunch, PM stomach pain, noisy stomach",
+3/13/2017,Monday,2,3,2.5,3.339285714,3.567857143,,90,,5000,,,,,,,1,,,2,40,,,,0,,,,"AM stomach ache, feel tired, nausea after BM","start librax 1x/day, drank glass warm water helped, stayed home from work to rest, had to take another librax due to pain"
+3/14/2017,Tuesday,4,3.9,3.95,3.214285714,3.485714286,30,90,,0,,,,,,,0,,,1,20,,,,0,,170,,,
+3/15/2017,Wednesday,3.5,3.25,3.375,3.278571429,3.560714286,,94.28571429,,5000,,,,,,,0,,,1,40,,,,0,,169,,"lunchtime stomach tightness, nausea, epigastric tightness PM, lightheaded",librax at lunch? took nap at lunch
+3/16/2017,Thursday,3.25,3.75,3.5,3.242857143,3.553571429,,72.85714286,,5000,,,,,,,1,,,2,40,,,,0,,168,,AM abdominal pain,took extra librax at 8.50am
+3/17/2017,Friday,3.5,3.5,3.5,3.278571429,3.535714286,,47.14285714,,0,,,,,,,0,,,2,40,,,,0,,169,,"AM abdominal pain, lightheadedness before after BM",took librax 2 at 10.55am
+3/18/2017,Saturday,3,3.5,3.25,3.314285714,3.628571429,140,21.42857143,,0,,,,,,,,,,3,40,,,,0,,169,,,took 1 librax before bed
+3/19/2017,Sunday,3.75,3.25,3.5,3.314285714,3.592857143,60,24.28571429,,0,,,,,,,,,,3,20,,,,0,,169,,minor acid in throat,"took 2 librax in AM, 1 librax right before bed"
+3/20/2017,Monday,3.9,3.9,3.9,3.367857143,3.592857143,,32.85714286,,0,,,,,,,,,,3,20,,,,0,,170,,,1 librax before bed
+3/21/2017,Tuesday,3.5,3.25,3.375,3.567857143,3.628571429,90,32.85714286,,0,,,,,,,,,,2,20,,,,0,,170,,"AM nausea, sporadic dizziness",smart gut sample 1
+3/22/2017,Wednesday,3.9,3.9,3.9,3.485714286,3.553571429,,41.42857143,,0,,,,,,,,,,2,20,,,,0,,170,,,
+3/23/2017,Thursday,3.9,3,3.45,3.560714286,3.489285714,,41.42857143,,0,,,,,,,,,,3,20,,,,0,,168,,"stomach cramps AM, PM nausea and stomach ache",
+3/24/2017,Friday,3.5,3.25,3.375,3.553571429,3.507142857,30,41.42857143,,0,,,,,,,,,,2,40,,,,0,,169,,"AM minor aicd in throat, tired, didn't sleep well",
+3/25/2017,Saturday,3.9,3.9,3.9,3.535714286,3.45,120,45.71428571,,0,,,,,,,,,,0,40,,,,0,,168,,didn't sleep well,
+3/26/2017,Sunday,3,3.5,3.25,3.628571429,3.478571429,,42.85714286,,0,,,,,,,,,,3,20,,,,0,,,,"AM stomach cramps, nausea","slept good, cool temp in house"
+3/27/2017,Monday,3.9,3.9,3.9,3.592857143,3.485714286,65,34.28571429,,0,,,1,,,,,,,0,20,,,,0,,170,,,"slept good, cool temp in house, l-glutamine start"
+3/28/2017,Tuesday,3.5,3.75,3.625,3.592857143,3.45,,43.57142857,,0,,,1,,,,,,,1,40,,,,0,,171,,"minor LUQ pain in AM, yellow diarrhea",
+3/29/2017,Wednesday,3,3.75,3.375,3.628571429,3.432142857,75,30.71428571,,0,,,1,,,,,,,3,40,,,,0,,,,"nausea, dizziness, epigastric pain, driving position makes worse","took 3 librax, no help, pain reduced after lunch"
+3/30/2017,Thursday,3,3,3,3.553571429,3.446428571,,41.42857143,,0,,,1,,,,,,,4,40,,,,0,,170,,"LUQ pain, driving position makes worse, PM acid, left stomach pain, nausea",burning gnawing pain
+3/31/2017,Friday,3.5,3.5,3.5,3.489285714,3.475,,41.42857143,,0,,,,,,,,,,3,40,,,,0,,168,,,
+4/1/2017,Saturday,3.5,3.5,3.5,3.507142857,3.528571429,,37.14285714,,0,,,,,,,,,,3,40,,,,0,,169,,cold,
+4/2/2017,Sunday,3,3.9,3.45,3.45,3.6,145,20,,0,,,,,,,,,,3,40,,,,0,,,,abdominal pain burning,"particle stool, too much veg? protein shake PM"
+4/3/2017,Monday,4,3.9,3.95,3.478571429,3.6,,40.71428571,,0,,,,,,,,,,2,40,,,,0,,,,,
+4/4/2017,Tuesday,3.25,3.5,3.375,3.485714286,3.682142857,,31.42857143,,0,,,,,,,,,,3,40,,,,0,,,,,"dc hotel, didnt sleep well"
+4/5/2017,Wednesday,3.5,3,3.25,3.45,3.775,,31.42857143,,0,,,,,,0.5,,,,3,40,,,,0,,,,car sick,
+4/6/2017,Thursday,3,3.2,3.1,3.432142857,3.889285714,,20.71428571,,0,,,,,,,,,1,2,40,,,,0,,168,,"yellow diarrhea, nausea after eating",protein shake PM
+4/7/2017,Friday,3.5,3.9,3.7,3.446428571,3.842857143,,20.71428571,,0,,,,,,,,,1,0,40,,,,0,,,,"cramps, spinach",protein shake AM
+4/8/2017,Saturday,4,3.75,3.875,3.475,3.771428571,60,20.71428571,,0,,,,,,,,,1,0,40,,,,0,,170,,,protein shake PM
+4/9/2017,Sunday,4,3.9,3.95,3.528571429,3.689285714,90,29.28571429,,0,,,,,,,,,1,0,20,,,,0,,168,,,protein shake PM
+4/10/2017,Monday,4,3.9,3.95,3.6,3.660714286,,21.42857143,,0,,,,,,,,,1,0,20,,,,0,,,,,"start of dairy tracking, suvock - stop nexium"
+4/11/2017,Tuesday,4,3.9,3.95,3.6,3.632142857,,21.42857143,,0,,,,,,,,,1,0,0,,,,0,,168,,,
+4/12/2017,Wednesday,3.9,3.9,3.9,3.682142857,3.485714286,75,21.42857143,,0,,,,,,,,,1,0,0,,,,0,,169,,,
+4/13/2017,Thursday,3.9,3.9,3.9,3.775,3.285714286,,32.14285714,,0,,,,,,,,,1,0,0,,,,0,,168,,,
+4/14/2017,Friday,3.5,3.25,3.375,3.889285714,3.332142857,90,32.14285714,,,,,,,,,,,,1,0,,,,0,,169,,nausea,
+4/15/2017,Saturday,3.25,3.5,3.375,3.842857143,3.35,120,45,,,,,,,,,,,1,2,0,,,,0,,,,"acid, sour stomach",
+4/16/2017,Sunday,3.25,3.5,3.375,3.771428571,3.360714286,,53.57142857,,,,,,,,,,,1,1,0,,,,0,,,,,
+4/17/2017,Monday,3.75,3.75,3.75,3.689285714,3.353571429,110,40.71428571,,,,,,,,,,,1,0,0,,,,0,,167,,,
+4/18/2017,Tuesday,3.75,3.75,3.75,3.660714286,3.375,110,56.42857143,,,,,,,,,,,,0,0,,,,0,,,,,
+4/19/2017,Wednesday,3.25,2.5,2.875,3.632142857,3.521428571,,72.14285714,,,,,,,,,,,,2,0,,,,0,,168,,"stomach ache am coffee, dizzy, left work PM","30ml pepto, zantac 150mg"
+4/20/2017,Thursday,2.5,,2.5,3.485714286,3.721428571,,61.42857143,,,,,,,,,,,,2,0,,,,0,,168,,nausea,"pepto, ginger tea"
+4/21/2017,Friday,3.5,3.9,3.7,3.285714286,3.75,,61.42857143,,,,,,,,,,,,0,0,,,,0,,,,,
+4/22/2017,Saturday,3.5,3.5,3.5,3.332142857,3.607142857,,48.57142857,,,,,,,,,,,,0,0,,,,0,,,,,
+4/23/2017,Sunday,3.9,3,3.45,3.35,3.542857143,160,31.42857143,,,,,,,,,,,,0,40,,,,0,,,,nausea,
+4/24/2017,Monday,3.9,3.5,3.7,3.360714286,3.442857143,,54.28571429,,,,,,,,,,,,0,20,,,,0,,170,,"nausea, pencil stool",reflux after yogurt? sugar?
+4/25/2017,Tuesday,3.9,3.9,3.9,3.353571429,3.242857143,30,38.57142857,,,,,,,,,,,,0,0,,,,20,,168,,nausea,
+4/26/2017,Wednesday,3.9,3.9,3.9,3.375,3.042857143,100,27.14285714,,,,,,,,,,,,0,0,,,,20,,,,nausea,
+4/27/2017,Thursday,3.9,,3.9,3.521428571,2.842857143,,41.42857143,,,,,,,,,,,,0,0,,,,20,,166,,,
+4/28/2017,Friday,3.9,,3.9,3.721428571,2.607142857,,41.42857143,,,,,,,,,,,,0,0,,,,20,,166,,pm nausea,
+4/29/2017,Saturday,2,3,2.5,3.75,2.714285714,,41.42857143,,,,,,,,,,,,0,0,,,,40,,,,"nausea, retching",
+4/30/2017,Sunday,3,3,3,3.607142857,2.832142857,,41.42857143,,,,,,,,,,,,0,0,,,,20,3,,,,
+5/1/2017,Monday,3,3,3,3.542857143,2.885714286,,18.57142857,,,,,,,,,,,,0,0,,,,20,3,167,,abdominal pressure or cramps (can't tell),
+5/2/2017,Tuesday,2.5,2.5,2.5,3.442857143,3.010714286,,18.57142857,,,,,,75,,,,,1,0,0,,,,20,0.5,166,,"am nausea dizziness, pain left flank, left work sick","75mg zantac, switch to trader darwins melatonin"
+5/3/2017,Wednesday,2.5,2.5,2.5,3.242857143,3.135714286,,14.28571429,,,,,,75,,0.5,,,1,0,0,,,,20,,167,,"am nausea, missed work",75mg zantac
+5/4/2017,Thursday,2.5,2.5,2.5,3.042857143,3.325,,0,,,,,,150,,,,,,0,0,,,,20,,,,"am nausea, dizziness, acid, diarhea post lunch","don't take prilosec in am, see what happens, took zantac 75 in am"
+5/5/2017,Friday,2,2.5,2.25,2.842857143,3.503571429,,0,,,,,,75,,,,,,0,0,,,,20,,,,"am nausea, dizziness, stomach pain, lethargy","Symptoms started 15 min after taking prilosec, NO MORE PRILOSEC, drank tons of water in afternoon => stomach felt better"
+5/6/2017,Saturday,3,3.5,3.25,2.607142857,3.432142857,,0,,,,,,75,,,,,,0,0,,,,0,,,,,
+5/7/2017,Sunday,3.9,3.75,3.825,2.714285714,3.314285714,,0,,,,,,150,,,,,,0,0,,,,0,0.5,,,"reflux, heartburn",
+5/8/2017,Monday,3.25,3.5,3.375,2.832142857,3.296428571,60,0,,,,,,75,,,,,,,,,,,,0.5,,,"reflux, upset stomach","pepto, ginger tea -> helps"
+5/9/2017,Tuesday,3.25,3.5,3.375,2.885714286,3.314285714,,8.571428571,,,,,,150,,,,,,,,,,,,0.5,166,,"stomach pains, left heel nerve pull","digestive enzyme, pepto --> helped"
+5/10/2017,Wednesday,3.5,3.25,3.375,3.010714286,3.332142857,60,8.571428571,,,,,,150,,0.5,,,1,,,,,,,0.5,166,,"am stomach pressure & pain R/LUQ, lightheadedness after BM","leg weakness?, pepto, benedryl before bed"
+5/11/2017,Thursday,3.9,3.75,3.825,3.135714286,3.303571429,90,17.14285714,,,,,,150,,,,,,,,,,,,0.5,165,,"minor stomach pain, nausea after eating lunch","TODO take clairten in AM, took clariten-d 12 hour"
+5/12/2017,Friday,3.5,,3.5,3.325,3.339285714,,30,,,,,,150,,,,,,,,,,,,0.5,165,,stomach pressure while eating lunch,
+5/13/2017,Saturday,3,2.5,2.75,3.503571429,3.464285714,,30,,,,,,150,,0.5,,,,,20,,,,,0.5,,,"nausea, stomach noises, upset stomach all day","pepto --> helped but not enough, 2 doses"
+5/14/2017,Sunday,3.25,2.75,3,3.432142857,3.553571429,,30,,,,,,,,,,,,,40,,,,,0.5,,,,
+5/15/2017,Monday,3.5,3,3.25,3.314285714,3.607142857,,30,,,,,,,,,,,,,20,,,,,,,,"tired, stomach pain",
+5/16/2017,Tuesday,3.5,3.5,3.5,3.296428571,3.678571429,,21.42857143,,,,,,,,,,,,,40,,,,,,166,,"tired, stomach pain, feel hot",Taking 40mg nexium at once in AM
+5/17/2017,Wednesday,3.5,3.5,3.5,3.314285714,3.75,,21.42857143,,,,,,,,,,,,4,40,,,,,,,,,
+5/18/2017,Thursday,3.5,3.75,3.625,3.332142857,3.796428571,,12.85714286,,,,,,,,,,,,2,40,,,,,,,,,
+5/19/2017,Friday,3.75,3.75,3.75,3.303571429,3.825,,0,,,,,,,,,,,,2,40,,,,,,,,,
+5/20/2017,Saturday,3.5,3.75,3.625,3.339285714,3.871428571,,0,,,,,,,,,,,,2,40,,,,,,,,,
+5/21/2017,Sunday,3.5,3.75,3.625,3.464285714,3.910714286,,0,,,,,,,,,,,,2,40,,,,,,,,,
+5/22/2017,Monday,3.5,3.75,3.625,3.553571429,3.814285714,,0,,,,,,,,,,1,,2,40,,,,,,,,started floristor 1xday,
+5/23/2017,Tuesday,4,4,4,3.607142857,3.8,,0,,,,,,,,,,1,,,40,,,,,,166,,,Low FODMAP trial
+5/24/2017,Wednesday,4,4,4,3.678571429,3.775,,0,,,,,,,,,,1,,,40,,,,,,,,,
+5/25/2017,Thursday,4,3.9,3.95,3.75,3.767857143,,0,,,,,,,,,,1,,,40,,,,,,166,,bloated from freekeh,
+5/26/2017,Friday,3.9,4,3.95,3.796428571,3.760714286,,0,,,,,,,,,,1,,,,,,,,,,,,
+5/27/2017,Saturday,4,3.9,3.95,3.825,3.753571429,,0,,,,,,,,,,1,1,,40,,,,,,,,,
+5/28/2017,Sunday,3.9,3.9,3.9,3.871428571,3.753571429,,0,,,,,,,,,,1,1,,40,,,,,,166,,bloated from apricot wheat beer,
+5/29/2017,Monday,3.9,2,2.95,3.910714286,3.889285714,,0,,,,,,,,,,1,,,40,,,1,,,167,,"PM sleepy, fixed by clrtn",
+5/30/2017,Tuesday,3.9,3.9,3.9,3.814285714,3.777857143,,0,,,,,,,,,,1,,,40,,,1,,,167,,minor stomach pain R,Low FODMAP start
+5/31/2017,Wednesday,3.75,3.9,3.825,3.8,3.552857143,120,0,,,,,,,,,,,1,,40,,,1,,,167,,tired in PM,
+6/1/2017,Thursday,3.9,3.9,3.9,3.775,3.531428571,,17.14285714,,,,,,,,,,1,1,,,,,,,,166,,,unsure if took nexium
+6/2/2017,Friday,3.9,3.9,3.9,3.767857143,3.331428571,,,,,,,,,,,,,1,,40,,,,,,167,,,
+6/3/2017,Saturday,3.9,3.9,3.9,3.760714286,3.238571429,,,,,,,,,,,,1,1,,40,,,,,,166,,very sleepy,
+6/4/2017,Sunday,3.9,3.9,3.9,3.753571429,3.199285714,68,,,,,,,,,,,1,,,40,,,,,,,,,
+6/5/2017,Monday,3.9,3.9,3.9,3.753571429,3.188571429,,,,,,,,,,,,1,,,20,,,,,,,,,
+6/6/2017,Tuesday,3.5,2.74,3.12,3.889285714,3.3,,,,,,,,,,,,1,1,,20,4,40,,,,,,"feel strange in AM, BM normal but hard to pass, red wine?, feel weak, LLQ pain","lower back pain, 2 pepto tabs"
+6/7/2017,Wednesday,2,2.5,2.25,3.777857143,3.514285714,,,,,,,,,,,,1,,,40,,20,,,,,,"LLQ pain, cramps, multiple BMs",
+6/8/2017,Thursday,3.75,3.75,3.75,3.552857143,3.442857143,,,,,,,,,,,,1,,,40,,,,,,166,,"epigastric pain after eating fruit for lunch, heartburn?",2 pepto tablets helped immediately
+6/9/2017,Friday,2.5,2.5,2.5,3.531428571,3.371428571,,,,,,,,,,,,1,,,40,4,,1,,,169,,"multiple BMs formed, tired, stomach feels full","ate too much at ottos, zofran seemed to help but made me slow, try clarietn d next time of episode?"
+6/10/2017,Saturday,3.75,2.75,3.25,3.331428571,3.192857143,,,,,,,,,,,,1,2,,40,,1,1,,,,,diarrhea after race,red meat?
+6/11/2017,Sunday,3.5,3.75,3.625,3.238571429,2.960714286,,,,,,,,,,,,,,,40,,,,,,,,,
+6/12/2017,Monday,3.75,3.9,3.825,3.199285714,2.771428571,,,,,,,,,,,,,,,40,,,,,,164,,visceral hypersenstivity,500mg glutamine
+6/13/2017,Tuesday,3.9,3.9,3.9,3.188571429,2.707142857,,,,,,,,,,,,1,,,40,,,,,,166,,,
+6/14/2017,Wednesday,3.75,3.75,3.75,3.3,2.671428571,,,,,,,,,,,,,,,40,,,,,,165,,"tired, some stomach discomfort","500mg glutamine, zyrtec in PM"
+6/15/2017,Thursday,3.5,3,3.25,3.514285714,2.707142857,,,,,,,,,,0.5,,1,,,40,,,,,,167,,"tired, dizzy when walking, stomach pains","drank coke, ate candybar, 500mg glutamine"
+6/16/2017,Friday,2,2,2,3.442857143,2.921428571,,,,,,,,,,,,1,,,40,,,,,,,,102F fever,
+6/17/2017,Saturday,2,2,2,3.371428571,3.171428571,,,,,,,,,,,,1,,,40,,,,,,,,102F fever,
+6/18/2017,Sunday,2,2,2,3.192857143,3.296428571,,,,,,,,,,,,1,,,40,,,,,,,,bloating,
+6/19/2017,Monday,2,3,2.5,2.960714286,3.457142857,,,,,,,,,,,,1,,,40,,,,,,,,bloating,
+6/20/2017,Tuesday,3,3.9,3.45,2.771428571,3.339285714,,,,,,,,,,1,,,,,40,,,,,,,,"LLQ pain, bloating, pale stool, abd seizure?",
+6/21/2017,Wednesday,,3.5,3.5,2.707142857,3.339285714,,,,,,,,,,0.5,,,,,,,,,,,,,"bloating, headache",
+6/22/2017,Thursday,3.5,3.5,3.5,2.671428571,3.375,,,,,,,,,1,,,,,,40,,,,,,,,,
+6/23/2017,Friday,3.5,3.5,3.5,2.707142857,3.317857143,,,,,,,,,,,,,,,40,,,,,,,,,
+6/24/2017,Saturday,3.75,3.75,3.75,2.921428571,3.317857143,60,,,,,,,,1,,,,,,40,,,,,,,,,
+6/25/2017,Sunday,2,3.75,2.875,3.171428571,3.3,,,,,,,,,1,1,,,,,40,,,,,,,,vagal response,
+6/26/2017,Monday,3.5,3.75,3.625,3.296428571,3.325,,,,,,,,,1,0.5,,,,,40,,,,,,166,,"nausea, epigastric pain",
+6/27/2017,Tuesday,3.25,2,2.625,3.457142857,3.507142857,,,,,,,,,1,0.5,,,,,40,,20,,,,,,"weakness, stomach pain, LLQ pain, dizzy at work",
+6/28/2017,Wednesday,3.5,3.5,3.5,3.339285714,3.535714286,,,,,,,,,,,,,,,40,,,,,,,,,
+6/29/2017,Thursday,3.75,3.75,3.75,3.339285714,3.528571429,,,,,,,,,,,,,,,40,,20,,,,,,LLQ pain,299v
+6/30/2017,Friday,3.2,3,3.1,3.375,3.564285714,,,,,,,,,,1,,,,,40,,20,,,,165,,"lightheaded after eating, LLQ pain, smelly gas, cramps",no luck with bentyl after 1 hour of taking
+7/1/2017,Saturday,3.75,3.75,3.75,3.317857143,3.585714286,,,,,,,,,,,,,,,40,,,,,,,,,
+7/2/2017,Sunday,3.5,2,2.75,3.317857143,3.664285714,,,,,,,,,,,,,,,40,,,,,,,,,ate breakfast late
+7/3/2017,Monday,3.7,3.9,3.8,3.3,3.65,,,,,,,,,,,,,,,40,,20,,,,,,"stomach pain all over, zaps","10mg of bentyl, 2x, works better than 20mg of bentyl"
+7/4/2017,Tuesday,3.9,3.9,3.9,3.325,3.610714286,,,,,,,,,,,,,,,,,,,,,,,stomach pain all over,no yogurt in AM
+7/5/2017,Wednesday,3.7,3.7,3.7,3.507142857,3.367857143,,,,,,,,,,,,,,,40,,,,,,,,"sternum pain, paint under L,R ribs, epigastric pain after lunch, pepto helped, back pain, zaps",greek yogurt or nuts for bfast causing issue?
+7/6/2017,Thursday,3.7,3.7,3.7,3.535714286,3.125,,,,,,,,,,,,,,,40,,,,,,,,,
+7/7/2017,Friday,3,3.7,3.35,3.528571429,3.003571429,,,,,,,,,,,,,,,40,,,,,,,,"epigastic pain after eating lunch, no yogurt today",
+7/8/2017,Saturday,3.9,3.9,3.9,3.564285714,2.932142857,,,,,,,,,,,,,,,,,10,,,,,,,
+7/9/2017,Sunday,2.9,3.7,3.3,3.585714286,2.925,,,,,,,,,,0.5,,,,,40,,10,,,,,,,20k IU vit d for sunburn
+7/10/2017,Monday,3.5,3.9,3.7,3.664285714,2.942857143,,,,,,,,,,,,,,,40,,30,,,,166,,"no yogurt today, stomach pain in AM under right ribs, stomach pain after eating lunch",
+7/11/2017,Tuesday,3.5,3.75,3.625,3.65,2.942857143,,,,,,,,,,,,1,,,40,,20,,,,,,"epigastric pain in AM before bfast, throat spams",took pepto
+7/12/2017,Wednesday,2,2,2,3.610714286,3.192857143,,,,,,,,,,,,1,,,40,,30,,,,,,"diarhea, stomach pains, lethargy",
+7/13/2017,Thursday,2,2,2,3.367857143,3.464285714,,,,,,,,,,,,,,,,,20,,,,,,,
+7/14/2017,Friday,2,3,2.5,3.125,3.664285714,,,,,,,,,,,,2,,,40,,20,,,,,,diarrhea,
+7/15/2017,Saturday,3.9,2.9,3.4,3.003571429,3.607142857,,,,,,,,,,,,,,,,,20,,,,,,"urgent diarrhea, left artsfest","discovered i was taking prilosec, not nexium"
+7/16/2017,Sunday,3.5,3,3.25,2.932142857,3.642857143,45,,,,,,,,,,,1,,,,,,,,,,,anxiety,
+7/17/2017,Monday,3.9,3.75,3.825,2.925,3.310714286,30,,,,,,,,,,,2,,,40,,,,,,,,"minor stomach pain, AM zaps",no AM yogurt
+7/18/2017,Tuesday,3.5,3.75,3.625,2.942857143,3.15,,,,,,,,,,1.5,,,,,,,20,,,,166,,"chest/stomach tightness in AM, headache, stuffiness, tired","mood terrible, no AM yogurt, ask walters about heaviness, being problem person, no heart palpitation"
+7/19/2017,Wednesday,3.75,3.75,3.75,2.942857143,3.107142857,,,,,,,,,,,,,,,40,,20,,,,166,,"stomach tightness, dull ache",
+7/20/2017,Thursday,3.9,3.9,3.9,3.192857143,3.078571429,,,,,,,,,,0.5,,,,,,,40,,,,,,"bad dream, zaps in AM",
+7/21/2017,Friday,3.9,3.9,3.9,3.464285714,3.064285714,,,,,,,,,,,,,,,,,20,,,,164,,"stomach pain, feel sorta high (bentyl?)",
+7/22/2017,Saturday,3,3,3,3.664285714,3.192857143,,,,,,,,,,0.5,,,,,,,,,,,,,,
+7/23/2017,Sunday,3.5,3.5,3.5,3.607142857,3.228571429,,,,,,,,,,,,,,,,,,,,,,10,diarhea after ale house,prozac 10mg start
+7/24/2017,Monday,1,2,1.5,3.642857143,3.578571429,,,,,,,,,,1,,1,,,,,20,,,,,10,"pain under left chest, panic attack?, ER",
+7/25/2017,Tuesday,2,3,2.5,3.310714286,3.642857143,,,,,,,,,,0.5,,2,,,40,,20,,,,,10,panic attack at home,half benedryl before bed (did this help?)
+7/26/2017,Wednesday,2.9,4,3.45,3.15,3.685714286,,,,,,,,,,,,,,,40,,20,,,,,10,"dizzy, feel strange, bentyl?",
+7/27/2017,Thursday,3.5,3.9,3.7,3.107142857,3.578571429,,,,,,,,,,1,,,,,40,,40,,,,,10,"am anxiety, pm anxiety",feel better after therepist
+7/28/2017,Friday,3.7,3.9,3.8,3.078571429,3.592857143,,,,,,,,,,,,,,,,,60,,,,,10,,
+7/29/2017,Saturday,3.9,3.9,3.9,3.064285714,3.528571429,120,,,,,,,,,0.5,,,,,40,,40,,,,,10,,
+7/30/2017,Sunday,3.5,4,3.75,3.192857143,3.557142857,,,,,,,,,,0.5,,,,,40,,40,,,,,10,little panic attack at church,
+7/31/2017,Monday,4,3.9,3.95,3.228571429,3.421428571,100,,,,,,,,,,,2,,,40,,40,,,,,10,feel like i have more energy,
+8/1/2017,Tuesday,2,3.9,2.95,3.578571429,3.428571429,,,,,,,,,,1,,,,,40,,20,,,,,10,"woke up 3am wide awake, heavy sweating at 10:40AM, panic attack at work, half bendryl",
+8/2/2017,Wednesday,3.5,4,3.75,3.642857143,3.45,,,,,,,,,,0.5,,,,,40,,20,,,,,10,"AM anxiety, mood good though",
+8/3/2017,Thursday,3,2.9,2.95,3.685714286,3.533333333,,,,,,,,,,1,,1,,,40,,40,,,,,10,"AM anxiety, mood good though, llq cramps",
+8/4/2017,Friday,3.9,3.9,3.9,3.578571429,3.46,,,,,,,,,,,,,,1,40,,20,,,,,10,"feel anxiety in AM in arms, head feels fuzzy, feel like i may vomit but not nauseaos",
+8/5/2017,Saturday,3,3.9,3.45,3.592857143,3.4625,,,,,,,,,,1,,,,,40,,,,,,,10,,
+8/6/2017,Sunday,3.9,4,3.95,3.528571429,3.3,,,,,,,,,,1,,,,,,,10,,,,,10,anxiety in middle of night,belly breathing
+8/7/2017,Monday,2,4,3,3.557142857,3.45,,,,,,,,,,1,,,,,40,,,,,,,10,"woke up with stomach pain in middle night, panic attack in AM",
+8/8/2017,Tuesday,2,4,3,3.421428571,3.9,,,,,,,,,,1.5,,,,,,,,,,,,10,panic attack in AM,
+8/9/2017,Wednesday,3.9,,3.9,3.428571429,#DIV/0!,,,,,,,,,,,,,,,40,,,,,,,,"0.5mg ativan before bed, some AM anxiety",
+8/10/2017,Thursday,,,,3.45,,,,,,,,,,,,,,,,,,,,,,,,,
+8/11/2017,Friday,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8/12/2017,Saturday,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8/13/2017,Sunday,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8/14/2017,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

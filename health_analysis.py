@@ -16,7 +16,7 @@ import tools
 # Read in health sheet data
 spreadsheetFilename = r'data/Health Sheet 2017 - Data.csv'
 bmFilename = r'data\bm.txt'
-endDate = '2017-05-11'
+endDate = '2017-08-08'
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 # reading in json example
@@ -69,7 +69,7 @@ for index, row in df_bm.iterrows():
     dt = datetime.date(index.year, index.month, index.day)
     df_bm.loc[index, 'year_week'] = dt - datetime.timedelta(days=dt.weekday()) 
 
-p = df_bm.boxplot('type', 'year_week', whis=np.inf, showfliers=True, showmeans=True)
+p = df_bm.boxplot('type', 'year_week', whis=np.inf, showfliers=False, showmeans=True)  # whis= np.inf shows whisker, 0 hides them
 plt.xticks(rotation='vertical', size='xx-large')
 plt.title('Bristol Stool Scale by Week')
 plt.suptitle('')
@@ -80,7 +80,7 @@ plt.ylabel('Bristol Stool Scale')
 plt.savefig(r'output\bss_box_whisker.png', bbox='tight')
 
 # Determine number of hard / loose per week
-tmp = df_bm['type'].resample('W-MON', label='right').mean()
+tmp = df_bm['type'].resample('W-MON', label='left').mean()
 tmp2 = df_bm[['loose','hard']].resample('W-MON', label='left').sum()
 tmp2 = tmp2['2017-01-02':]
 tmp2['total'] = tmp2['loose'] + tmp2['hard']
@@ -151,7 +151,18 @@ plt.xlabel('Score')
 plt.ylabel('Proportion')
 plt.savefig(r'output\bss - histogram.png',  bbox='tight')
 
-
+# BSS by day of week
+df_bm['weekday'] = df_bm.index.weekday
+plt.figure(); 
+fig = matplotlib.pyplot.gcf()
+fig.set_size_inches(16,9)    
+p = df_bm.boxplot('type', 'weekday', whis=np.inf, showfliers=True, showmeans=True)
+plt.xticks([1,2,3,4,5,6,7], ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'])
+plt.xlabel('Day of Week')
+plt.ylabel('Bristol Stool Scale')
+plt.title('Bristol Stool Scale by Day of Week')
+plt.suptitle('')
+plt.savefig(r'output\bss - day of week.png',  bbox='tight')
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 # Format dataframe for regression analysis bringing in all data
@@ -380,6 +391,20 @@ fig = matplotlib.pyplot.gcf()
 fig.set_size_inches(16,9)
 plt.ylabel('Minutes per Day')
 plt.savefig(r'output\cardio_box.png', bbox='tight')
+
+# HQI by day of week
+df['weekday'] = df.index.weekday
+plt.figure(); 
+fig = matplotlib.pyplot.gcf()
+fig.set_size_inches(16,9)    
+p = df.boxplot('hqi', 'weekday', whis=np.inf, showfliers=True, showmeans=True)
+plt.xticks([1,2,3,4,5,6,7], ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'])
+plt.xlabel('Day of Week')
+plt.ylabel('HQI')
+plt.title('Health Quality Index (HQI) by Day of Week')
+plt.suptitle('')
+plt.ylim([1,4])
+plt.savefig(r'output\hqi - day of week.png',  bbox='tight')
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 print('Done')
