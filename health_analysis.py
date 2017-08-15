@@ -16,7 +16,7 @@ import tools
 # Read in health sheet data
 spreadsheetFilename = r'data/Health Sheet 2017 - Data.csv'
 bmFilename = r'data\bm.txt'
-endDate = '2017-08-08'
+endDate = '2017-08-14'
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 # reading in json example

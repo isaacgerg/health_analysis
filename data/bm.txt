@@ -1,5 +1,49 @@
 [ENTRIES]
 
+Time: 2017-08-15 08:30a Tuesday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:00
+
+Time: 2017-08-14 09:50a Monday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
+Time: 2017-08-13 08:00p Sunday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:00
+
+Time: 2017-08-13 02:21p Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
+Time: 2017-08-13 10:01a Sunday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+Note: perfect
+
+
+Time: 2017-08-12 04:55p Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:00
+
+Time: 2017-08-12 09:37a Saturday
+Type: 5. Lackng fiber (Chicken nuggets)
+Duration: 00:00
+Note: gassy
+
+
+Time: 2017-08-11 08:34a Friday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
+Time: 2017-08-10 11:01a Thursday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
+Time: 2017-08-10 08:42a Thursday
+Type: 4. Normal (Soft sausage)
+Duration: 00:00
+
 Time: 2017-08-09 12:31p Wednesday
 Type: 5. Lackng fiber (Chicken nuggets)
 Duration: 00:00
